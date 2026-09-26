@@ -1,8 +1,213 @@
 {
-  "_about": "Photo library, all 1080x1920 graded JPGs. 'points' are pixel coordinates for label leaders. 'used_in' lists episodes; prefer photos used least recently. Add every new photo here.",
-  "hero": {"desc": "Aerial drone shot, white ~60ft motor yacht cruising fast over turquoise Red Sea reef water, white wake", "source": "AI (Gamma)", "points": {"yacht": [470, 900]}, "used_in": ["001"]},
-  "shaft": {"desc": "Underwater view of yacht stern: twin inclined propeller shafts, bronze props, two rudders, trim tabs, sandy seabed", "source": "AI (Gamma)", "points": {"shaft": [150, 1195], "propeller": [380, 1272], "rudder": [540, 1250], "rudder2": [820, 1200], "trim_tab": [400, 930]}, "used_in": ["001"]},
-  "ips": {"desc": "Underwater view of yacht stern with two Volvo IPS pod drives, forward-facing twin props, deep blue water, reef", "source": "AI (Gamma)", "points": {"pod": [470, 1070], "props": [580, 1215], "hull_bottom": [300, 700]}, "used_in": ["001"]},
-  "marina": {"desc": "Top-down aerial of white motor yacht entering a tight berth between yachts in a marina, turquoise water, white pontoons", "source": "AI (Gamma)", "points": {"yacht": [540, 1000], "bow": [540, 520], "stern_wake": [540, 1600], "pontoon": [230, 900]}, "used_in": ["001"]},
-  "engine": {"desc": "Bright yacht engine room, marine engineer in navy uniform and black gloves servicing a white diesel engine, stainless exhaust pipes", "source": "AI (Gamma)", "points": {"engineer": [520, 700], "engine_block": [800, 1150], "hands_tool": [700, 1060], "exhaust_pipes": [600, 350]}, "used_in": ["001"]}
+ "_about": "Photo library, all 1080x1920 graded JPGs. 'points' are pixel coordinates for label leaders. 'used_in' lists episodes; prefer photos used least recently. Add every new photo here.",
+ "hero": {
+  "desc": "Aerial drone shot, white ~60ft motor yacht cruising fast over turquoise Red Sea reef water, white wake",
+  "source": "AI (Gamma)",
+  "points": {
+   "yacht": [
+    470,
+    900
+   ]
+  },
+  "used_in": [
+   "001"
+  ]
+ },
+ "shaft": {
+  "desc": "Underwater view of yacht stern: twin inclined propeller shafts, bronze props, two rudders, trim tabs, sandy seabed",
+  "source": "AI (Gamma)",
+  "points": {
+   "shaft": [
+    150,
+    1195
+   ],
+   "propeller": [
+    380,
+    1272
+   ],
+   "rudder": [
+    540,
+    1250
+   ],
+   "rudder2": [
+    820,
+    1200
+   ],
+   "trim_tab": [
+    400,
+    930
+   ]
+  },
+  "used_in": [
+   "001"
+  ]
+ },
+ "ips": {
+  "desc": "Underwater view of yacht stern with two Volvo IPS pod drives, forward-facing twin props, deep blue water, reef",
+  "source": "AI (Gamma)",
+  "points": {
+   "pod": [
+    470,
+    1070
+   ],
+   "props": [
+    580,
+    1215
+   ],
+   "hull_bottom": [
+    300,
+    700
+   ]
+  },
+  "used_in": [
+   "001"
+  ]
+ },
+ "marina": {
+  "desc": "Top-down aerial of white motor yacht entering a tight berth between yachts in a marina, turquoise water, white pontoons",
+  "source": "AI (Gamma)",
+  "points": {
+   "yacht": [
+    540,
+    1000
+   ],
+   "bow": [
+    540,
+    520
+   ],
+   "stern_wake": [
+    540,
+    1600
+   ],
+   "pontoon": [
+    230,
+    900
+   ]
+  },
+  "used_in": [
+   "001"
+  ]
+ },
+ "engine": {
+  "desc": "Bright yacht engine room, marine engineer in navy uniform and black gloves servicing a white diesel engine, stainless exhaust pipes",
+  "source": "AI (Gamma)",
+  "points": {
+   "engineer": [
+    520,
+    700
+   ],
+   "engine_block": [
+    800,
+    1150
+   ],
+   "hands_tool": [
+    700,
+    1060
+   ],
+   "exhaust_pipes": [
+    600,
+    350
+   ]
+  },
+  "used_in": [
+   "001",
+   "002"
+  ]
+ },
+ "ep002-cutaway": {
+  "desc": "Illustrated stern cut-away: engine room window, seacock under hull, strainer, raw-water pump, heat exchanger, wet exhaust spraying from transom, sea below",
+  "source": "Illustration (engine/diagram.py, episodes/art/002_diagrams.py)",
+  "points": {
+   "seacock": [
+    215,
+    1200
+   ],
+   "strainer": [
+    215,
+    960
+   ],
+   "pump": [
+    350,
+    1030
+   ],
+   "engine": [
+    495,
+    980
+   ],
+   "heat_exchanger": [
+    730,
+    860
+   ],
+   "exhaust_out": [
+    920,
+    950
+   ]
+  },
+  "used_in": [
+   "002"
+  ]
+ },
+ "ep002-freshloop": {
+  "desc": "Blueprint schematic: engine block with closed coolant loop (hot red out, cooled gold back) to a heat exchanger; seawater tubes in/out on the right",
+  "source": "Illustration (engine/diagram.py, episodes/art/002_diagrams.py)",
+  "points": {
+   "engine": [
+    330,
+    960
+   ],
+   "coolant_loop": [
+    540,
+    1210
+   ],
+   "heat_exchanger": [
+    800,
+    960
+   ]
+  },
+  "used_in": [
+   "002"
+  ]
+ },
+ "ep002-impeller": {
+  "desc": "Blueprint close-up of a raw-water pump: housing with bolts, cam, black rubber impeller with 12 flexible blades, brass shaft",
+  "source": "Illustration (engine/diagram.py, episodes/art/002_diagrams.py)",
+  "points": {
+   "hub": [
+    540,
+    960
+   ],
+   "blade": [
+    690,
+    1120
+   ]
+  },
+  "used_in": [
+   "002"
+  ]
+ },
+ "ep002-impeller-worn": {
+  "desc": "Same pump with a damaged impeller: 3 broken blade stubs circled in coral, cracks, loose blade fragments",
+  "source": "Illustration (engine/diagram.py, episodes/art/002_diagrams.py)",
+  "points": {
+   "hub": [
+    540,
+    960
+   ],
+   "broken_blade": [
+    510,
+    840
+   ]
+  },
+  "used_in": [
+   "002"
+  ]
+ },
+ "ep002-cta": {
+  "desc": "Faint worn-impeller on blueprint grid - calm background for text-heavy scenes",
+  "source": "Illustration (engine/diagram.py, episodes/art/002_diagrams.py)",
+  "points": {},
+  "used_in": [
+   "002"
+  ]
+ }
 }

@@ -1,0 +1,502 @@
+{
+ "topic": "How a marine diesel engine stays cool: fresh water loop, raw water loop and the impeller",
+ "voice": "am_michael",
+ "speed": 1.15,
+ "scenes": [
+  {
+   "type": "hook",
+   "shots": [
+    {
+     "photo": "ep002-cutaway",
+     "cam": [
+      [
+       540,
+       860,
+       1.15
+      ],
+      [
+       600,
+       860,
+       1.22
+      ]
+     ]
+    }
+   ],
+   "lines": [
+    "HOW DOES A BOAT",
+    "ENGINE STAY COOL?"
+   ],
+   "phrases": [
+    "How does a boat engine stay cool?",
+    "It uses two water loops, and one small rubber part.",
+    "Here's how it works."
+   ],
+   "subtitle": {
+    "text": "Two water loops + one small rubber part",
+    "phrase": 1
+   },
+   "badges": {
+    "letters": [
+     "1",
+     "2",
+     "3"
+    ],
+    "colors": [
+     "gold",
+     "turq",
+     "coral"
+    ],
+    "phrase": 2
+   }
+  },
+  {
+   "type": "section",
+   "letter": "1",
+   "tag": "LOOP 1",
+   "title": "FRESH WATER",
+   "color": "gold",
+   "phrases": [
+    "Loop one: fresh water.",
+    "Coolant, fresh water and antifreeze, flows through the engine.",
+    "It's sealed, like a car radiator.",
+    "It carries the heat to the heat exchanger.",
+    "So salt water never touches the engine block."
+   ],
+   "shots": [
+    {
+     "photo": "ep002-freshloop",
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       980,
+       1.08
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        330,
+        960
+       ],
+       "text": "ENGINE",
+       "off": [
+        0,
+        -250
+       ],
+       "phrase": 1,
+       "delay": 0.3
+      },
+      {
+       "pt": [
+        540,
+        1210
+       ],
+       "text": "SEALED COOLANT LOOP",
+       "off": [
+        0,
+        -120
+       ],
+       "phrase": 2,
+       "delay": 0.2
+      },
+      {
+       "pt": [
+        800,
+        960
+       ],
+       "text": "HEAT EXCHANGER",
+       "off": [
+        -20,
+        -250
+       ],
+       "phrase": 3,
+       "delay": 1.2
+      }
+     ]
+    },
+    {
+     "photo": "engine",
+     "phrase": 4,
+     "cam": [
+      [
+       760,
+       1120,
+       1.35
+      ],
+      [
+       700,
+       1060,
+       1.2
+      ]
+     ],
+     "pills": [
+      {
+       "text": "NO SALT INSIDE THE ENGINE",
+       "color": "gold",
+       "pos": [
+        540,
+        660
+       ]
+      }
+     ]
+    }
+   ],
+   "card": {
+    "items": [
+     {
+      "phrase": 2,
+      "delay": 0.3,
+      "ok": true,
+      "text": "Sealed, like a car radiator"
+     },
+     {
+      "phrase": 3,
+      "delay": 0.8,
+      "ok": true,
+      "text": "Carries heat to the exchanger"
+     },
+     {
+      "phrase": 4,
+      "delay": 1.0,
+      "ok": true,
+      "text": "No salt inside the engine"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "2",
+   "tag": "LOOP 2",
+   "title": "RAW WATER",
+   "color": "turq",
+   "phrases": [
+    "Loop two: raw water, meaning seawater.",
+    "It comes in through a hull valve, the seacock, and a strainer.",
+    "In the heat exchanger, it takes the heat away.",
+    "Then it's sprayed into the exhaust, and leaves at the stern.",
+    "That's why a healthy engine spits water."
+   ],
+   "shots": [
+    {
+     "photo": "ep002-cutaway",
+     "cam": [
+      [
+       540,
+       1000,
+       1.0
+      ],
+      [
+       540,
+       1000,
+       1.1
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        215,
+        1200
+       ],
+       "text": "SEACOCK",
+       "off": [
+        200,
+        60
+       ],
+       "phrase": 1,
+       "delay": 1.0
+      },
+      {
+       "pt": [
+        215,
+        960
+       ],
+       "text": "STRAINER",
+       "off": [
+        0,
+        -330
+       ],
+       "phrase": 1,
+       "delay": 2.4
+      },
+      {
+       "pt": [
+        730,
+        860
+       ],
+       "text": "HEAT EXCHANGER",
+       "off": [
+        0,
+        -230
+       ],
+       "phrase": 2,
+       "delay": 0.3
+      }
+     ]
+    },
+    {
+     "photo": "ep002-cutaway",
+     "phrase": 3,
+     "cam": [
+      [
+       780,
+       960,
+       1.6
+      ],
+      [
+       800,
+       960,
+       1.8
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        920,
+        950
+       ],
+       "text": "WET EXHAUST",
+       "off": [
+        -300,
+        -250
+       ],
+       "phrase": 3,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "photo": "ep002-cutaway",
+     "phrase": 4,
+     "cam": [
+      [
+       820,
+       980,
+       1.8
+      ],
+      [
+       840,
+       980,
+       2.0
+      ]
+     ],
+     "pills": [
+      {
+       "text": "WATER OUT = GOOD SIGN",
+       "color": "turq",
+       "pos": [
+        540,
+        660
+       ]
+      }
+     ]
+    }
+   ],
+   "card": {
+    "items": [
+     {
+      "phrase": 1,
+      "delay": 1.0,
+      "ok": true,
+      "text": "In through seacock + strainer"
+     },
+     {
+      "phrase": 2,
+      "delay": 0.8,
+      "ok": true,
+      "text": "Takes the heat away"
+     },
+     {
+      "phrase": 3,
+      "delay": 1.0,
+      "ok": true,
+      "text": "Out with the exhaust"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "3",
+   "tag": "THE HEART",
+   "title": "THE IMPELLER",
+   "color": "coral",
+   "phrases": [
+    "What pushes the seawater? The impeller.",
+    "A small rubber wheel with flexible blades, inside the pump.",
+    "Run it dry, and it can be ruined in seconds.",
+    "Broken blades can block the heat exchanger, and the engine overheats.",
+    "So replace it every season, or as your engine maker recommends."
+   ],
+   "shots": [
+    {
+     "photo": "ep002-impeller",
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       960,
+       1.12
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        540,
+        960
+       ],
+       "text": "RUBBER HUB",
+       "off": [
+        0,
+        -330
+       ],
+       "phrase": 1,
+       "delay": 0.3
+      },
+      {
+       "pt": [
+        690,
+        1120
+       ],
+       "text": "FLEXIBLE BLADES",
+       "off": [
+        -470,
+        60
+       ],
+       "phrase": 1,
+       "delay": 1.5
+      }
+     ]
+    },
+    {
+     "photo": "ep002-impeller-worn",
+     "phrase": 2,
+     "cam": [
+      [
+       540,
+       960,
+       1.05
+      ],
+      [
+       540,
+       960,
+       1.18
+      ]
+     ],
+     "pills": [
+      {
+       "text": "NO WATER = NO IMPELLER",
+       "color": "coral",
+       "pos": [
+        540,
+        660
+       ]
+      }
+     ]
+    },
+    {
+     "photo": "ep002-impeller-worn",
+     "phrase": 4,
+     "cam": [
+      [
+       540,
+       960,
+       1.18
+      ],
+      [
+       540,
+       960,
+       1.0
+      ]
+     ],
+     "pills": [
+      {
+       "text": "CHANGE IT EVERY SEASON",
+       "color": "turq",
+       "pos": [
+        540,
+        660
+       ]
+      }
+     ]
+    }
+   ],
+   "card": {
+    "items": [
+     {
+      "phrase": 2,
+      "delay": 0.8,
+      "ok": false,
+      "text": "Never run it dry"
+     },
+     {
+      "phrase": 3,
+      "delay": 1.0,
+      "ok": false,
+      "text": "Broken blades = overheating"
+     },
+     {
+      "phrase": 4,
+      "delay": 0.6,
+      "ok": true,
+      "text": "Replace every season"
+     }
+    ]
+   }
+  },
+  {
+   "type": "cta",
+   "photo": "ep002-cta",
+   "phrases": [
+    "Before every trip, check for water at the exhaust.",
+    "When did you last change your impeller?",
+    "Comment one, two, or three."
+   ],
+   "top": "CHECK THE EXHAUST WATER!",
+   "question": [
+    "WHEN DID YOU",
+    "LAST CHANGE IT?"
+   ],
+   "question_phrase": 1,
+   "options": [
+    {
+     "letter": "1",
+     "label": "THIS YEAR",
+     "color": "turq"
+    },
+    {
+     "letter": "2",
+     "label": "LAST YEAR",
+     "color": "gold"
+    },
+    {
+     "letter": "3",
+     "label": "NO IDEA",
+     "color": "coral"
+    }
+   ],
+   "comment": "COMMENT  1,  2  OR  3"
+  },
+  {
+   "type": "end",
+   "phrases": [
+    "Creative Tracks Marine.",
+    "Follow us for a new boat breakdown, every two days."
+   ]
+  }
+ ],
+ "title": "How your boat engine stays cool (and the rubber part that can stop it)",
+ "caption_en": "How does a boat engine stay cool? 🌊⚙️ Loop 1: sealed fresh water + antifreeze inside the engine. Loop 2: seawater in through the seacock and strainer, through the heat exchanger, out with the exhaust. The hero: a small rubber impeller. Never run it dry, and replace it every season. When did you last change yours? Comment 1, 2 or 3 👇",
+ "caption_ar": "كيف يبقى محرك القارب بارداً؟ 🌊⚙️ الدائرة الأولى: ماء عذب مع مضاد تجمّد يدور داخل المحرك في نظام مغلق. الدائرة الثانية: ماء البحر يدخل من صمام البدن (السيكوك) والفلتر، يمر في المبادل الحراري ثم يخرج مع العادم. والبطل الصغير: الإمبيلر المطاطي. لا تشغّله بدون ماء أبداً، وغيّره كل موسم. متى غيّرته آخر مرة؟ اكتب 1 أو 2 أو 3 👇",
+ "hashtags": "#yachtlife #boatlife #marineengineering #boatmaintenance #impeller #marinediesel #redsea #jeddah #creativetracksmarine #يخوت #صيانة_القوارب #جدة #البحر_الأحمر",
+ "cover_text": "WHY BOAT ENGINES DON'T OVERHEAT"
+}
