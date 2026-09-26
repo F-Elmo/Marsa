@@ -1,0 +1,8 @@
+{
+  "_about": "Photo library, all 1080x1920 graded JPGs. 'points' are pixel coordinates for label leaders. 'used_in' lists episodes; prefer photos used least recently. Add every new photo here.",
+  "hero": {"desc": "Aerial drone shot, white ~60ft motor yacht cruising fast over turquoise Red Sea reef water, white wake", "source": "AI (Gamma)", "points": {"yacht": [470, 900]}, "used_in": ["001"]},
+  "shaft": {"desc": "Underwater view of yacht stern: twin inclined propeller shafts, bronze props, two rudders, trim tabs, sandy seabed", "source": "AI (Gamma)", "points": {"shaft": [150, 1195], "propeller": [380, 1272], "rudder": [540, 1250], "rudder2": [820, 1200], "trim_tab": [400, 930]}, "used_in": ["001"]},
+  "ips": {"desc": "Underwater view of yacht stern with two Volvo IPS pod drives, forward-facing twin props, deep blue water, reef", "source": "AI (Gamma)", "points": {"pod": [470, 1070], "props": [580, 1215], "hull_bottom": [300, 700]}, "used_in": ["001"]},
+  "marina": {"desc": "Top-down aerial of white motor yacht entering a tight berth between yachts in a marina, turquoise water, white pontoons", "source": "AI (Gamma)", "points": {"yacht": [540, 1000], "bow": [540, 520], "stern_wake": [540, 1600], "pontoon": [230, 900]}, "used_in": ["001"]},
+  "engine": {"desc": "Bright yacht engine room, marine engineer in navy uniform and black gloves servicing a white diesel engine, stainless exhaust pipes", "source": "AI (Gamma)", "points": {"engineer": [520, 700], "engine_block": [800, 1150], "hands_tool": [700, 1060], "exhaust_pipes": [600, 350]}, "used_in": ["001"]}
+}
