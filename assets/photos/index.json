@@ -10,7 +10,8 @@
    ]
   },
   "used_in": [
-   "001"
+   "001",
+   "003"
   ]
  },
  "shaft": {
@@ -208,6 +209,132 @@
   "points": {},
   "used_in": [
    "002"
+  ]
+ },
+ "ep003-roll": {
+  "desc": "Illustrated bow-on (front view) white motor yacht heeled ~13 deg on a swell, faint ghost rolled the other way, gold double-headed roll arc above, turquoise sea",
+  "source": "Illustration (engine/diagram.py, episodes/art/003_diagrams.py)",
+  "points": {
+   "yacht": [
+    540,
+    1100
+   ],
+   "roll_arc": [
+    540,
+    760
+   ]
+  },
+  "used_in": [
+   "003"
+  ]
+ },
+ "ep003-gyro": {
+  "desc": "Blueprint bow-on hull cross-section with a gyro stabilizer: sealed sphere, gold flywheel with spin arrow, cradle; coral roll arrow vs turquoise counter-push arrow above",
+  "source": "Illustration (engine/diagram.py, episodes/art/003_diagrams.py)",
+  "points": {
+   "sphere_top": [
+    545,
+    874
+   ],
+   "flywheel": [
+    620,
+    1025
+   ],
+   "sphere": [
+    545,
+    1021
+   ]
+  },
+  "used_in": [
+   "003"
+  ]
+ },
+ "ep003-gyro-close": {
+  "desc": "Same gyro blueprint cross-section without the roll arrows (good for close zooms)",
+  "source": "Illustration (engine/diagram.py, episodes/art/003_diagrams.py)",
+  "points": {
+   "sphere_top": [
+    545,
+    874
+   ],
+   "flywheel": [
+    620,
+    1025
+   ]
+  },
+  "used_in": [
+   "003"
+  ]
+ },
+ "ep003-anchor": {
+  "desc": "Illustrated side-profile yacht at anchor on calm water, glowing gyro inside the hull, anchor chain to sandy seabed, clean hull bottom",
+  "source": "Illustration (engine/diagram.py, episodes/art/003_diagrams.py)",
+  "points": {
+   "gyro": [
+    640,
+    870
+   ],
+   "hull_bottom": [
+    520,
+    945
+   ],
+   "anchor": [
+    120,
+    1560
+   ]
+  },
+  "used_in": [
+   "003"
+  ]
+ },
+ "ep003-fins": {
+  "desc": "Underwater bow-on view of a yacht hull with two fin stabilizers, left fin lifting (turquoise arrow up), right fin pushing down (coral arrow)",
+  "source": "Illustration (engine/diagram.py, episodes/art/003_diagrams.py)",
+  "points": {
+   "fin_left": [
+    169,
+    974
+   ],
+   "fin_right": [
+    911,
+    1022
+   ],
+   "keel": [
+    540,
+    1110
+   ]
+  },
+  "used_in": [
+   "003"
+  ]
+ },
+ "ep003-speed": {
+  "desc": "Illustrated side-profile yacht at speed, fin stabilizer visible under the hull, wake and speed lines astern",
+  "source": "Illustration (engine/diagram.py, episodes/art/003_diagrams.py)",
+  "points": {
+   "fin": [
+    560,
+    990
+   ],
+   "bow": [
+    70,
+    720
+   ],
+   "wake": [
+    1000,
+    860
+   ]
+  },
+  "used_in": [
+   "003"
+  ]
+ },
+ "ep003-cta": {
+  "desc": "Faint rolling-yacht illustration on blueprint grid - calm background for text-heavy scenes",
+  "source": "Illustration (engine/diagram.py, episodes/art/003_diagrams.py)",
+  "points": {},
+  "used_in": [
+   "003"
   ]
  }
 }

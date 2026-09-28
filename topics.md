@@ -8,9 +8,9 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 ## Done
 - [x] 001 — Shaft drive vs IPS pods (propulsion, A-vs-B) — 2026-09-26
 - [x] 002 — How a marine diesel engine stays cool: fresh water loop, raw water loop & the impeller (maintenance, explainer) — 2026-09-26
+- [x] 003 — Gyro stabilizer vs fin stabilizers (comfort, A-vs-B) — 2026-09-28
 
 ## Next up (take the first unchecked one unless the owner asked for something else)
-- [ ] Gyro stabilizer vs fin stabilizers — what actually stops the rolling (comfort, A-vs-B)
 - [ ] 5 signs your raw-water impeller is about to fail (maintenance, signs)
 - [ ] Planing hull vs displacement hull — speed, fuel, comfort (hull & design, A-vs-B)
 - [ ] Why diesel fuel goes bad in Red Sea heat — water, bacteria, and fuel polishing (Red Sea / fuel, explainer)
@@ -41,3 +41,5 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] Teak deck vs synthetic teak (design, A-vs-B)
 - [ ] Why your boat has a seacock — and why you should exercise it (safety / maintenance, explainer)
 - [ ] Engine overheating alarm at sea: what to do in the first 60 seconds (seamanship, checklist)
+- [ ] Why boats roll at anchor — beam, hull shape and centre of gravity in plain English (hull & design, explainer)
+- [ ] Seasickness-proofing your day trip: where to sit, what to look at, and boat choices that help (comfort, checklist)

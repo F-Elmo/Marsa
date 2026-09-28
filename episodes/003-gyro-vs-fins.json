@@ -1,0 +1,451 @@
+{
+ "topic": "Gyro stabilizer vs fin stabilizers",
+ "voice": "am_michael",
+ "speed": 1.15,
+ "scenes": [
+  {
+   "type": "hook",
+   "shots": [
+    {
+     "photo": "ep003-roll",
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       960,
+       1.1
+      ]
+     ]
+    }
+   ],
+   "lines": [
+    "GYRO",
+    "OR FINS?"
+   ],
+   "phrases": [
+    "Gyro, or fins?",
+    "Two very different ways to stop your boat from rolling.",
+    "Let's compare."
+   ],
+   "subtitle": {
+    "text": "Two ways to stop your boat rolling",
+    "phrase": 1
+   },
+   "badges": {
+    "letters": [
+     "A",
+     "B"
+    ],
+    "phrase": 2
+   }
+  },
+  {
+   "type": "section",
+   "letter": "A",
+   "tag": "OPTION A",
+   "title": "GYRO STABILIZER",
+   "color": "gold",
+   "phrases": [
+    "Option A: the gyro stabilizer.",
+    "A heavy flywheel spins very fast, inside a sealed case in the engine room.",
+    "When the boat rolls, the gyro tilts, and pushes back against the roll.",
+    "It's brilliant at anchor, with nothing sticking out of the hull.",
+    "But it's heavy, and it needs time to spin up before it works."
+   ],
+   "shots": [
+    {
+     "photo": "ep003-gyro",
+     "cam": [
+      [
+       540,
+       980,
+       1.0
+      ],
+      [
+       545,
+       1000,
+       1.08
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        545,
+        874
+       ],
+       "text": "SEALED CASE",
+       "off": [
+        -260,
+        0
+       ],
+       "phrase": 1,
+       "delay": 1.6
+      },
+      {
+       "pt": [
+        620,
+        1025
+       ],
+       "text": "SPINNING FLYWHEEL",
+       "off": [
+        60,
+        160
+       ],
+       "phrase": 1,
+       "delay": 0.5
+      }
+     ],
+     "pills": [
+      {
+       "text": "TILTS & PUSHES BACK",
+       "color": "turq",
+       "pos": [
+        540,
+        1268
+       ],
+       "delay": 7.2
+      }
+     ]
+    },
+    {
+     "photo": "ep003-anchor",
+     "phrase": 3,
+     "cam": [
+      [
+       560,
+       900,
+       1.12
+      ],
+      [
+       600,
+       920,
+       1.02
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        640,
+        870
+       ],
+       "text": "GYRO INSIDE",
+       "off": [
+        60,
+        -230
+       ],
+       "phrase": 3,
+       "delay": 0.5
+      },
+      {
+       "pt": [
+        520,
+        945
+       ],
+       "text": "NOTHING OUTSIDE",
+       "off": [
+        -40,
+        260
+       ],
+       "phrase": 3,
+       "delay": 1.6
+      }
+     ]
+    },
+    {
+     "photo": "ep003-gyro-close",
+     "phrase": 4,
+     "cam": [
+      [
+       545,
+       1020,
+       1.5
+      ],
+      [
+       545,
+       1020,
+       1.3
+      ]
+     ],
+     "pills": [
+      {
+       "text": "HEAVY + SPIN-UP TIME",
+       "color": "coral",
+       "pos": [
+        540,
+        680
+       ],
+       "delay": 0.3
+      }
+     ]
+    }
+   ],
+   "card": {
+    "items": [
+     {
+      "phrase": 3,
+      "delay": 0.4,
+      "ok": true,
+      "text": "Brilliant at anchor"
+     },
+     {
+      "phrase": 3,
+      "delay": 1.8,
+      "ok": true,
+      "text": "Nothing outside the hull"
+     },
+     {
+      "phrase": 4,
+      "delay": 0.6,
+      "ok": false,
+      "text": "Heavy, needs time to spin up"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "B",
+   "tag": "OPTION B",
+   "title": "FIN STABILIZERS",
+   "color": "turq",
+   "phrases": [
+    "Option B: fin stabilizers.",
+    "Two small wings sit under the waterline, one on each side.",
+    "Sensors feel the roll, and the fins tilt instantly, like the flaps on a plane's wing.",
+    "The faster you go, the stronger they get.",
+    "But they add some drag, and to work at anchor, you need special zero-speed fins."
+   ],
+   "shots": [
+    {
+     "photo": "ep003-fins",
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       980,
+       1.06
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        169,
+        974
+       ],
+       "text": "FIN",
+       "off": [
+        70,
+        230
+       ],
+       "phrase": 1,
+       "delay": 0.6
+      },
+      {
+       "pt": [
+        911,
+        1022
+       ],
+       "text": "FIN",
+       "off": [
+        -70,
+        190
+       ],
+       "phrase": 1,
+       "delay": 1.2
+      }
+     ],
+     "pills": [
+      {
+       "text": "INSTANT RESPONSE",
+       "color": "turq",
+       "pos": [
+        540,
+        660
+       ],
+       "delay": 6.6
+      }
+     ]
+    },
+    {
+     "photo": "ep003-speed",
+     "phrase": 3,
+     "cam": [
+      [
+       540,
+       900,
+       1.05
+      ],
+      [
+       480,
+       900,
+       1.16
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        560,
+        990
+       ],
+       "text": "FIN",
+       "off": [
+        0,
+        220
+       ],
+       "phrase": 3,
+       "delay": 0.4
+      }
+     ],
+     "pills": [
+      {
+       "text": "MORE SPEED = MORE GRIP",
+       "color": "turq",
+       "pos": [
+        540,
+        660
+       ],
+       "delay": 0.3
+      }
+     ]
+    },
+    {
+     "photo": "ep003-fins",
+     "phrase": 4,
+     "cam": [
+      [
+       540,
+       1000,
+       1.2
+      ],
+      [
+       540,
+       990,
+       1.05
+      ]
+     ],
+     "pills": [
+      {
+       "text": "SOME DRAG UNDERWAY",
+       "color": "coral",
+       "pos": [
+        540,
+        700
+       ],
+       "delay": 0.2
+      }
+     ]
+    }
+   ],
+   "card": {
+    "items": [
+     {
+      "phrase": 2,
+      "delay": 1.2,
+      "ok": true,
+      "text": "Instant response"
+     },
+     {
+      "phrase": 3,
+      "delay": 0.4,
+      "ok": true,
+      "text": "Stronger the faster you go"
+     },
+     {
+      "phrase": 4,
+      "delay": 0.3,
+      "ok": false,
+      "text": "Adds some drag"
+     },
+     {
+      "phrase": 4,
+      "delay": 1.9,
+      "ok": false,
+      "text": "Anchor needs zero-speed fins"
+     }
+    ]
+   }
+  },
+  {
+   "type": "table",
+   "title": "HEAD TO HEAD",
+   "photo": "hero",
+   "phrases": [
+    "So, head to head.",
+    "The gyro wins at anchor, and keeps the hull clean.",
+    "Fins win at speed, and they're ready the moment you start."
+   ],
+   "rows": [
+    {
+     "text": "At anchor",
+     "win": "A",
+     "phrase": 1,
+     "delay": 0.0
+    },
+    {
+     "text": "Clean hull",
+     "win": "A",
+     "phrase": 1,
+     "delay": 1.3
+    },
+    {
+     "text": "At speed",
+     "win": "B",
+     "phrase": 2,
+     "delay": 0.0
+    },
+    {
+     "text": "Ready instantly",
+     "win": "B",
+     "phrase": 2,
+     "delay": 1.2
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "photo": "ep003-cta",
+   "phrases": [
+    "Anchor lover, or long-distance cruiser?",
+    "Which would you fit?",
+    "Comment A, or B."
+   ],
+   "top": "ANCHOR LOVER OR CRUISER?",
+   "question": [
+    "WHICH WOULD",
+    "YOU FIT?"
+   ],
+   "question_phrase": 1,
+   "options": [
+    {
+     "letter": "A",
+     "label": "GYRO",
+     "color": "gold"
+    },
+    {
+     "letter": "B",
+     "label": "FINS",
+     "color": "turq"
+    }
+   ],
+   "comment": "COMMENT  A  OR  B"
+  },
+  {
+   "type": "end",
+   "phrases": [
+    "Creative Tracks Marine.",
+    "Follow us for a new boat breakdown, every two days."
+   ]
+  }
+ ],
+ "caption_en": "Gyro or fins? 🌊 Two very different ways to stop your boat rolling. A = a spinning flywheel inside the hull, brilliant at anchor, nothing outside the hull. B = fins under the waterline, instant response and stronger the faster you go. Which would you fit? Comment A or B 👇",
+ "caption_ar": "جيرو أو زعانف؟ 🌊 طريقتان مختلفتان تماماً لإيقاف تمايل القارب. A: دولاب دوّار داخل الهيكل، ممتاز وقت الرسو ولا شيء خارج الهيكل. B: زعانف تحت خط الماء، استجابة فورية وتزداد قوتها كلما زادت السرعة. أيهما تركّب في قاربك؟ اكتب A أو B 👇",
+ "hashtags": "#yachtlife #boatlife #marineengineering #boatstabilizer #seakeeping #redsea #jeddah #creativetracksmarine #يخوت #قوارب #جدة #البحر_الأحمر"
+}
