@@ -1,0 +1,453 @@
+{
+ "topic": "Why diesel fuel goes bad in Red Sea heat: water, microbes (the 'diesel bug') and fuel polishing",
+ "voice": "am_michael",
+ "speed": 1.15,
+ "scenes": [
+  {
+   "type": "hook",
+   "shots": [
+    {
+     "photo": "ep004-tank",
+     "cam": [
+      [
+       540,
+       1000,
+       1.0
+      ],
+      [
+       520,
+       1010,
+       1.1
+      ]
+     ]
+    }
+   ],
+   "lines": [
+    "YOUR DIESEL",
+    "CAN GO BAD"
+   ],
+   "phrases": [
+    "Did you know your diesel can go bad, right inside the tank?",
+    "In Red Sea heat, it can happen faster.",
+    "Here's why."
+   ],
+   "subtitle": {
+    "text": "Water + heat + time",
+    "phrase": 1
+   },
+   "badges": {
+    "letters": [
+     "1",
+     "2",
+     "3"
+    ],
+    "colors": [
+     "turq",
+     "coral",
+     "gold"
+    ],
+    "phrase": 2
+   }
+  },
+  {
+   "type": "section",
+   "letter": "1",
+   "tag": "STEP 1",
+   "title": "WATER GETS IN",
+   "color": "turq",
+   "phrases": [
+    "It starts with water.",
+    "In a half-empty tank, hot days and cooler nights make the air inside sweat.",
+    "That's condensation.",
+    "Water is heavier than diesel, so it sinks to the bottom."
+   ],
+   "shots": [
+    {
+     "photo": "ep004-condense",
+     "cam": [
+      [
+       540,
+       980,
+       1.0
+      ],
+      [
+       540,
+       960,
+       1.1
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        300,
+        780
+       ],
+       "text": "DROPS ON THE WALLS",
+       "off": [
+        120,
+        -170
+       ],
+       "phrase": 1,
+       "delay": 1.8
+      },
+      {
+       "pt": [
+        700,
+        1040
+       ],
+       "text": "DIESEL",
+       "off": [
+        0,
+        -120
+       ],
+       "phrase": 2,
+       "delay": 0.2
+      }
+     ]
+    },
+    {
+     "photo": "ep004-condense",
+     "phrase": 3,
+     "cam": [
+      [
+       540,
+       1040,
+       1.12
+      ],
+      [
+       540,
+       1060,
+       1.2
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        540,
+        1230
+       ],
+       "text": "WATER SINKS",
+       "off": [
+        0,
+        -200
+       ],
+       "phrase": 3,
+       "delay": 1.0
+      }
+     ]
+    }
+   ],
+   "card": {
+    "items": [
+     {
+      "phrase": 1,
+      "delay": 1.5,
+      "ok": false,
+      "text": "Half-empty tank = condensation"
+     },
+     {
+      "phrase": 3,
+      "delay": 1.0,
+      "ok": false,
+      "text": "Water sinks to the bottom"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "2",
+   "tag": "STEP 2",
+   "title": "THE DIESEL BUG",
+   "color": "coral",
+   "phrases": [
+    "Where water meets fuel, microbes grow.",
+    "Bacteria, yeast and mould live off the diesel.",
+    "Heat helps them multiply.",
+    "They make black sludge that clogs your fuel filters.",
+    "And rough seas stir it up, just when you need the engine most."
+   ],
+   "shots": [
+    {
+     "photo": "ep004-microbes",
+     "cam": [
+      [
+       540,
+       980,
+       1.0
+      ],
+      [
+       540,
+       1000,
+       1.15
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        540,
+        1005
+       ],
+       "text": "FUEL MEETS WATER",
+       "off": [
+        -200,
+        -190
+       ],
+       "phrase": 0,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "photo": "ep004-filter",
+     "phrase": 3,
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       1000,
+       1.12
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        540,
+        1150
+       ],
+       "text": "BLACK SLUDGE",
+       "off": [
+        -300,
+        -150
+       ],
+       "phrase": 3,
+       "delay": 0.6
+      }
+     ]
+    },
+    {
+     "photo": "ep004-tank",
+     "phrase": 4,
+     "cam": [
+      [
+       480,
+       1040,
+       1.12
+      ],
+      [
+       470,
+       1060,
+       1.22
+      ]
+     ],
+     "pills": [
+      {
+       "text": "ROUGH SEA = SLUDGE STIRRED UP",
+       "color": "coral",
+       "pos": [
+        540,
+        660
+       ]
+      }
+     ],
+     "labels": []
+    }
+   ],
+   "card": {
+    "items": [
+     {
+      "phrase": 1,
+      "delay": 0.8,
+      "ok": false,
+      "text": "Microbes live at the water line"
+     },
+     {
+      "phrase": 2,
+      "delay": 0.2,
+      "ok": false,
+      "text": "Heat speeds them up"
+     },
+     {
+      "phrase": 3,
+      "delay": 1.0,
+      "ok": false,
+      "text": "Sludge clogs filters"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "3",
+   "tag": "THE FIX",
+   "title": "FUEL POLISHING",
+   "color": "gold",
+   "phrases": [
+    "The fix? Fuel polishing.",
+    "A pump circulates the fuel through fine filters and a water separator, then back to the tank.",
+    "To prevent it, keep tanks full, and drain your water separator often.",
+    "Ask your engineer about a fuel biocide."
+   ],
+   "shots": [
+    {
+     "photo": "ep004-polish",
+     "cam": [
+      [
+       540,
+       1000,
+       1.0
+      ],
+      [
+       540,
+       1000,
+       1.1
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        690,
+        820
+       ],
+       "text": "PUMP",
+       "off": [
+        -330,
+        -120
+       ],
+       "phrase": 1,
+       "delay": 0.3
+      },
+      {
+       "pt": [
+        880,
+        900
+       ],
+       "text": "FILTER + SEPARATOR",
+       "off": [
+        -160,
+        -250
+       ],
+       "phrase": 1,
+       "delay": 1.6
+      },
+      {
+       "pt": [
+        470,
+        1000
+       ],
+       "text": "CLEAN FUEL BACK",
+       "off": [
+        -60,
+        380
+       ],
+       "phrase": 1,
+       "delay": 3.4
+      }
+     ]
+    },
+    {
+     "photo": "ep004-filter",
+     "phrase": 2,
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       990,
+       1.07
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        540,
+        1325
+       ],
+       "text": "DRAIN HERE",
+       "off": [
+        -320,
+        -40
+       ],
+       "phrase": 2,
+       "delay": 1.8
+      }
+     ]
+    }
+   ],
+   "card": {
+    "items": [
+     {
+      "phrase": 1,
+      "delay": 2.0,
+      "ok": true,
+      "text": "Filters out water + sludge"
+     },
+     {
+      "phrase": 2,
+      "delay": 0.6,
+      "ok": true,
+      "text": "Keep tanks full"
+     },
+     {
+      "phrase": 2,
+      "delay": 2.0,
+      "ok": true,
+      "text": "Drain the separator often"
+     }
+    ]
+   }
+  },
+  {
+   "type": "cta",
+   "photo": "ep004-cta",
+   "phrases": [
+    "Clean fuel means a happy engine.",
+    "Have you ever checked the bowl under your fuel filter?",
+    "Comment one, two, or three."
+   ],
+   "top": "CLEAN FUEL = HAPPY ENGINE",
+   "question": [
+    "EVER CHECKED YOUR",
+    "FUEL FILTER BOWL?"
+   ],
+   "question_phrase": 1,
+   "options": [
+    {
+     "letter": "1",
+     "label": "EVERY TRIP",
+     "color": "turq"
+    },
+    {
+     "letter": "2",
+     "label": "SOMETIMES",
+     "color": "gold"
+    },
+    {
+     "letter": "3",
+     "label": "WHAT BOWL?",
+     "color": "coral"
+    }
+   ],
+   "comment": "COMMENT  1,  2  OR  3"
+  },
+  {
+   "type": "end",
+   "phrases": [
+    "Creative Tracks Marine.",
+    "Follow us for a new boat breakdown, every two days."
+   ]
+  }
+ ],
+ "title": "Why your diesel goes bad in Red Sea heat (and how to fix it)",
+ "caption_en": "Yes, diesel can go bad inside your tank ⛽🦠 Hot days + cooler nights make a half-empty tank 'sweat'. That water sinks to the bottom, and where water meets fuel, bacteria, yeast and mould grow: the 'diesel bug'. Their black sludge clogs filters, and rough seas stir it up. The fix: fuel polishing. Prevent it: keep tanks full, drain the water separator often, and ask your engineer about biocide. Ever checked your fuel filter bowl? Comment 1, 2 or 3 👇",
+ "caption_ar": "هل تعلم أن الديزل ممكن يفسد داخل خزان قاربك؟ ⛽🦠 حرارة النهار وبرودة الليل تجعل الخزان نصف الممتلئ \"يتعرّق\" فيتكوّن ماء بالتكاثف. الماء أثقل من الديزل فيستقر في القاع، وعند نقطة التقاء الماء بالوقود تنمو البكتيريا والخمائر والفطريات، وهذا ما يُسمّى \"حشرة الديزل\". تكوّن رواسب سوداء تسدّ الفلاتر، والبحر الهائج يحرّكها في أسوأ وقت. الحل: تنقية الوقود (Fuel Polishing). والوقاية: أبقِ الخزانات ممتلئة، وصرّف فاصل الماء باستمرار، واسأل مهندسك عن المبيد الحيوي للوقود. هل سبق وفحصت كأس فلتر الوقود؟ اكتب 1 أو 2 أو 3 👇",
+ "hashtags": "#yachtlife #boatlife #marineengineering #dieselbug #fuelpolishing #redsea #jeddah #creativetracksmarine #يخوت #صيانة_القوارب #جدة #البحر_الأحمر",
+ "cover_text": "WHY YOUR DIESEL GOES BAD"
+}
