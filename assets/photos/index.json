@@ -86,7 +86,8 @@
    ]
   },
   "used_in": [
-   "001"
+   "001",
+   "005"
   ]
  },
  "engine": {
@@ -464,6 +465,132 @@
   "points": {},
   "used_in": [
    "004"
+  ]
+ },
+ "ep005-hook": {
+  "desc": "Dusk side view at the waterline: trawler-style displacement yacht (left, sitting deep) vs sport cruiser planing with bow up and spray (right), sunset glitter, cut-away sea",
+  "source": "Illustration (engine/diagram.py, episodes/art/005_diagrams.py)",
+  "points": {
+   "trawler": [
+    275,
+    862
+   ],
+   "planer": [
+    760,
+    900
+   ]
+  },
+  "used_in": [
+   "005"
+  ]
+ },
+ "ep005-displace": {
+  "desc": "Dusk side view: big trawler-style displacement yacht sitting deep, red bottom + full keel under water, gold arrows showing water pushed aside",
+  "source": "Illustration (engine/diagram.py, episodes/art/005_diagrams.py)",
+  "points": {
+   "keel": [
+    620,
+    1055
+   ],
+   "house": [
+    540,
+    700
+   ],
+   "arrow_down": [
+    540,
+    1230
+   ]
+  },
+  "used_in": [
+   "005"
+  ]
+ },
+ "ep005-hullspeed": {
+  "desc": "Trawler sitting in the trough between its own bow wave and stern wave at hull speed; gold bracket 'WAVE LENGTH = BOAT LENGTH' at y~1262-1306",
+  "source": "Illustration (engine/diagram.py, episodes/art/005_diagrams.py)",
+  "points": {
+   "bow_wave": [
+    110,
+    954
+   ],
+   "stern_wave": [
+    970,
+    954
+   ],
+   "trough": [
+    540,
+    1046
+   ]
+  },
+  "used_in": [
+   "005"
+  ]
+ },
+ "ep005-planing": {
+  "desc": "Dusk side view: white/navy sport cruiser planing, bow up ~4 deg, foam wake, gold lift arrows under the hull",
+  "source": "Illustration (engine/diagram.py, episodes/art/005_diagrams.py)",
+  "points": {
+   "hull_bottom": [
+    743,
+    966
+   ],
+   "cabin": [
+    469,
+    822
+   ],
+   "stern": [
+    128,
+    996
+   ]
+  },
+  "used_in": [
+   "005"
+  ]
+ },
+ "ep005-vee": {
+  "desc": "Blueprint bow-on cross-sections at a waterline: faint round displacement bottom (left) vs bright V-shaped planing bottom with chines and strakes (right)",
+  "source": "Illustration (engine/diagram.py, episodes/art/005_diagrams.py)",
+  "points": {
+   "vee_keel": [
+    760,
+    1080
+   ],
+   "round_bottom": [
+    280,
+    1130
+   ],
+   "chine_left": [
+    525,
+    935
+   ]
+  },
+  "used_in": [
+   "005"
+  ]
+ },
+ "ep005-chop": {
+  "desc": "Dusk choppy sea: sport cruiser launching off a wave, bow high, spray bursts - slamming / cost of speed",
+  "source": "Illustration (engine/diagram.py, episodes/art/005_diagrams.py)",
+  "points": {
+   "bow": [
+    918,
+    764
+   ],
+   "stern": [
+    196,
+    970
+   ]
+  },
+  "used_in": [
+   "005"
+  ]
+ },
+ "ep005-cta": {
+  "desc": "Blurred, darkened ep005 hook (two boats at sunset) - calm background for text-heavy CTA",
+  "source": "Illustration (engine/diagram.py, episodes/art/005_diagrams.py)",
+  "points": {},
+  "used_in": [
+   "005"
   ]
  }
 }

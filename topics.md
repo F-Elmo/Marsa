@@ -10,11 +10,11 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [x] 002 — How a marine diesel engine stays cool: fresh water loop, raw water loop & the impeller (maintenance, explainer) — 2026-09-26
 - [x] 003 — Gyro stabilizer vs fin stabilizers (comfort, A-vs-B) — 2026-09-28
 - [x] 004 — Why diesel fuel goes bad in Red Sea heat: water, the diesel bug & fuel polishing (Red Sea / fuel, explainer) — 2026-09-30
+- [x] 005 — Planing hull vs displacement hull (hull & design, A-vs-B) — 2026-10-02
 
 ## Next up (take the first unchecked one unless the owner asked for something else)
 <!-- note (004): the impeller-signs topic below was skipped for now because ep 002 already covered the impeller; give it a few episodes of distance. -->
 - [ ] 5 signs your raw-water impeller is about to fail (maintenance, signs)
-- [ ] Planing hull vs displacement hull — speed, fuel, comfort (hull & design, A-vs-B)
 - [ ] Lithium vs AGM batteries on a yacht (electrical, A-vs-B)
 - [ ] Zinc anodes: why they disappear and why that's a good thing (maintenance, explainer)
 - [ ] Outboards vs inboards (propulsion, A-vs-B)
@@ -46,3 +46,5 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] Seasickness-proofing your day trip: where to sit, what to look at, and boat choices that help (comfort, checklist)
 - [ ] Fuel filters explained: primary vs secondary, and how to read the water-separator bowl (maintenance, explainer)
 - [ ] Diesel vs petrol boat engines — which suits you? (propulsion, A-vs-B)
+- [ ] Semi-displacement hulls: the in-between — why many Gulf cruisers use them (hull & design, explainer)
+- [ ] Why props cavitate — and what that rumble is doing to your propeller (propulsion, explainer)

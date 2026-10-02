@@ -1,0 +1,416 @@
+{
+ "topic": "Planing hull vs displacement hull",
+ "voice": "am_michael",
+ "speed": 1.15,
+ "scenes": [
+  {
+   "type": "hook",
+   "shots": [
+    {
+     "photo": "ep005-hook",
+     "cam": [
+      [
+       540,
+       960,
+       1.12
+      ],
+      [
+       540,
+       960,
+       1.0
+      ]
+     ]
+    }
+   ],
+   "lines": [
+    "PLOUGH",
+    "OR FLY?"
+   ],
+   "phrases": [
+    "Plough through the sea, or skim over it?",
+    "Most boat hulls are built for one of these two jobs.",
+    "Displacement, or planing. Let's compare."
+   ],
+   "subtitle": {
+    "text": "Two hull shapes, two ways to move",
+    "phrase": 1
+   },
+   "badges": {
+    "letters": [
+     "A",
+     "B"
+    ],
+    "phrase": 2
+   }
+  },
+  {
+   "type": "section",
+   "letter": "A",
+   "tag": "OPTION A",
+   "title": "DISPLACEMENT HULL",
+   "color": "gold",
+   "phrases": [
+    "Option A: the displacement hull.",
+    "It sits deep, and pushes the water aside, like a classic trawler.",
+    "It sips fuel, goes very far on one tank, and gives a steady, gentle ride.",
+    "But it has a speed limit, called hull speed, and the boat's length sets it.",
+    "Push harder, and it's just trapped between its own waves."
+   ],
+   "shots": [
+    {
+     "photo": "ep005-displace",
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       520,
+       940,
+       1.07
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        620,
+        1055
+       ],
+       "text": "SITS DEEP",
+       "off": [
+        200,
+        -360
+       ],
+       "phrase": 1,
+       "delay": 0.3
+      },
+      {
+       "pt": [
+        540,
+        1230
+       ],
+       "text": "PUSHES WATER ASIDE",
+       "off": [
+        0,
+        90
+       ],
+       "phrase": 1,
+       "delay": 1.4
+      }
+     ]
+    },
+    {
+     "photo": "ep005-hullspeed",
+     "phrase": 3,
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       960,
+       1.04
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        110,
+        954
+       ],
+       "text": "BOW WAVE",
+       "off": [
+        150,
+        -260
+       ],
+       "phrase": 4,
+       "delay": 0.2
+      },
+      {
+       "pt": [
+        970,
+        954
+       ],
+       "text": "STERN WAVE",
+       "off": [
+        -130,
+        -260
+       ],
+       "phrase": 4,
+       "delay": 0.9
+      }
+     ],
+     "pills": [
+      {
+       "text": "LONGER BOAT = HIGHER LIMIT",
+       "color": "gold",
+       "pos": [
+        540,
+        1190
+       ],
+       "delay": 1.6
+      }
+     ]
+    }
+   ],
+   "card": {
+    "items": [
+     {
+      "phrase": 2,
+      "delay": 0.2,
+      "ok": true,
+      "text": "Sips fuel"
+     },
+     {
+      "phrase": 2,
+      "delay": 1.0,
+      "ok": true,
+      "text": "Huge range on one tank"
+     },
+     {
+      "phrase": 2,
+      "delay": 2.2,
+      "ok": true,
+      "text": "Steady, gentle ride"
+     },
+     {
+      "phrase": 3,
+      "delay": 0.6,
+      "ok": false,
+      "text": "Speed limit: hull speed"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "B",
+   "tag": "OPTION B",
+   "title": "PLANING HULL",
+   "color": "turq",
+   "phrases": [
+    "Option B: the planing hull.",
+    "Its bottom is flatter, and V-shaped.",
+    "With enough power, the boat lifts up, and skims on top of the water.",
+    "That means real speed, perfect for a quick trip out to the reef.",
+    "But it needs big engines, burns a lot more fuel, and can slam hard in a choppy sea."
+   ],
+   "shots": [
+    {
+     "photo": "ep005-planing",
+     "cam": [
+      [
+       560,
+       960,
+       1.15
+      ],
+      [
+       560,
+       960,
+       1.05
+      ]
+     ]
+    },
+    {
+     "photo": "ep005-vee",
+     "phrase": 1,
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       560,
+       980,
+       1.04
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        760,
+        1080
+       ],
+       "text": "V-SHAPED BOTTOM",
+       "off": [
+        -40,
+        190
+       ],
+       "phrase": 1,
+       "delay": 0.4
+      }
+     ]
+    },
+    {
+     "photo": "ep005-planing",
+     "phrase": 2,
+     "cam": [
+      [
+       560,
+       960,
+       1.0
+      ],
+      [
+       600,
+       950,
+       1.06
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        743,
+        966
+       ],
+       "text": "HULL LIFTS UP",
+       "off": [
+        -120,
+        -320
+       ],
+       "phrase": 2,
+       "delay": 0.9
+      }
+     ],
+     "pills": [
+      {
+       "text": "SKIMS ON TOP OF THE WATER",
+       "color": "turq",
+       "pos": [
+        540,
+        1290
+       ],
+       "delay": 2.2
+      }
+     ]
+    },
+    {
+     "photo": "ep005-chop",
+     "phrase": 4,
+     "cam": [
+      [
+       540,
+       960,
+       1.08
+      ],
+      [
+       540,
+       940,
+       1.0
+      ]
+     ],
+     "pills": [
+      {
+       "text": "THIRSTY + SLAMS IN CHOP",
+       "color": "coral",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.3
+      }
+     ]
+    }
+   ],
+   "card": {
+    "items": [
+     {
+      "phrase": 3,
+      "delay": 0.3,
+      "ok": true,
+      "text": "Real speed"
+     },
+     {
+      "phrase": 4,
+      "delay": 0.5,
+      "ok": false,
+      "text": "Big engines, much more fuel"
+     },
+     {
+      "phrase": 4,
+      "delay": 2.6,
+      "ok": false,
+      "text": "Can slam in a choppy sea"
+     }
+    ]
+   }
+  },
+  {
+   "type": "table",
+   "title": "HEAD TO HEAD",
+   "photo": "marina",
+   "phrases": [
+    "So, head to head.",
+    "Displacement wins on fuel, range, and a gentle ride.",
+    "Planing wins on speed, every time."
+   ],
+   "rows": [
+    {
+     "text": "Fuel economy",
+     "win": "A",
+     "phrase": 1,
+     "delay": 0.0
+    },
+    {
+     "text": "Range",
+     "win": "A",
+     "phrase": 1,
+     "delay": 0.9
+    },
+    {
+     "text": "Gentle ride",
+     "win": "A",
+     "phrase": 1,
+     "delay": 1.7
+    },
+    {
+     "text": "Top speed",
+     "win": "B",
+     "phrase": 2,
+     "delay": 0.0
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "photo": "ep005-cta",
+   "phrases": [
+    "Slow and far, or fast and fun?",
+    "Which hull is for you?",
+    "Comment A, or B."
+   ],
+   "top": "SLOW & FAR OR FAST & FUN?",
+   "question": [
+    "WHICH HULL",
+    "IS FOR YOU?"
+   ],
+   "question_phrase": 1,
+   "options": [
+    {
+     "letter": "A",
+     "label": "DISPLACEMENT",
+     "color": "gold"
+    },
+    {
+     "letter": "B",
+     "label": "PLANING",
+     "color": "turq"
+    }
+   ],
+   "comment": "COMMENT  A  OR  B"
+  },
+  {
+   "type": "end",
+   "phrases": [
+    "Creative Tracks Marine.",
+    "Follow us for a new boat breakdown, every two days."
+   ]
+  }
+ ],
+ "caption_en": "Plough or fly? 🌊 A = displacement hull: sits deep, sips fuel, huge range and a gentle ride, but its top speed is capped by its length (hull speed). B = planing hull: lifts up and skims on top of the water for real speed, but needs big engines, burns much more fuel and can slam in a chop. Which hull is for you? Comment A or B 👇",
+ "caption_ar": "تشق البحر أم تطير فوقه؟ 🌊 A: الهيكل الإزاحي، يغوص في الماء ويزيحه جانباً، اقتصادي جداً في الوقود، مدى إبحار طويل وركوب هادئ، لكن سرعته القصوى محدودة بطول القارب. B: الهيكل الانزلاقي، يرتفع وينزلق فوق سطح الماء بسرعة حقيقية، لكنه يحتاج محركات كبيرة ويستهلك وقوداً أكثر بكثير وقد يرتطم بقوة في البحر المتلاطم. أي هيكل يناسبك؟ اكتب A أو B 👇",
+ "hashtags": "#yachtlife #boatlife #marineengineering #boathull #planinghull #trawleryacht #redsea #jeddah #creativetracksmarine #يخوت #قوارب #جدة #البحر_الأحمر"
+}
