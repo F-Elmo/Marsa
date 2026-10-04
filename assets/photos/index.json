@@ -40,7 +40,8 @@
    ]
   },
   "used_in": [
-   "001"
+   "001",
+   "006"
   ]
  },
  "ips": {
@@ -113,7 +114,8 @@
   },
   "used_in": [
    "001",
-   "002"
+   "002",
+   "006"
   ]
  },
  "ep002-cutaway": {
@@ -591,6 +593,171 @@
   "points": {},
   "used_in": [
    "005"
+  ]
+ },
+ "ep006-hook": {
+  "desc": "Underwater side view of a yacht stern: red antifouled hull, shaft with a pitted half-eaten zinc collar, bronze prop, rudder, turquoise current sparks",
+  "source": "Illustration (engine/diagram.py, episodes/art/006_diagrams.py)",
+  "points": {
+   "anode": [
+    455,
+    856
+   ],
+   "propeller": [
+    790,
+    1000
+   ],
+   "shaft": [
+    267,
+    775
+   ],
+   "rudder": [
+    935,
+    1000
+   ],
+   "strut": [
+    640,
+    936
+   ],
+   "hull_anode": [
+    330,
+    705
+   ],
+   "tab_anode": [
+    1036,
+    662
+   ]
+  },
+  "used_in": [
+   "006"
+  ]
+ },
+ "ep006-guard": {
+  "desc": "Same stern with brand-new silver shaft, hull and trim-tab anodes, gold current lines, turquoise shield ring around the propeller",
+  "source": "Illustration (engine/diagram.py, episodes/art/006_diagrams.py)",
+  "points": {
+   "anode": [
+    455,
+    856
+   ],
+   "propeller": [
+    790,
+    1000
+   ],
+   "shaft": [
+    267,
+    775
+   ],
+   "rudder": [
+    935,
+    1000
+   ],
+   "strut": [
+    640,
+    936
+   ],
+   "hull_anode": [
+    330,
+    705
+   ],
+   "tab_anode": [
+    1036,
+    662
+   ]
+  },
+  "used_in": [
+   "006"
+  ]
+ },
+ "ep006-leak": {
+  "desc": "Same stern, darker reddish water, badly eaten shaft anode with coral current sparks (stray current / electrical leak)",
+  "source": "Illustration (engine/diagram.py, episodes/art/006_diagrams.py)",
+  "points": {
+   "anode": [
+    455,
+    856
+   ],
+   "propeller": [
+    790,
+    1000
+   ],
+   "shaft": [
+    267,
+    775
+   ],
+   "rudder": [
+    935,
+    1000
+   ],
+   "strut": [
+    640,
+    936
+   ],
+   "hull_anode": [
+    330,
+    705
+   ],
+   "tab_anode": [
+    1036,
+    662
+   ]
+  },
+  "used_in": [
+   "006"
+  ]
+ },
+ "ep006-battery": {
+  "desc": "Blueprint grid: seawater tank with bronze plate (left) and pitted dissolving zinc plate (right) joined by glowing wire with lightning icon; galvanic cell",
+  "source": "Illustration (engine/diagram.py, episodes/art/006_diagrams.py)",
+  "points": {
+   "strong": [
+    300,
+    1020
+   ],
+   "weak": [
+    780,
+    1020
+   ],
+   "ions": [
+    640,
+    1120
+   ],
+   "wire": [
+    540,
+    680
+   ]
+  },
+  "used_in": [
+   "006"
+  ]
+ },
+ "ep006-wear": {
+  "desc": "Deep-teal panel with three shaft anode collars: new (tick), half gone (gold circle), painted navy (coral X)",
+  "source": "Illustration (engine/diagram.py, episodes/art/006_diagrams.py)",
+  "points": {
+   "new": [
+    220,
+    960
+   ],
+   "half": [
+    540,
+    960
+   ],
+   "painted": [
+    860,
+    960
+   ]
+  },
+  "used_in": [
+   "006"
+  ]
+ },
+ "ep006-cta": {
+  "desc": "Blurred, darkened ep006 hook stern - calm background for CTA",
+  "source": "Illustration (engine/diagram.py, episodes/art/006_diagrams.py)",
+  "points": {},
+  "used_in": [
+   "006"
   ]
  }
 }

@@ -1,0 +1,549 @@
+{
+ "topic": "Zinc anodes: why they disappear and why that's a good thing",
+ "voice": "am_michael",
+ "speed": 1.15,
+ "scenes": [
+  {
+   "type": "hook",
+   "shots": [
+    {
+     "photo": "ep006-hook",
+     "cam": [
+      [
+       560,
+       900,
+       1.25
+      ],
+      [
+       540,
+       900,
+       1.08
+      ]
+     ]
+    }
+   ],
+   "lines": [
+    "WHY IS IT",
+    "DISAPPEARING?"
+   ],
+   "phrases": [
+    "Why does this metal block under your boat keep disappearing?",
+    "It's called a sacrificial anode, and it's eaten away on purpose.",
+    "Here's how it saves your boat."
+   ],
+   "subtitle": {
+    "text": "The sacrificial anode, a.k.a. the zinc",
+    "phrase": 1
+   },
+   "badges": {
+    "letters": [
+     "1",
+     "2",
+     "3"
+    ],
+    "colors": [
+     "gold",
+     "turq",
+     "coral"
+    ],
+    "phrase": 2
+   }
+  },
+  {
+   "type": "section",
+   "letter": "1",
+   "tag": "STEP 1",
+   "title": "METAL + SEAWATER = BATTERY",
+   "color": "gold",
+   "phrases": [
+    "Put two different metals in salt water, and you've made a battery.",
+    "A tiny current flows, and the weaker metal slowly dissolves.",
+    "That's called galvanic corrosion.",
+    "And under your boat, it goes after the propeller, the shaft, and the metal fittings."
+   ],
+   "shots": [
+    {
+     "photo": "ep006-battery",
+     "cam": [
+      [
+       540,
+       920,
+       1.0
+      ],
+      [
+       540,
+       920,
+       1.06
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        300,
+        1150
+       ],
+       "text": "STRONGER METAL",
+       "off": [
+        40,
+        90
+       ],
+       "phrase": 0,
+       "delay": 1.6
+      },
+      {
+       "pt": [
+        780,
+        1150
+       ],
+       "text": "WEAKER METAL",
+       "off": [
+        -40,
+        90
+       ],
+       "phrase": 0,
+       "delay": 2.2
+      },
+      {
+       "pt": [
+        640,
+        1150
+       ],
+       "text": "DISSOLVES",
+       "off": [
+        -200,
+        -150
+       ],
+       "phrase": 1,
+       "delay": 1.6
+      }
+     ],
+     "pills": [
+      {
+       "text": "TINY ELECTRIC CURRENT",
+       "color": "turq",
+       "pos": [
+        540,
+        590
+       ],
+       "delay": 3.6
+      }
+     ]
+    },
+    {
+     "photo": "shaft",
+     "phrase": 3,
+     "cam": [
+      [
+       540,
+       1060,
+       1.1
+      ],
+      [
+       500,
+       1100,
+       1.2
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        380,
+        1272
+       ],
+       "text": "PROPELLER",
+       "off": [
+        140,
+        -330
+       ],
+       "phrase": 3,
+       "delay": 1.0
+      },
+      {
+       "pt": [
+        150,
+        1195
+       ],
+       "text": "SHAFT",
+       "off": [
+        80,
+        -260
+       ],
+       "phrase": 3,
+       "delay": 1.6
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "GALVANIC CORROSION",
+    "items": [
+     {
+      "phrase": 0,
+      "delay": 1.0,
+      "ok": true,
+      "text": "Two metals + salt water = battery"
+     },
+     {
+      "phrase": 1,
+      "delay": 1.2,
+      "ok": false,
+      "text": "The weaker metal dissolves"
+     },
+     {
+      "phrase": 3,
+      "delay": 1.4,
+      "ok": false,
+      "text": "Targets props, shafts & fittings"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "2",
+   "tag": "STEP 2",
+   "title": "THE BODYGUARD",
+   "color": "turq",
+   "phrases": [
+    "So we add an even weaker metal on purpose: zinc, or aluminium.",
+    "It's bolted to the shaft, the hull, the trim tabs, and often inside the engine's cooling system.",
+    "It gets eaten first, so your expensive parts don't."
+   ],
+   "shots": [
+    {
+     "photo": "ep006-guard",
+     "cam": [
+      [
+       560,
+       880,
+       1.22
+      ],
+      [
+       540,
+       900,
+       1.12
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        455,
+        856
+       ],
+       "text": "SHAFT ANODE",
+       "off": [
+        -60,
+        260
+       ],
+       "phrase": 1,
+       "delay": 0.6
+      },
+      {
+       "pt": [
+        330,
+        705
+       ],
+       "text": "HULL ANODE",
+       "off": [
+        -80,
+        170
+       ],
+       "phrase": 1,
+       "delay": 1.5
+      },
+      {
+       "pt": [
+        1036,
+        662
+       ],
+       "text": "TRIM TAB",
+       "off": [
+        -180,
+        -140
+       ],
+       "phrase": 1,
+       "delay": 2.2
+      }
+     ],
+     "pills": [
+      {
+       "text": "ZINC OR ALUMINIUM",
+       "color": "turq",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 1.2
+      }
+     ]
+    },
+    {
+     "photo": "engine",
+     "phrase": 1,
+     "offset": 3.2,
+     "cam": [
+      [
+       800,
+       1100,
+       1.15
+      ],
+      [
+       780,
+       1080,
+       1.25
+      ]
+     ],
+     "pills": [
+      {
+       "text": "ALSO INSIDE MANY ENGINES",
+       "color": "gold",
+       "pos": [
+        540,
+        650
+       ],
+       "delay": 0.2
+      }
+     ]
+    },
+    {
+     "photo": "ep006-guard",
+     "phrase": 2,
+     "cam": [
+      [
+       790,
+       1000,
+       1.35
+      ],
+      [
+       740,
+       960,
+       1.2
+      ]
+     ],
+     "pills": [
+      {
+       "text": "THE ANODE IS EATEN FIRST",
+       "color": "turq",
+       "pos": [
+        540,
+        650
+       ],
+       "delay": 0.2
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "THE SACRIFICIAL ANODE",
+    "items": [
+     {
+      "phrase": 0,
+      "delay": 2.0,
+      "ok": true,
+      "text": "Made of a weaker metal on purpose"
+     },
+     {
+      "phrase": 1,
+      "delay": 1.0,
+      "ok": true,
+      "text": "Shaft, hull, trim tabs, engine"
+     },
+     {
+      "phrase": 2,
+      "delay": 0.6,
+      "ok": true,
+      "text": "Protects props, shafts & fittings"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "3",
+   "tag": "STEP 3",
+   "title": "WHEN TO CHANGE IT",
+   "color": "coral",
+   "phrases": [
+    "Replace it when about half of it is gone.",
+    "Never paint it, or it stops working.",
+    "Wearing out very fast? You may have an electrical leak.",
+    "Not wearing at all? Check its connection."
+   ],
+   "shots": [
+    {
+     "photo": "ep006-wear",
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       960,
+       1.05
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        220,
+        930
+       ],
+       "text": "NEW",
+       "off": [
+        0,
+        -230
+       ],
+       "phrase": 0,
+       "delay": 0.0
+      },
+      {
+       "pt": [
+        540,
+        830
+       ],
+       "text": "HALF GONE: REPLACE",
+       "off": [
+        0,
+        -140
+       ],
+       "phrase": 0,
+       "delay": 0.8
+      },
+      {
+       "pt": [
+        860,
+        1000
+       ],
+       "text": "PAINTED",
+       "off": [
+        0,
+        200
+       ],
+       "phrase": 1,
+       "delay": 0.2
+      }
+     ]
+    },
+    {
+     "photo": "ep006-leak",
+     "phrase": 2,
+     "cam": [
+      [
+       560,
+       880,
+       1.22
+      ],
+      [
+       540,
+       880,
+       1.12
+      ]
+     ],
+     "pills": [
+      {
+       "text": "TOO FAST = STRAY CURRENT?",
+       "color": "coral",
+       "pos": [
+        540,
+        650
+       ],
+       "delay": 0.2
+      }
+     ],
+     "labels": [
+      {
+       "pt": [
+        455,
+        856
+       ],
+       "text": "EATEN FAST",
+       "off": [
+        -40,
+        250
+       ],
+       "phrase": 2,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "ANODE CHECK",
+    "y": 1330,
+    "items": [
+     {
+      "phrase": 0,
+      "delay": 1.2,
+      "ok": true,
+      "text": "Replace at about half gone"
+     },
+     {
+      "phrase": 1,
+      "delay": 0.2,
+      "ok": false,
+      "text": "Never paint it"
+     },
+     {
+      "phrase": 2,
+      "delay": 0.6,
+      "ok": false,
+      "text": "Too fast: check for electrical leaks"
+     },
+     {
+      "phrase": 3,
+      "delay": 0.4,
+      "ok": false,
+      "text": "Not wearing: check the connection"
+     }
+    ]
+   }
+  },
+  {
+   "type": "cta",
+   "photo": "ep006-cta",
+   "phrases": [
+    "A new anode is cheap. A new propeller is not.",
+    "When did you last check yours?",
+    "Comment your answer."
+   ],
+   "top": "CHEAP ANODE, PRICEY PROPELLER",
+   "question": [
+    "WHEN DID YOU",
+    "LAST CHECK?"
+   ],
+   "question_phrase": 1,
+   "options": [
+    {
+     "letter": "1",
+     "label": "THIS MONTH",
+     "color": "gold"
+    },
+    {
+     "letter": "2",
+     "label": "THIS YEAR",
+     "color": "turq"
+    },
+    {
+     "letter": "3",
+     "label": "NEVER?",
+     "color": "coral"
+    }
+   ],
+   "comment": "COMMENT YOUR ANSWER"
+  },
+  {
+   "type": "end",
+   "phrases": [
+    "Creative Tracks Marine.",
+    "Follow us for a new boat breakdown, every two days."
+   ]
+  }
+ ],
+ "title": "Why the metal block under your boat disappears (sacrificial anodes)",
+ "cover_text": "WHY IS IT DISAPPEARING?",
+ "caption_en": "Why does this metal block under your boat keep disappearing? ⚡ Two different metals in salt water make a tiny battery, and the weaker metal dissolves (galvanic corrosion). A sacrificial anode (zinc or aluminium in salt water; magnesium is for fresh water) is made to be eaten first, so your propeller, shaft and fittings aren't. Replace it at about half gone, never paint it, and if it wears very fast (or not at all), get your boat checked. When did you last check yours? 👇",
+ "caption_ar": "لماذا تختفي هذه القطعة المعدنية تحت قاربك؟ ⚡ معدنان مختلفان في ماء البحر يصنعان بطارية صغيرة، فيذوب المعدن الأضعف (التآكل الجلفاني). الأنود التضحوي (من الزنك أو الألمنيوم في المياه المالحة) يُصنع ليتآكل أولاً، فيحمي المروحة وعمود الإدارة والتجهيزات المعدنية. استبدله عندما يتآكل نصفه تقريباً، ولا تطلِه بالدهان أبداً، وإذا تآكل بسرعة كبيرة أو لم يتآكل إطلاقاً فافحص قاربك. متى فحصت الأنودات آخر مرة؟ 👇",
+ "hashtags": "#yachtlife #boatlife #marineengineering #boatmaintenance #anodes #corrosion #redsea #jeddah #creativetracksmarine #يخوت #قوارب #صيانة_القوارب #جدة #البحر_الأحمر"
+}
