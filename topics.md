@@ -12,11 +12,11 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [x] 004 — Why diesel fuel goes bad in Red Sea heat: water, the diesel bug & fuel polishing (Red Sea / fuel, explainer) — 2026-09-30
 - [x] 005 — Planing hull vs displacement hull (hull & design, A-vs-B) — 2026-10-02
 - [x] 006 — Zinc anodes: why they disappear and why that's a good thing (maintenance, explainer) — 2026-10-04
+- [x] 007 — Lithium vs AGM batteries on a yacht (electrical, A-vs-B) — 2026-10-06
 
 ## Next up (take the first unchecked one unless the owner asked for something else)
 <!-- note (004): the impeller-signs topic below was skipped for now because ep 002 already covered the impeller; give it a few episodes of distance. -->
 - [ ] 5 signs your raw-water impeller is about to fail (maintenance, signs)
-- [ ] Lithium vs AGM batteries on a yacht (electrical, A-vs-B)
 - [ ] Outboards vs inboards (propulsion, A-vs-B)
 - [ ] What a 100-hour engine service actually includes (maintenance, checklist)
 - [ ] Marine air-conditioning in Saudi summer: why it struggles and how to help it (comfort / Red Sea, explainer)
@@ -50,3 +50,5 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] Why props cavitate — and what that rumble is doing to your propeller (propulsion, explainer)
 - [ ] Shore-power galvanic isolators: why your neighbour's boat can eat your anodes (electrical, explainer)
 - [ ] Propeller types: 3-blade vs 4-blade, bronze vs stainless (propulsion, A-vs-B)
+- [ ] Battery switches & the 'house vs start' bank: why your engine still starts after a night at anchor (electrical, explainer)
+- [ ] Solar panels on a yacht: what they can (and can't) run in Red Sea sun (electrical / Red Sea, explainer)

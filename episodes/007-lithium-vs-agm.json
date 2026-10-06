@@ -1,0 +1,526 @@
+{
+ "topic": "Lithium vs AGM batteries on a yacht",
+ "voice": "am_michael",
+ "speed": 1.15,
+ "scenes": [
+  {
+   "type": "hook",
+   "shots": [
+    {
+     "photo": "ep007-hook",
+     "cam": [
+      [
+       540,
+       940,
+       1.22
+      ],
+      [
+       540,
+       960,
+       1.04
+      ]
+     ]
+    }
+   ],
+   "lines": [
+    "AGM OR",
+    "LITHIUM?"
+   ],
+   "phrases": [
+    "Your boat's batteries: heavy, classic A-G-M, or modern lithium?",
+    "Lithium costs a lot more. So is it worth it?",
+    "Let's compare."
+   ],
+   "subtitle": {
+    "text": "The batteries that power your boat",
+    "phrase": 1
+   },
+   "badges": {
+    "letters": [
+     "A",
+     "B"
+    ],
+    "phrase": 2
+   }
+  },
+  {
+   "type": "section",
+   "letter": "A",
+   "tag": "OPTION A",
+   "title": "AGM BATTERY",
+   "color": "gold",
+   "phrases": [
+    "Option A: the A-G-M battery.",
+    "It's sealed lead-acid, with the acid soaked into glass mats, so it can't spill.",
+    "It's affordable, and easy to charge.",
+    "But it's heavy, and to make it last, you should only use about half of its power.",
+    "And heat wears it out faster."
+   ],
+   "shots": [
+    {
+     "photo": "ep007-agm",
+     "cam": [
+      [
+       540,
+       1000,
+       1.0
+      ],
+      [
+       540,
+       1000,
+       1.06
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        372,
+        1030
+       ],
+       "text": "LEAD PLATES",
+       "off": [
+        -40,
+        -400
+       ],
+       "phrase": 1,
+       "delay": 1.0
+      },
+      {
+       "pt": [
+        708,
+        1070
+       ],
+       "text": "GLASS MATS",
+       "off": [
+        40,
+        -440
+       ],
+       "phrase": 1,
+       "delay": 2.0
+      }
+     ],
+     "pills": [
+      {
+       "text": "SEALED: IT CAN'T SPILL",
+       "color": "gold",
+       "pos": [
+        540,
+        1300
+       ],
+       "delay": 5.4
+      }
+     ]
+    },
+    {
+     "photo": "ep007-agm",
+     "phrase": 2,
+     "cam": [
+      [
+       330,
+       800,
+       1.5
+      ],
+      [
+       340,
+       820,
+       1.62
+      ]
+     ],
+     "pills": [
+      {
+       "text": "AFFORDABLE + EASY TO CHARGE",
+       "color": "gold",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.2
+      }
+     ]
+    },
+    {
+     "photo": "ep007-agm-level",
+     "phrase": 3,
+     "cam": [
+      [
+       540,
+       990,
+       1.0
+      ],
+      [
+       540,
+       990,
+       1.05
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        540,
+        860
+       ],
+       "text": "USE ONLY ABOUT HALF",
+       "off": [
+        0,
+        -250
+       ],
+       "phrase": 3,
+       "delay": 2.4
+      },
+      {
+       "pt": [
+        540,
+        1100
+       ],
+       "text": "KEEP IN RESERVE",
+       "off": [
+        0,
+        10
+       ],
+       "phrase": 3,
+       "delay": 3.2
+      }
+     ]
+    },
+    {
+     "photo": "engine",
+     "phrase": 4,
+     "cam": [
+      [
+       400,
+       950,
+       1.1
+      ],
+      [
+       420,
+       960,
+       1.2
+      ]
+     ],
+     "pills": [
+      {
+       "text": "HEAT = SHORTER LIFE",
+       "color": "coral",
+       "pos": [
+        540,
+        650
+       ],
+       "delay": 0.1
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "AGM (SEALED LEAD-ACID)",
+    "items": [
+     {
+      "phrase": 1,
+      "delay": 2.2,
+      "ok": true,
+      "text": "Sealed, spill-proof"
+     },
+     {
+      "phrase": 2,
+      "delay": 0.4,
+      "ok": true,
+      "text": "Affordable, easy to charge"
+     },
+     {
+      "phrase": 3,
+      "delay": 0.6,
+      "ok": false,
+      "text": "Heavy, only ~half usable"
+     },
+     {
+      "phrase": 4,
+      "delay": 0.3,
+      "ok": false,
+      "text": "Heat shortens its life"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "B",
+   "tag": "OPTION B",
+   "title": "LITHIUM (LiFePO4)",
+   "color": "turq",
+   "phrases": [
+    "Option B: lithium, usually the safe L-F-P type.",
+    "It's about half the weight, and you can use most of its power.",
+    "It charges faster, and lasts many times more cycles.",
+    "But it costs much more up front, and needs the right chargers, a management system, and alternator protection."
+   ],
+   "shots": [
+    {
+     "photo": "ep007-lfp",
+     "cam": [
+      [
+       540,
+       1000,
+       1.0
+      ],
+      [
+       540,
+       1000,
+       1.06
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        380,
+        1150
+       ],
+       "text": "LITHIUM CELLS",
+       "off": [
+        -40,
+        -520
+       ],
+       "phrase": 0,
+       "delay": 1.0
+      },
+      {
+       "pt": [
+        540,
+        900
+       ],
+       "text": "BMS: THE BRAIN",
+       "off": [
+        200,
+        -280
+       ],
+       "phrase": 0,
+       "delay": 1.8
+      }
+     ]
+    },
+    {
+     "photo": "ep007-scale",
+     "phrase": 1,
+     "cam": [
+      [
+       540,
+       980,
+       1.0
+      ],
+      [
+       540,
+       980,
+       1.05
+      ]
+     ],
+     "pills": [
+      {
+       "text": "ABOUT HALF THE WEIGHT",
+       "color": "turq",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.2
+      }
+     ]
+    },
+    {
+     "photo": "ep007-lfp-level",
+     "phrase": 1,
+     "offset": 1.7,
+     "cam": [
+      [
+       540,
+       990,
+       1.0
+      ],
+      [
+       540,
+       990,
+       1.05
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        540,
+        900
+       ],
+       "text": "MOST OF IT USABLE",
+       "off": [
+        0,
+        -280
+       ],
+       "phrase": 1,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "photo": "ep007-lfp",
+     "phrase": 2,
+     "cam": [
+      [
+       540,
+       1080,
+       1.3
+      ],
+      [
+       540,
+       1060,
+       1.42
+      ]
+     ],
+     "pills": [
+      {
+       "text": "FASTER CHARGING, MORE CYCLES",
+       "color": "turq",
+       "pos": [
+        540,
+        650
+       ],
+       "delay": 0.2
+      }
+     ]
+    },
+    {
+     "photo": "ep007-charge",
+     "phrase": 3,
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       960,
+       1.04
+      ]
+     ],
+     "pills": [
+      {
+       "text": "NEEDS THE RIGHT SETUP",
+       "color": "coral",
+       "pos": [
+        540,
+        620
+       ],
+       "delay": 0.3
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "LITHIUM (LFP)",
+    "items": [
+     {
+      "phrase": 1,
+      "delay": 0.3,
+      "ok": true,
+      "text": "About half the weight"
+     },
+     {
+      "phrase": 1,
+      "delay": 1.8,
+      "ok": true,
+      "text": "Most of its power usable"
+     },
+     {
+      "phrase": 2,
+      "delay": 0.4,
+      "ok": true,
+      "text": "Faster charging, longer life"
+     },
+     {
+      "phrase": 3,
+      "delay": 0.8,
+      "ok": false,
+      "text": "Pricey + needs a proper setup"
+     }
+    ]
+   }
+  },
+  {
+   "type": "table",
+   "title": "HEAD TO HEAD",
+   "photo": "hero",
+   "phrases": [
+    "So, head to head.",
+    "A-G-M wins on price, and simplicity.",
+    "Lithium wins on weight, usable power, and lifespan."
+   ],
+   "rows": [
+    {
+     "text": "Upfront price",
+     "win": "A",
+     "phrase": 1,
+     "delay": 0.0
+    },
+    {
+     "text": "Simplicity",
+     "win": "A",
+     "phrase": 1,
+     "delay": 1.0
+    },
+    {
+     "text": "Weight",
+     "win": "B",
+     "phrase": 2,
+     "delay": 0.0
+    },
+    {
+     "text": "Usable power",
+     "win": "B",
+     "phrase": 2,
+     "delay": 0.7
+    },
+    {
+     "text": "Lifespan",
+     "win": "B",
+     "phrase": 2,
+     "delay": 1.6
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "photo": "ep007-cta",
+   "phrases": [
+    "Cheaper today, or better for years?",
+    "Which would you fit?",
+    "Comment A, or B."
+   ],
+   "top": "CHEAPER TODAY OR BETTER FOR YEARS?",
+   "question": [
+    "WHICH WOULD",
+    "YOU FIT?"
+   ],
+   "question_phrase": 1,
+   "options": [
+    {
+     "letter": "A",
+     "label": "AGM",
+     "color": "gold"
+    },
+    {
+     "letter": "B",
+     "label": "LITHIUM",
+     "color": "turq"
+    }
+   ],
+   "comment": "COMMENT  A  OR  B"
+  },
+  {
+   "type": "end",
+   "phrases": [
+    "Creative Tracks Marine.",
+    "Follow us for a new boat breakdown, every two days."
+   ]
+  }
+ ],
+ "title": "Lithium vs AGM batteries on a yacht: which is worth it?",
+ "cover_text": "AGM OR LITHIUM?",
+ "caption_en": "AGM or lithium for your boat? 🔋 AGM is sealed lead-acid: affordable, spill-proof and easy to charge, but heavy, and to make it last you should only use about half its capacity. Heat (like a hot engine room) shortens its life. Lithium (usually LiFePO4, the safer lithium iron phosphate type) is about half the weight, lets you use most of its capacity, charges faster and lasts many more cycles, but costs much more up front and needs a proper setup: a battery management system (BMS), lithium-compatible chargers and alternator protection. Which would you fit? Comment A or B 👇",
+ "caption_ar": "بطاريات AGM أم الليثيوم لقاربك؟ 🔋 بطارية AGM هي بطارية رصاص حمضية مغلقة: سعرها مناسب، لا يتسرّب منها الحمض، وسهلة الشحن، لكنها ثقيلة، وللحفاظ على عمرها يُنصح باستخدام نحو نصف سعتها فقط، كما أن الحرارة (مثل حرارة غرفة المحرك) تقصّر عمرها. أما الليثيوم (غالباً من نوع LiFePO4 فوسفات حديد الليثيوم الأكثر أماناً) فوزنه نحو النصف، وتستطيع استخدام معظم سعته، ويُشحن أسرع ويعيش دورات شحن أكثر بكثير، لكنه أغلى بكثير في البداية ويحتاج إلى تجهيز صحيح: نظام إدارة البطارية (BMS) وشواحن متوافقة مع الليثيوم وحماية للدينمو. أيهما تختار؟ اكتب A أو B في التعليقات 👇",
+ "hashtags": "#yachtlife #boatlife #marineengineering #lithiumbattery #LiFePO4 #AGM #boatelectrics #redsea #jeddah #creativetracksmarine #يخوت #قوارب #بطاريات_ليثيوم #جدة #البحر_الأحمر"
+}

@@ -11,7 +11,8 @@
   },
   "used_in": [
    "001",
-   "003"
+   "003",
+   "007"
   ]
  },
  "shaft": {
@@ -115,7 +116,8 @@
   "used_in": [
    "001",
    "002",
-   "006"
+   "006",
+   "007"
   ]
  },
  "ep002-cutaway": {
@@ -758,6 +760,173 @@
   "points": {},
   "used_in": [
    "006"
+  ]
+ },
+ "ep007-hook": {
+  "desc": "Night at anchor: indigo starry sky, crescent moon, yacht with warm cabin lights, glowing cut-away compartment with a black AGM and a white LFP battery, light reflections on water",
+  "source": "Illustration (engine/diagram.py, episodes/art/007_diagrams.py)",
+  "points": {
+   "agm": [
+    450,
+    1140
+   ],
+   "lithium": [
+    690,
+    1140
+   ],
+   "yacht": [
+    540,
+    880
+   ]
+  },
+  "used_in": [
+   "007"
+  ]
+ },
+ "ep007-agm": {
+  "desc": "Violet studio: big cut-away black AGM battery, grey lead plates alternating with white glass mats, gold glow, +/- terminals",
+  "source": "Illustration (engine/diagram.py, episodes/art/007_diagrams.py)",
+  "points": {
+   "plates": [
+    372,
+    1030
+   ],
+   "mats": [
+    708,
+    1070
+   ],
+   "case": [
+    898,
+    1130
+   ],
+   "terminal": [
+    318,
+    736
+   ]
+  },
+  "used_in": [
+   "007"
+  ]
+ },
+ "ep007-agm-level": {
+  "desc": "Violet studio: AGM battery gauge, top half gold (usable), bottom half hatched coral (keep in reserve), white line at 50%",
+  "source": "Illustration (engine/diagram.py, episodes/art/007_diagrams.py)",
+  "points": {
+   "top": [
+    540,
+    844
+   ],
+   "half": [
+    540,
+    1015
+   ],
+   "bottom": [
+    540,
+    1166
+   ]
+  },
+  "used_in": [
+   "007"
+  ]
+ },
+ "ep007-lfp": {
+  "desc": "Violet studio: cut-away white lithium (LiFePO4) battery, green BMS board on top, four blue 3.2V prismatic cells, turquoise glow",
+  "source": "Illustration (engine/diagram.py, episodes/art/007_diagrams.py)",
+  "points": {
+   "bms": [
+    540,
+    900
+   ],
+   "cells": [
+    457,
+    1151
+   ],
+   "case": [
+    898,
+    1130
+   ],
+   "terminal": [
+    762,
+    736
+   ]
+  },
+  "used_in": [
+   "007"
+  ]
+ },
+ "ep007-lfp-level": {
+  "desc": "Violet studio: lithium battery gauge ~92% turquoise usable, thin reserve band at bottom",
+  "source": "Illustration (engine/diagram.py, episodes/art/007_diagrams.py)",
+  "points": {
+   "top": [
+    540,
+    877
+   ],
+   "bottom": [
+    540,
+    1166
+   ]
+  },
+  "used_in": [
+   "007"
+  ]
+ },
+ "ep007-scale": {
+  "desc": "Violet studio: gold balance scale, heavy AGM pan down (coral arrow) vs light LFP pan up (turquoise arrow)",
+  "source": "Illustration (engine/diagram.py, episodes/art/007_diagrams.py)",
+  "points": {
+   "agm": [
+    168,
+    969
+   ],
+   "lithium": [
+    911,
+    828
+   ],
+   "pivot": [
+    540,
+    760
+   ]
+  },
+  "used_in": [
+   "007"
+  ]
+ },
+ "ep007-charge": {
+  "desc": "Violet studio wiring diagram: ALTERNATOR -> PROTECTION -> LFP battery with BMS, LITHIUM CHARGER feeding battery, glowing wires",
+  "source": "Illustration (engine/diagram.py, episodes/art/007_diagrams.py)",
+  "points": {
+   "alternator": [
+    250,
+    760
+   ],
+   "protection": [
+    800,
+    760
+   ],
+   "charger": [
+    250,
+    1160
+   ],
+   "battery": [
+    770,
+    1120
+   ],
+   "bms": [
+    770,
+    1191
+   ]
+  },
+  "used_in": [
+   "007"
+  ]
+ },
+ "ep007-cta": {
+  "desc": "Blurred, darkened ep007 night-anchor hook - calm background for CTA",
+  "source": "Illustration (engine/diagram.py, episodes/art/007_diagrams.py)",
+  "points": {},
+  "used_in": [
+   "007"
   ]
  }
 }
