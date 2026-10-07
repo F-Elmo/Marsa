@@ -928,5 +928,159 @@
   "used_in": [
    "007"
   ]
+ },
+ "ep008-hook": {
+  "desc": "Thermal-camera (iron palette) view of a motor yacht at anchor: hot sun and hot sea glow orange/yellow, air-conditioned cabin windows glow cool purple, HUD crosshairs 'SEA 31°C' and 'CABIN 22°C'",
+  "source": "Illustration (engine/diagram.py, episodes/art/008_diagrams.py)",
+  "points": {
+   "sea": [
+    470,
+    1200
+   ],
+   "cabin": [
+    470,
+    930
+   ],
+   "hull": [
+    760,
+    990
+   ]
+  },
+  "used_in": [
+   "008"
+  ]
+ },
+ "ep008-loop": {
+  "desc": "Noon daylight yacht with white cut-away showing marine AC seawater loop: thru-hull intake, strainer, pump, AC unit with cold air rising, red warm discharge out of the topsides into the sea",
+  "source": "Illustration (engine/diagram.py, episodes/art/008_diagrams.py)",
+  "points": {
+   "intake": [
+    230,
+    1122
+   ],
+   "strainer": [
+    230,
+    1010
+   ],
+   "pump": [
+    380,
+    1050
+   ],
+   "ac_unit": [
+    690,
+    1030
+   ],
+   "discharge": [
+    940,
+    990
+   ],
+   "cold_air": [
+    690,
+    935
+   ]
+  },
+  "used_in": [
+   "008"
+  ]
+ },
+ "ep008-coil": {
+  "desc": "Close-up of an AC condenser: copper refrigerant coil inside a turquoise seawater jacket, orange heat squiggles, water in (turq arrow left) / out (coral arrow right), light background",
+  "source": "Illustration (engine/diagram.py, episodes/art/008_diagrams.py)",
+  "points": {
+   "coil": [
+    470,
+    970
+   ],
+   "water_in": [
+    120,
+    970
+   ],
+   "water_out": [
+    960,
+    970
+   ],
+   "jacket": [
+    540,
+    1160
+   ]
+  },
+  "used_in": [
+   "008"
+  ]
+ },
+ "ep008-seas": {
+  "desc": "Thermal split screen: left cool purple sea 22°C with long heat arrows leaving the coil, right hot orange sea 31°C with short arrows",
+  "source": "Illustration (engine/diagram.py, episodes/art/008_diagrams.py)",
+  "points": {
+   "cool_coil": [
+    270,
+    960
+   ],
+   "hot_coil": [
+    810,
+    960
+   ],
+   "cool_sea": [
+    270,
+    1235
+   ],
+   "hot_sea": [
+    810,
+    1235
+   ]
+  },
+  "used_in": [
+   "008"
+  ]
+ },
+ "ep008-strainer": {
+  "desc": "Top view of a sea strainer basket clogged with green weed and shells, on a light background",
+  "source": "Illustration (engine/diagram.py, episodes/art/008_diagrams.py)",
+  "points": {
+   "weed": [
+    470,
+    930
+   ],
+   "shells": [
+    640,
+    1060
+   ],
+   "basket": [
+    860,
+    1100
+   ]
+  },
+  "used_in": [
+   "008"
+  ]
+ },
+ "ep008-help": {
+  "desc": "Noon daylight yacht with cream blinds closed over the saloon windows and a strong AC discharge stream from the topsides",
+  "source": "Illustration (engine/diagram.py, episodes/art/008_diagrams.py)",
+  "points": {
+   "blinds": [
+    310,
+    980
+   ],
+   "stream": [
+    945,
+    1075
+   ],
+   "saloon": [
+    600,
+    980
+   ]
+  },
+  "used_in": [
+   "008"
+  ]
+ },
+ "ep008-cta": {
+  "desc": "Blurred, darkened ep008-hook thermal yacht (CTA background)",
+  "source": "Illustration (engine/diagram.py, episodes/art/008_diagrams.py)",
+  "points": {},
+  "used_in": [
+   "008"
+  ]
  }
 }

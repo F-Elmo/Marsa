@@ -13,13 +13,14 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [x] 005 — Planing hull vs displacement hull (hull & design, A-vs-B) — 2026-10-02
 - [x] 006 — Zinc anodes: why they disappear and why that's a good thing (maintenance, explainer) — 2026-10-04
 - [x] 007 — Lithium vs AGM batteries on a yacht (electrical, A-vs-B) — 2026-10-06
+- [x] 008 — Marine air-conditioning in Saudi summer: why it struggles and how to help it (comfort / Red Sea, explainer) — 2026-10-07
 
 ## Next up (take the first unchecked one unless the owner asked for something else)
 <!-- note (004): the impeller-signs topic below was skipped for now because ep 002 already covered the impeller; give it a few episodes of distance. -->
+<!-- note (008): skipped the impeller-signs topic again (ep 002 showed worn impellers) and the 100-hour-service checklist (would re-cover impeller/anodes); took the AC topic to keep subjects fresh. Impeller signs is fine from ~ep 010 on. -->
 - [ ] 5 signs your raw-water impeller is about to fail (maintenance, signs)
 - [ ] Outboards vs inboards (propulsion, A-vs-B)
 - [ ] What a 100-hour engine service actually includes (maintenance, checklist)
-- [ ] Marine air-conditioning in Saudi summer: why it struggles and how to help it (comfort / Red Sea, explainer)
 - [ ] Single engine vs twin engines (propulsion, A-vs-B)
 - [ ] Pre-departure checklist before a Red Sea day trip (safety, checklist)
 - [ ] Antifouling: hard vs ablative paint (hull care, A-vs-B)
@@ -52,3 +53,5 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] Propeller types: 3-blade vs 4-blade, bronze vs stainless (propulsion, A-vs-B)
 - [ ] Battery switches & the 'house vs start' bank: why your engine still starts after a night at anchor (electrical, explainer)
 - [ ] Solar panels on a yacht: what they can (and can't) run in Red Sea sun (electrical / Red Sea, explainer)
+- [ ] Cabin condensation & mould in humid Gulf weather: why it happens and how dehumidifying helps (comfort, explainer)
+- [ ] Chilled-water vs direct-expansion yacht air-conditioning (comfort systems, A-vs-B)

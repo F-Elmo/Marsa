@@ -1,0 +1,559 @@
+{
+ "topic": "Marine air-conditioning in Saudi summer: why it struggles and how to help it",
+ "voice": "am_michael",
+ "speed": 1.15,
+ "scenes": [
+  {
+   "type": "hook",
+   "shots": [
+    {
+     "photo": "ep008-hook",
+     "cam": [
+      [
+       540,
+       1000,
+       1.2
+      ],
+      [
+       520,
+       980,
+       1.05
+      ]
+     ]
+    }
+   ],
+   "lines": [
+    "WHY IS YOUR",
+    "BOAT AC STRUGGLING?"
+   ],
+   "phrases": [
+    "Why does your boat's air conditioning struggle in a Jeddah summer?",
+    "It's not just the hot air. It's the hot sea.",
+    "Here's how it works, and how to help it."
+   ],
+   "subtitle": {
+    "text": "Marine AC in Red Sea heat",
+    "phrase": 1
+   }
+  },
+  {
+   "type": "section",
+   "letter": "1",
+   "tag": "HOW IT WORKS",
+   "title": "IT COOLS WITH SEAWATER",
+   "color": "turq",
+   "phrases": [
+    "At home, your AC dumps heat into the outside air.",
+    "On most boats, it dumps that heat into the sea.",
+    "A pump pulls seawater through a strainer,",
+    "into a coil called the condenser,",
+    "and then back overboard, carrying the heat away."
+   ],
+   "shots": [
+    {
+     "photo": "ep008-loop",
+     "cam": [
+      [
+       540,
+       1010,
+       1.25
+      ],
+      [
+       540,
+       1010,
+       1.12
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        690,
+        935
+       ],
+       "text": "COLD AIR",
+       "off": [
+        -120,
+        -230
+       ],
+       "phrase": 0,
+       "delay": 1.6
+      },
+      {
+       "pt": [
+        380,
+        1050
+       ],
+       "text": "PUMP",
+       "off": [
+        40,
+        -260
+       ],
+       "phrase": 2,
+       "delay": 0.2
+      },
+      {
+       "pt": [
+        230,
+        1010
+       ],
+       "text": "STRAINER",
+       "off": [
+        0,
+        200
+       ],
+       "phrase": 2,
+       "delay": 0.9
+      }
+     ],
+     "pills": [
+      {
+       "text": "HEAT GOES INTO THE SEA",
+       "color": "turq",
+       "pos": [
+        540,
+        1270
+       ],
+       "delay": 3.4
+      }
+     ]
+    },
+    {
+     "photo": "ep008-coil",
+     "phrase": 3,
+     "cam": [
+      [
+       540,
+       970,
+       1.05
+      ],
+      [
+       540,
+       970,
+       1.15
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        470,
+        1000
+       ],
+       "text": "CONDENSER",
+       "off": [
+        0,
+        -300
+       ],
+       "phrase": 3,
+       "delay": 0.3
+      },
+      {
+       "pt": [
+        960,
+        970
+       ],
+       "text": "HOT WATER OUT",
+       "off": [
+        -150,
+        240
+       ],
+       "phrase": 4,
+       "delay": 0.6
+      }
+     ]
+    },
+    {
+     "photo": "ep008-loop",
+     "phrase": 4,
+     "offset": 1.2,
+     "cam": [
+      [
+       700,
+       1000,
+       1.4
+      ],
+      [
+       720,
+       1000,
+       1.5
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        935,
+        995
+       ],
+       "text": "OVERBOARD",
+       "off": [
+        -200,
+        200
+       ],
+       "phrase": 4,
+       "delay": 1.6
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "THE SEAWATER LOOP",
+    "items": [
+     {
+      "phrase": 1,
+      "delay": 0.6,
+      "ok": true,
+      "text": "Heat goes into the sea, not the air"
+     },
+     {
+      "phrase": 2,
+      "delay": 0.6,
+      "ok": true,
+      "text": "Pump + strainer bring seawater in"
+     },
+     {
+      "phrase": 4,
+      "delay": 0.6,
+      "ok": true,
+      "text": "Warm water goes back overboard"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "2",
+   "tag": "THE PROBLEM",
+   "title": "A HOT SEA",
+   "color": "coral",
+   "phrases": [
+    "The cooler the sea, the easier that job.",
+    "But in a Jeddah summer, the Red Sea is often over thirty degrees.",
+    "So the water soaks up less heat, and the system works much harder.",
+    "Some loss is normal, even on a healthy unit."
+   ],
+   "shots": [
+    {
+     "photo": "ep008-seas",
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       960,
+       1.06
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        270,
+        880
+       ],
+       "text": "EASY JOB",
+       "off": [
+        0,
+        -200
+       ],
+       "phrase": 0,
+       "delay": 0.6
+      },
+      {
+       "pt": [
+        810,
+        880
+       ],
+       "text": "HARD JOB",
+       "off": [
+        0,
+        -200
+       ],
+       "phrase": 1,
+       "delay": 1.8
+      }
+     ],
+     "pills": []
+    },
+    {
+     "photo": "ep008-hook",
+     "phrase": 3,
+     "cam": [
+      [
+       540,
+       1000,
+       1.1
+      ],
+      [
+       540,
+       1000,
+       1.2
+      ]
+     ],
+     "pills": [
+      {
+       "text": "SOME LOSS IS NORMAL",
+       "color": "coral",
+       "pos": [
+        540,
+        650
+       ],
+       "delay": 0.2
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "WHY SUMMER HURTS",
+    "items": [
+     {
+      "phrase": 0,
+      "delay": 0.8,
+      "ok": true,
+      "text": "Cool sea = easy cooling"
+     },
+     {
+      "phrase": 1,
+      "delay": 1.4,
+      "ok": false,
+      "text": "Red Sea summer: often over 30°C"
+     },
+     {
+      "phrase": 2,
+      "delay": 1.0,
+      "ok": false,
+      "text": "Less heat carried away, more work"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "3",
+   "tag": "HOW TO HELP IT",
+   "title": "GIVE IT A HAND",
+   "color": "gold",
+   "phrases": [
+    "So help it. Clean the sea strainer often; weed and shells block the flow.",
+    "Wash the cabin air filters.",
+    "Look for a strong stream of water overboard.",
+    "Close the blinds, and switch it on before your guests arrive.",
+    "And have a technician flush the condenser when growth builds up."
+   ],
+   "shots": [
+    {
+     "photo": "ep008-strainer",
+     "cam": [
+      [
+       540,
+       980,
+       1.15
+      ],
+      [
+       540,
+       980,
+       1.05
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        470,
+        930
+       ],
+       "text": "WEED",
+       "off": [
+        -120,
+        -260
+       ],
+       "phrase": 0,
+       "delay": 2.4
+      },
+      {
+       "pt": [
+        640,
+        1060
+       ],
+       "text": "SHELLS",
+       "off": [
+        140,
+        190
+       ],
+       "phrase": 0,
+       "delay": 3.0
+      }
+     ]
+    },
+    {
+     "photo": "ep008-help",
+     "phrase": 2,
+     "cam": [
+      [
+       700,
+       1050,
+       1.4
+      ],
+      [
+       720,
+       1060,
+       1.5
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        945,
+        1075
+       ],
+       "text": "STRONG STREAM",
+       "off": [
+        -240,
+        -230
+       ],
+       "phrase": 2,
+       "delay": 0.4
+      }
+     ]
+    },
+    {
+     "photo": "ep008-help",
+     "phrase": 3,
+     "cam": [
+      [
+       540,
+       1000,
+       1.1
+      ],
+      [
+       540,
+       1000,
+       1.18
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        310,
+        980
+       ],
+       "text": "BLINDS CLOSED",
+       "off": [
+        0,
+        -260
+       ],
+       "phrase": 3,
+       "delay": 0.3
+      }
+     ]
+    },
+    {
+     "photo": "ep008-coil",
+     "phrase": 4,
+     "cam": [
+      [
+       540,
+       970,
+       1.15
+      ],
+      [
+       540,
+       970,
+       1.05
+      ]
+     ],
+     "pills": [
+      {
+       "text": "FLUSH THE CONDENSER",
+       "color": "gold",
+       "pos": [
+        540,
+        650
+       ],
+       "delay": 0.3
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "AC CHECKLIST",
+    "y": 1280,
+    "items": [
+     {
+      "phrase": 0,
+      "delay": 0.8,
+      "ok": true,
+      "text": "Clean the sea strainer"
+     },
+     {
+      "phrase": 1,
+      "delay": 0.2,
+      "ok": true,
+      "text": "Wash the air filters"
+     },
+     {
+      "phrase": 2,
+      "delay": 0.4,
+      "ok": true,
+      "text": "Check the overboard stream"
+     },
+     {
+      "phrase": 3,
+      "delay": 0.4,
+      "ok": true,
+      "text": "Blinds closed, pre-cool early"
+     },
+     {
+      "phrase": 4,
+      "delay": 0.6,
+      "ok": true,
+      "text": "Flush the condenser"
+     }
+    ]
+   }
+  },
+  {
+   "type": "cta",
+   "photo": "ep008-cta",
+   "phrases": [
+    "So, how does your boat's AC cope in August?",
+    "Comment your answer."
+   ],
+   "top": "HOT SEA, HARD-WORKING AC",
+   "question": [
+    "HOW DOES YOURS",
+    "COPE IN AUGUST?"
+   ],
+   "question_phrase": 0,
+   "options": [
+    {
+     "letter": "1",
+     "label": "ICE COLD",
+     "color": "turq"
+    },
+    {
+     "letter": "2",
+     "label": "JUST ABOUT",
+     "color": "gold"
+    },
+    {
+     "letter": "3",
+     "label": "STRUGGLING",
+     "color": "coral"
+    }
+   ],
+   "comment": "COMMENT YOUR ANSWER"
+  },
+  {
+   "type": "end",
+   "phrases": [
+    "Creative Tracks Marine.",
+    "Follow us for a new boat breakdown, every two days."
+   ]
+  }
+ ],
+ "title": "Why your boat's AC struggles in a Jeddah summer (and how to help it)",
+ "cover_text": "WHY IS YOUR BOAT AC STRUGGLING?",
+ "caption_en": "Why does your boat's AC struggle in a Jeddah summer? 🌡️ Most boat air-conditioners dump cabin heat into the sea: a pump pulls seawater through a strainer, into a coil called the condenser, and back overboard. When the Red Sea is over 30°C, that water carries away less heat, so the system works much harder (some loss is normal, even on a healthy unit). Help it: clean the sea strainer, wash the air filters, check for a strong stream overboard, close the blinds, switch it on before guests arrive, and have the condenser flushed when growth builds up. How does yours cope in August? 👇",
+ "caption_ar": "لماذا يتعب مكيّف قاربك في صيف جدة؟ 🌡️ معظم مكيّفات القوارب تطرد حرارة المقصورة إلى البحر: مضخة تسحب ماء البحر عبر مصفاة، ثم إلى ملف يسمّى المكثّف، ثم تعيده إلى البحر. وعندما تتجاوز حرارة البحر الأحمر ٣٠ درجة، يحمل الماء حرارة أقل، فيعمل النظام بجهد أكبر بكثير (وبعض التراجع طبيعي حتى في وحدة سليمة). ساعده: نظّف مصفاة ماء البحر، واغسل فلاتر الهواء، وتأكد من خروج تيار ماء قوي من جانب القارب، وأغلق الستائر، وشغّله قبل وصول ضيوفك، واطلب من فنّي غسل المكثّف عند تراكم الترسبات. كيف يتحمّل مكيّف قاربك شهر أغسطس؟ 👇",
+ "hashtags": "#yachtlife #boatlife #marineengineering #marineac #boatmaintenance #redsea #jeddah #creativetracksmarine #يخوت #قوارب #تكييف_القوارب #جدة #البحر_الأحمر"
+}
