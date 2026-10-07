@@ -42,7 +42,8 @@
   },
   "used_in": [
    "001",
-   "006"
+   "006",
+   "009"
   ]
  },
  "ips": {
@@ -89,7 +90,8 @@
   },
   "used_in": [
    "001",
-   "005"
+   "005",
+   "009"
   ]
  },
  "engine": {
@@ -1081,6 +1083,160 @@
   "points": {},
   "used_in": [
    "008"
+  ]
+ },
+ "ep009-hook": {
+  "desc": "Paper-cut craft style: centre-console boat with outboard on the transom (top) above a cruiser with cut-away showing inboard engine, shaft, prop and rudder (bottom); peach paper sky, layered turquoise paper sea",
+  "source": "Illustration (engine/diagram.py, episodes/art/009_diagrams.py)",
+  "points": {
+   "outboard": [
+    799,
+    710
+   ],
+   "inboard_engine": [
+    600,
+    1187
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009-outboard": {
+  "desc": "Paper-cut style close side view of centre-console boat stern with outboard motor: cowling, drive leg, propeller underwater",
+  "source": "Illustration (engine/diagram.py, episodes/art/009_diagrams.py)",
+  "points": {
+   "cowling": [
+    700,
+    811
+   ],
+   "leg": [
+    682,
+    1023
+   ],
+   "prop": [
+    632,
+    1156
+   ],
+   "bracket": [
+    656,
+    954
+   ],
+   "cockpit": [
+    452,
+    917
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009-tilt": {
+  "desc": "Paper-cut style: centre-console boat in a shallow sandy bay with its outboard tilted up out of the water",
+  "source": "Illustration (engine/diagram.py, episodes/art/009_diagrams.py)",
+  "points": {
+   "cowling": [
+    600,
+    796
+   ],
+   "leg": [
+    780,
+    850
+   ],
+   "prop": [
+    885,
+    918
+   ],
+   "bracket": [
+    716,
+    860
+   ],
+   "sand": [
+    300,
+    1280
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009-inboard": {
+  "desc": "Paper-cut style motor cruiser with cut-away panel: inboard engine low and central, shaft, strut, bronze prop, rudder, teak swim platform",
+  "source": "Illustration (engine/diagram.py, episodes/art/009_diagrams.py)",
+  "points": {
+   "engine": [
+    580,
+    1084
+   ],
+   "shaft": [
+    725,
+    1131
+   ],
+   "prop": [
+    802,
+    1172
+   ],
+   "platform": [
+    920,
+    1052
+   ],
+   "saloon": [
+    580,
+    880
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009-platform": {
+  "desc": "Paper-cut style close-up of motor cruiser stern with clean teak swim platform and ladder at right edge",
+  "source": "Illustration (engine/diagram.py, episodes/art/009_diagrams.py)",
+  "points": {
+   "platform": [
+    916,
+    1025
+   ],
+   "ladder": [
+    911,
+    1115
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009-engineroom": {
+  "desc": "Paper-cut cross-section of a hull looking forward: big orange inboard engine filling the bilge, pumps/filters squeezed at sides, person reaching in through deck hatch",
+  "source": "Illustration (engine/diagram.py, episodes/art/009_diagrams.py)",
+  "points": {
+   "engine": [
+    540,
+    1000
+   ],
+   "tight_gap": [
+    750,
+    960
+   ],
+   "hatch": [
+    540,
+    702
+   ],
+   "filters": [
+    310,
+    1050
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009-cta": {
+  "desc": "Blurred, darkened ep009-hook for CTA background",
+  "source": "Illustration (engine/diagram.py, episodes/art/009_diagrams.py)",
+  "points": {},
+  "used_in": [
+   "009"
   ]
  }
 }
