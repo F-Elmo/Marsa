@@ -1,23 +1,23 @@
 {
  "topic": "Outboard vs inboard engines",
  "voice": "am_michael",
- "speed": 1.15,
+ "speed": 1.0,
  "scenes": [
   {
    "type": "hook",
    "shots": [
     {
-     "photo": "ep009-hook",
+     "photo": "ep009r-hook",
      "cam": [
       [
        540,
        980,
-       1.18
+       1.14
       ],
       [
        540,
        960,
-       1.02
+       1.0
       ]
      ]
     }
@@ -27,20 +27,13 @@
     "INBOARD?"
    ],
    "phrases": [
-    "Engine hanging on the back, or hidden inside the boat?",
-    "Outboard or inboard: which is better?",
+    "Outboard on the back, or inboard hidden inside?",
+    "Which engine setup is better?",
     "Let's compare."
    ],
    "subtitle": {
     "text": "Where your boat's engine lives",
     "phrase": 1
-   },
-   "badges": {
-    "letters": [
-     "A",
-     "B"
-    ],
-    "phrase": 2
    }
   },
   {
@@ -52,17 +45,17 @@
    "phrases": [
     "Option A: the outboard.",
     "The whole engine bolts onto the back, propeller and all.",
-    "That frees up space inside, and it tilts up for shallow water.",
-    "Servicing, and even swapping an engine, is easy.",
-    "But it lives in the sun and salt, and petrol is thirstier than diesel."
+    "It frees up space, and tilts up for shallow water.",
+    "Servicing, or even swapping it, is easy.",
+    "But it lives in sun and salt, and petrol is thirstier than diesel."
    ],
    "shots": [
     {
-     "photo": "ep009-outboard",
+     "photo": "ep009r-buster",
      "cam": [
       [
        540,
-       960,
+       980,
        1.0
       ],
       [
@@ -74,130 +67,148 @@
      "labels": [
       {
        "pt": [
-        700,
-        811
+        180,
+        1225
        ],
-       "text": "ENGINE ON THE BACK",
+       "text": "OUTBOARD ENGINE",
        "off": [
-        -120,
-        -170
+        180,
+        -330
        ],
-       "phrase": 1,
-       "delay": 0.6
-      },
-      {
-       "pt": [
-        682,
-        1023
-       ],
-       "text": "DRIVE LEG",
-       "off": [
-        -260,
-        0
-       ],
-       "phrase": 1,
-       "delay": 1.6
-      },
-      {
-       "pt": [
-        632,
-        1156
-       ],
-       "text": "PROPELLER",
-       "off": [
-        -240,
-        90
-       ],
-       "phrase": 1,
-       "delay": 2.4
+       "phrase": 0,
+       "delay": 0.5
       }
      ]
     },
     {
-     "photo": "ep009-outboard",
-     "phrase": 2,
+     "photo": "ep009r-honda",
+     "phrase": 1,
      "cam": [
       [
-       420,
-       900,
-       1.25
-      ],
-      [
-       400,
-       900,
-       1.32
-      ]
-     ],
-     "pills": [
-      {
-       "text": "MORE SPACE ONBOARD",
-       "color": "gold",
-       "pos": [
-        540,
-        660
-       ],
-       "delay": 0.2
-      }
-     ]
-    },
-    {
-     "photo": "ep009-tilt",
-     "phrase": 2,
-     "offset": 1.6,
-     "cam": [
-      [
-       600,
-       960,
+       540,
+       1000,
        1.0
       ],
       [
-       620,
-       960,
+       540,
+       1000,
        1.05
       ]
      ],
      "labels": [
       {
        "pt": [
-        885,
-        918
+        437,
+        560
        ],
-       "text": "TILTS UP",
+       "text": "ENGINE",
        "off": [
-        -40,
-        -260
+        260,
+        90
        ],
-       "phrase": 2,
-       "delay": 2.0
+       "phrase": 1,
+       "delay": 0.5
       },
       {
        "pt": [
-        300,
-        1280
+        569,
+        1100
        ],
-       "text": "SHALLOW SAND",
+       "text": "DRIVE LEG",
        "off": [
-        0,
-        -80
+        260,
+        -60
        ],
-       "phrase": 2,
-       "delay": 2.6
+       "phrase": 1,
+       "delay": 1.3
+      },
+      {
+       "pt": [
+        481,
+        1584
+       ],
+       "text": "PROPELLER",
+       "off": [
+        300,
+        -120
+       ],
+       "phrase": 1,
+       "delay": 2.1
       }
      ]
     },
     {
-     "photo": "ep009-outboard",
+     "photo": "ep009r-buster",
+     "phrase": 2,
+     "cam": [
+      [
+       700,
+       1000,
+       1.3
+      ],
+      [
+       720,
+       1000,
+       1.36
+      ]
+     ],
+     "pills": [
+      {
+       "text": "MORE ROOM ON BOARD",
+       "color": "gold",
+       "pos": [
+        540,
+        650
+       ],
+       "delay": 0.2
+      }
+     ]
+    },
+    {
+     "photo": "ep009r-tilted",
+     "phrase": 2,
+     "offset": 1.4,
+     "cam": [
+      [
+       540,
+       980,
+       1.0
+      ],
+      [
+       540,
+       990,
+       1.06
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        484,
+        1056
+       ],
+       "text": "TILTED UP OUT OF THE WATER",
+       "off": [
+        60,
+        -360
+       ],
+       "phrase": 2,
+       "delay": 1.6
+      }
+     ]
+    },
+    {
+     "photo": "ep009r-row",
      "phrase": 3,
      "cam": [
       [
-       680,
-       900,
-       1.45
+       540,
+       960,
+       1.0
       ],
       [
-       680,
-       920,
-       1.55
+       560,
+       960,
+       1.07
       ]
      ],
      "pills": [
@@ -213,18 +224,18 @@
      ]
     },
     {
-     "photo": "ep009-tilt",
+     "photo": "ep009r-wake",
      "phrase": 4,
      "cam": [
       [
        540,
-       900,
-       1.1
+       980,
+       1.05
       ],
       [
        540,
-       900,
-       1.18
+       990,
+       1.14
       ]
      ],
      "pills": [
@@ -233,7 +244,7 @@
        "color": "coral",
        "pos": [
         540,
-        650
+        640
        ],
        "delay": 0.2
       }
@@ -247,11 +258,11 @@
       "phrase": 2,
       "delay": 0.3,
       "ok": true,
-      "text": "Frees up space inside"
+      "text": "Frees up space on board"
      },
      {
       "phrase": 2,
-      "delay": 2.4,
+      "delay": 1.9,
       "ok": true,
       "text": "Tilts up for shallow water"
      },
@@ -278,72 +289,62 @@
    "color": "turq",
    "phrases": [
     "Option B: the inboard.",
-    "The engine sits low and central inside the hull, turning a shaft to the propeller.",
-    "That gives a calmer ride, and a clean swim platform.",
-    "It's often diesel: thrifty with fuel, and built for long hours.",
+    "The engine sits low inside the hull, turning a shaft to the propeller.",
+    "That means a calmer ride, and a clean swim platform.",
+    "It's often diesel: thrifty, and built for long hours.",
     "But it takes up room, it's tight to work on, and some jobs mean lifting the boat out."
    ],
    "shots": [
     {
-     "photo": "ep009-inboard",
+     "photo": "ep009r-yacht",
      "cam": [
       [
-       540,
-       980,
+       600,
+       960,
        1.0
       ],
       [
-       560,
-       990,
+       620,
+       960,
        1.06
+      ]
+     ]
+    },
+    {
+     "photo": "engine",
+     "phrase": 1,
+     "cam": [
+      [
+       640,
+       1000,
+       1.05
+      ],
+      [
+       660,
+       1010,
+       1.12
       ]
      ],
      "labels": [
       {
        "pt": [
-        580,
-        1084
+        800,
+        1150
        ],
-       "text": "ENGINE INSIDE",
+       "text": "ENGINE INSIDE THE HULL",
        "off": [
-        -120,
-        -330
+        -260,
+        -420
        ],
        "phrase": 1,
        "delay": 0.4
-      },
-      {
-       "pt": [
-        725,
-        1131
-       ],
-       "text": "SHAFT",
-       "off": [
-        60,
-        150
-       ],
-       "phrase": 1,
-       "delay": 1.1
-      },
-      {
-       "pt": [
-        802,
-        1172
-       ],
-       "text": "PROPELLER",
-       "off": [
-        -200,
-        170
-       ],
-       "phrase": 1,
-       "delay": 1.8
       }
      ]
     },
     {
      "photo": "shaft",
      "phrase": 1,
-     "offset": 2.6,
+     "offset": 2.4,
      "cam": [
       [
        400,
@@ -351,25 +352,53 @@
        1.2
       ],
       [
-       380,
+       390,
        1160,
-       1.3
+       1.28
       ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        150,
+        1195
+       ],
+       "text": "SHAFT",
+       "off": [
+        200,
+        -300
+       ],
+       "phrase": 1,
+       "delay": 2.7
+      },
+      {
+       "pt": [
+        380,
+        1272
+       ],
+       "text": "PROPELLER",
+       "off": [
+        260,
+        -170
+       ],
+       "phrase": 1,
+       "delay": 3.2
+      }
      ]
     },
     {
-     "photo": "ep009-inboard",
+     "photo": "hero",
      "phrase": 2,
      "cam": [
       [
-       580,
-       980,
-       1.15
+       470,
+       940,
+       1.2
       ],
       [
-       580,
-       990,
-       1.22
+       470,
+       930,
+       1.3
       ]
      ],
      "pills": [
@@ -385,50 +414,50 @@
      ]
     },
     {
-     "photo": "ep009-platform",
+     "photo": "ep009r-stern",
      "phrase": 2,
-     "offset": 0.9,
+     "offset": 1.6,
      "cam": [
       [
-       600,
-       960,
-       1.0
+       540,
+       1350,
+       1.25
       ],
       [
-       620,
-       960,
-       1.04
+       540,
+       1350,
+       1.3
       ]
      ],
      "labels": [
       {
        "pt": [
-        916,
-        1025
+        540,
+        1560
        ],
-       "text": "CLEAN SWIM PLATFORM",
+       "text": "NO ENGINE ON THE BACK",
        "off": [
-        -300,
-        -200
+        0,
+        -330
        ],
        "phrase": 2,
-       "delay": 1.2
+       "delay": 1.9
       }
      ]
     },
     {
-     "photo": "ep009-inboard",
+     "photo": "ep009r-diesel",
      "phrase": 3,
      "cam": [
       [
-       580,
-       1060,
-       1.6
+       540,
+       960,
+       1.0
       ],
       [
-       580,
-       1070,
-       1.7
+       560,
+       960,
+       1.06
       ]
      ],
      "pills": [
@@ -437,51 +466,36 @@
        "color": "turq",
        "pos": [
         540,
-        650
+        640
        ],
        "delay": 0.2
       }
      ]
     },
     {
-     "photo": "ep009-engineroom",
+     "photo": "engine",
      "phrase": 4,
      "cam": [
       [
-       540,
-       960,
-       1.0
+       520,
+       760,
+       1.3
       ],
       [
-       540,
-       970,
-       1.06
+       520,
+       780,
+       1.38
       ]
-     ],
-     "labels": [
-      {
-       "pt": [
-        750,
-        960
-       ],
-       "text": "TIGHT TO WORK ON",
-       "off": [
-        -80,
-        -330
-       ],
-       "phrase": 4,
-       "delay": 1.4
-      }
      ],
      "pills": [
       {
-       "text": "TAKES UP ROOM",
+       "text": "TAKES ROOM, TIGHT TO REACH",
        "color": "coral",
        "pos": [
         540,
-        1300
+        640
        ],
-       "delay": 0.3
+       "delay": 0.2
       }
      ]
     }
@@ -509,7 +523,7 @@
      },
      {
       "phrase": 4,
-      "delay": 2.8,
+      "delay": 3.2,
       "ok": false,
       "text": "Some jobs need a lift-out"
      }
@@ -522,12 +536,12 @@
    "photo": "marina",
    "phrases": [
     "Head to head.",
-    "Outboards win on space, easy service, and shallow water.",
+    "Outboards win on space, service, and shallow water.",
     "Inboards win on fuel, comfort, and engine life."
    ],
    "rows": [
     {
-     "text": "Space onboard",
+     "text": "Space on board",
      "win": "A",
      "phrase": 1,
      "delay": 0.0
@@ -542,7 +556,7 @@
      "text": "Shallow water",
      "win": "A",
      "phrase": 1,
-     "delay": 1.9
+     "delay": 1.7
     },
     {
      "text": "Fuel economy",
@@ -566,7 +580,7 @@
   },
   {
    "type": "cta",
-   "photo": "ep009-cta",
+   "photo": "ep009r-cta",
    "phrases": [
     "Easy and spacious, or smooth and thrifty?",
     "Which would you own?",
@@ -602,7 +616,8 @@
  ],
  "title": "Outboard vs inboard: where should your boat's engine live?",
  "cover_text": "OUTBOARD OR INBOARD?",
- "caption_en": "Outboard or inboard? ⚓ An outboard bolts the whole engine onto the back of the boat, propeller and all. That frees up space inside, it tilts up for shallow water, and servicing or even swapping an engine is easy. But it lives out in the sun and salt, and petrol outboards are thirstier than diesel. An inboard sits low and central inside the hull, turning a shaft to the propeller. That weight placement gives a calmer ride and a clean swim platform, and inboards are often diesel: thrifty and built for long hours. But the engine room takes up space, it's tight to work on, and some jobs mean lifting the boat out. Which would you own? Comment A or B 👇",
+ "caption_en": "Outboard or inboard? ⚓ An outboard bolts the whole engine onto the back of the boat, propeller and all. That frees up space inside, it tilts up for shallow water, and servicing or even swapping an engine is easy. But it lives out in the sun and salt, and petrol outboards are thirstier than diesel. An inboard sits low and central inside the hull, turning a shaft to the propeller. That weight placement gives a calmer ride and a clean swim platform, and inboards are often diesel: thrifty and built for long hours. But the engine room takes up space, it's tight to work on, and some jobs mean lifting the boat out. Which would you own? Comment A or B 👇\n\nPhotos: Wikimedia Commons / WordPress Photos (CC0); Kzaral, Tony Hisgett, Iain Cameron (CC BY 2.0/4.0 via Wikimedia Commons).",
  "caption_ar": "محرك خارجي أم داخلي؟ ⚓ المحرك الخارجي (Outboard) يُثبَّت بالكامل على مؤخرة القارب مع المروحة، فيوفّر مساحة أكبر داخل القارب، ويمكن رفعه من الماء في المياه الضحلة، وصيانته بل وحتى استبداله سهلة. لكنه معرّض للشمس والملح، ومحركات البنزين تستهلك وقوداً أكثر من الديزل. أما المحرك الداخلي (Inboard) فيجلس منخفضاً في منتصف البدن ويدير عموداً يصل إلى المروحة، وهذا التوزيع للوزن يمنح رحلة أهدأ ومنصة سباحة نظيفة، وغالباً ما يكون ديزل: اقتصادي في الوقود ومصمَّم لساعات تشغيل طويلة. لكن غرفة المحرك تأخذ مساحة، والعمل داخلها ضيق، وبعض الأعمال تتطلب رفع القارب من الماء. أيهما تختار؟ اكتب A أو B في التعليقات 👇",
- "hashtags": "#yachtlife #boatlife #marineengineering #outboard #inboard #boatengine #redsea #jeddah #creativetracksmarine #يخوت #قوارب #محركات_بحرية #جدة #البحر_الأحمر"
+ "hashtags": "#yachtlife #boatlife #marineengineering #outboard #inboard #boatengine #redsea #jeddah #creativetracksmarine #يخوت #قوارب #محركات_بحرية #جدة #البحر_الأحمر",
+ "photo_credits": "Photos: Wikimedia Commons / WordPress Photos (CC0); Kzaral, Tony Hisgett, Iain Cameron (CC BY 2.0/4.0 via Wikimedia Commons)."
 }

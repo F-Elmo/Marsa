@@ -15,7 +15,7 @@ bash setup.sh          # installs kokoro TTS + downloads voice model from GitHub
 ```
 Brand: logo `assets/logo.png` (navy yacht + gold wave, "creativetracksmarine / PERFORMANCE | RELIABILITY | TRUST").
 Colours: navy (9,24,54), gold (196,156,74), turquoise (18,196,204). Fonts in `assets/fonts`. Contact on end card is built in.
-Voice: Kokoro `am_michael` (clear American male), speed 1.15 — the owner chose this; keep it.
+Voice: Kokoro `am_michael` (clear American male), speed **1.0** — the owner asked (ep 009) for a clearer voice: do NOT speed it up; trim words instead.
 
 ## 1. Pick the topic
 Open `topics.md`. Take the first unchecked topic, unless the previous episode had the same format or category —
@@ -25,7 +25,7 @@ then take the next one that differs. Episode number = highest in `episodes/` + 1
 - Check facts you are not certain of with WebSearch (manufacturer pages, reputable marine sources). No invented numbers;
   prefer qualitative claims ("better fuel economy") over precise figures unless well sourced. No brand bashing.
 - Plain English for non-experts; explain every technical word the first time.
-- Target 140–160 spoken words → ~60 s at speed 1.15. Short sentences, one idea per phrase.
+- Target 130–145 spoken words → ~60 s at speed 1.0. Short sentences, one idea per phrase.
 - Structure (scene types the engine supports):
   1. `hook` (5–7 s): a question or surprising fact. 2 big headline lines, subtitle pill, optional A/B badges.
   2. 2–3 `section` scenes (12–18 s each): tag pill + big title, 2–4 background shots, labels pointing at parts,
@@ -37,6 +37,17 @@ then take the next one that differs. Episode number = highest in `episodes/` + 1
 - Every visual element is timed to a phrase index inside its scene (`phrase`, optional `delay` seconds).
 
 ## 3. Visuals — every video must look different
+**Owner request (ep 009): the video must look REAL — use real photos for most shots.** Illustrated diagrams only as a
+last resort for one "how it works" shot, never as the main look.
+
+Real-photo pipeline (works from the sandbox even though image CDNs are blocked):
+- Search free photos with Openverse via Composio remote bash (it has open internet):
+  `curl -s "https://api.openverse.org/v1/images/?q=QUERY&license=cc0,pdm,by&page_size=20&size=large"` (prefer cc0/pdm;
+  `by` is fine but credit the author in the caption and `photo_credits`).
+- Write the wanted URLs to `fetch/requests.json` (`[{"name": "x.jpg", "url": "..."}]`; for Wikimedia use the
+  `/thumb/.../1920px-NAME` URL), commit + push to ctm-reels. The GitHub Action `fetch-media` downloads them into
+  `fetch/raw/` and commits back within ~1 min: `sleep 60; git pull --rebase`. Check `fetch/log.txt`.
+- Grade with a script like `episodes/art/009_photos.py` (`cover` for portrait, `band` = big landscape strip over a blurred copy).
 Priority order:
 1. **Owner's real photos**: Google Drive folder "CTM Reels - Photos Inbox" (id 1owNHdxx_zjkNPYu0l5nnT9kDWq3hLW2r).
    Search it (Google Drive search_files with `parentId = '1owNHdxx_zjkNPYu0l5nnT9kDWq3hLW2r'`), download relevant new images with

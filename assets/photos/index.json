@@ -12,7 +12,8 @@
   "used_in": [
    "001",
    "003",
-   "007"
+   "007",
+   "009"
   ]
  },
  "shaft": {
@@ -119,7 +120,8 @@
    "001",
    "002",
    "006",
-   "007"
+   "007",
+   "009"
   ]
  },
  "ep002-cutaway": {
@@ -1098,9 +1100,7 @@
     1187
    ]
   },
-  "used_in": [
-   "009"
-  ]
+  "used_in": []
  },
  "ep009-outboard": {
   "desc": "Paper-cut style close side view of centre-console boat stern with outboard motor: cowling, drive leg, propeller underwater",
@@ -1127,9 +1127,7 @@
     917
    ]
   },
-  "used_in": [
-   "009"
-  ]
+  "used_in": []
  },
  "ep009-tilt": {
   "desc": "Paper-cut style: centre-console boat in a shallow sandy bay with its outboard tilted up out of the water",
@@ -1156,9 +1154,7 @@
     1280
    ]
   },
-  "used_in": [
-   "009"
-  ]
+  "used_in": []
  },
  "ep009-inboard": {
   "desc": "Paper-cut style motor cruiser with cut-away panel: inboard engine low and central, shaft, strut, bronze prop, rudder, teak swim platform",
@@ -1185,9 +1181,7 @@
     880
    ]
   },
-  "used_in": [
-   "009"
-  ]
+  "used_in": []
  },
  "ep009-platform": {
   "desc": "Paper-cut style close-up of motor cruiser stern with clean teak swim platform and ladder at right edge",
@@ -1202,9 +1196,7 @@
     1115
    ]
   },
-  "used_in": [
-   "009"
-  ]
+  "used_in": []
  },
  "ep009-engineroom": {
   "desc": "Paper-cut cross-section of a hull looking forward: big orange inboard engine filling the bilge, pumps/filters squeezed at sides, person reaching in through deck hatch",
@@ -1227,13 +1219,154 @@
     1050
    ]
   },
-  "used_in": [
-   "009"
-  ]
+  "used_in": []
  },
  "ep009-cta": {
   "desc": "Blurred, darkened ep009-hook for CTA background",
   "source": "Illustration (engine/diagram.py, episodes/art/009_diagrams.py)",
+  "points": {},
+  "used_in": []
+ },
+ "ep009r-hook": {
+  "desc": "REAL photo (CC0, mdburnette, WordPress Photos): twin outboard cowlings at the stern, big white wake on turquoise sea, shown as a wide band over a blurred copy",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/009_photos.py",
+  "points": {
+   "engines": [
+    540,
+    1390
+   ],
+   "wake": [
+    540,
+    1100
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009r-buster": {
+  "desc": "REAL photo (CC0, Mikasarkijarvi, Wikimedia): aluminium sport boat at speed with Yamaha outboard, two people at the console, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/009_photos.py",
+  "points": {
+   "outboard": [
+    180,
+    1225
+   ],
+   "cockpit": [
+    600,
+    1120
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009r-honda": {
+  "desc": "REAL photo (CC BY 2.0, Kzaral, Wikimedia): Honda 225 outboard on a display stand, full height: cowling, leg, propeller",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/009_photos.py",
+  "points": {
+   "cowling": [
+    437,
+    560
+   ],
+   "leg": [
+    569,
+    1100
+   ],
+   "prop": [
+    481,
+    1584
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009r-tilted": {
+  "desc": "REAL photo (CC0, W.carter, Wikimedia): row of small boats in Lysekil harbour with outboards tilted up out of the water",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/009_photos.py",
+  "points": {
+   "tilted_outboard": [
+    484,
+    1056
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009r-row": {
+  "desc": "REAL photo (CC0, W.carter, Wikimedia): row of outboard boats moored side by side, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/009_photos.py",
+  "points": {
+   "outboards": [
+    540,
+    960
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009r-wake": {
+  "desc": "REAL photo (CC0, Chetan Satasiya, WordPress Photos): view from the helm over twin outboards and wake toward limestone islands, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/009_photos.py",
+  "points": {
+   "engines": [
+    540,
+    1420
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009r-yacht": {
+  "desc": "REAL photo (CC0, Wilfredor, Wikimedia): white inboard motor yacht moored in a city marina, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/009_photos.py",
+  "points": {
+   "yacht": [
+    600,
+    960
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009r-stern": {
+  "desc": "REAL photo (CC BY 2.0, Tony Hisgett, Wikimedia): superyacht stern from behind, transom at the waterline, no engines on the back",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/009_photos.py",
+  "points": {
+   "transom": [
+    540,
+    1560
+   ],
+   "decks": [
+    540,
+    900
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009r-diesel": {
+  "desc": "REAL photo (CC BY 2.0, Iain Cameron, Wikimedia): white marine diesel engine with copper pipework, close-up",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/009_photos.py",
+  "points": {
+   "engine": [
+    540,
+    960
+   ]
+  },
+  "used_in": [
+   "009"
+  ]
+ },
+ "ep009r-cta": {
+  "desc": "Blurred, darkened ep009r-hook for CTA background",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/009_photos.py",
   "points": {},
   "used_in": [
    "009"
