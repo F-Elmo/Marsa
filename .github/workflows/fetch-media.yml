@@ -1,0 +1,38 @@
+# Downloads media listed in fetch/requests.json into fetch/raw/ and commits them back to ctm-reels.
+# Lets reel runs pull real photos from hosts the build sandbox cannot reach (Wikimedia/Openverse, Gamma CDN).
+name: fetch-media
+on:
+  push:
+    branches: [ctm-reels]
+    paths: ['fetch/requests.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: ctm-reels }
+      - name: Download
+        run: |
+          mkdir -p fetch/raw
+          python3 - <<'PY'
+          import json, urllib.request, os, sys
+          reqs = json.load(open("fetch/requests.json"))
+          log = []
+          for r in reqs:
+              out = os.path.join("fetch/raw", r["name"])
+              if os.path.exists(out): continue
+              try:
+                  q = urllib.request.Request(r["url"], headers={"User-Agent": "CTM-reels-fetch/1.0 (info@creativetracksmarine.com)"})
+                  data = urllib.request.urlopen(q, timeout=60).read()
+                  open(out, "wb").write(data); log.append(f"ok {r['name']} {len(data)}")
+              except Exception as e:
+                  log.append(f"FAIL {r['name']} {e}")
+          open("fetch/log.txt", "w").write("\n".join(log) + "\n"); print("\n".join(log))
+          PY
+      - name: Commit
+        run: |
+          git config user.name "ctm-fetch-bot"; git config user.email "actions@github.com"
+          git add fetch && (git diff --cached --quiet || (git commit -m "fetch: downloaded media" && git push origin HEAD:ctm-reels))
