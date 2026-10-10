@@ -1,0 +1,605 @@
+{
+ "topic": "Pre-departure checklist before a Red Sea day trip",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "scenes": [
+  {
+   "type": "hook",
+   "shots": [
+    {
+     "photo": "ep010-hook",
+     "cam": [
+      [
+       520,
+       960,
+       1.12
+      ],
+      [
+       540,
+       950,
+       1.0
+      ]
+     ]
+    }
+   ],
+   "lines": [
+    "BEFORE YOU",
+    "LEAVE THE DOCK"
+   ],
+   "phrases": [
+    "Heading out on the Red Sea today?",
+    "Three checks, before you leave the dock.",
+    "Five minutes can save your whole day."
+   ],
+   "subtitle": {
+    "text": "3 checks for a Red Sea day trip",
+    "phrase": 1
+   }
+  },
+  {
+   "type": "section",
+   "letter": "1",
+   "tag": "CHECK 1",
+   "title": "WEATHER & PLAN",
+   "color": "gold",
+   "phrases": [
+    "Check one: the weather, and your plan.",
+    "Check the wind forecast, not just the sun.",
+    "More wind means rougher seas, so check the trip home too.",
+    "Plan your route around the reefs.",
+    "And tell someone where you're going, and when you'll be back."
+   ],
+   "shots": [
+    {
+     "photo": "ep010-weather",
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       980,
+       1.08
+      ]
+     ]
+    },
+    {
+     "photo": "ep010-weather",
+     "phrase": 1,
+     "cam": [
+      [
+       540,
+       1050,
+       1.15
+      ],
+      [
+       540,
+       1060,
+       1.22
+      ]
+     ],
+     "pills": [
+      {
+       "text": "CHECK THE WIND, NOT JUST THE SUN",
+       "color": "gold",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.2
+      }
+     ]
+    },
+    {
+     "photo": "ep010-hook",
+     "phrase": 2,
+     "cam": [
+      [
+       560,
+       1000,
+       1.25
+      ],
+      [
+       580,
+       1000,
+       1.32
+      ]
+     ],
+     "pills": [
+      {
+       "text": "AND FOR THE TRIP HOME",
+       "color": "gold",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 1.8
+      }
+     ]
+    },
+    {
+     "photo": "ep010-reefs",
+     "phrase": 3,
+     "cam": [
+      [
+       600,
+       1050,
+       1.05
+      ],
+      [
+       640,
+       1080,
+       1.15
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        780,
+        1160
+       ],
+       "text": "SHALLOW REEF",
+       "off": [
+        -160,
+        -330
+       ],
+       "phrase": 3,
+       "delay": 0.6
+      }
+     ]
+    },
+    {
+     "photo": "ep010-cleat",
+     "phrase": 4,
+     "cam": [
+      [
+       540,
+       1000,
+       1.0
+      ],
+      [
+       540,
+       1000,
+       1.07
+      ]
+     ],
+     "pills": [
+      {
+       "text": "WHERE + WHEN BACK",
+       "color": "gold",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.3
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "WEATHER & PLAN",
+    "items": [
+     {
+      "phrase": 1,
+      "delay": 0.4,
+      "ok": true,
+      "text": "Check the wind forecast"
+     },
+     {
+      "phrase": 2,
+      "delay": 2.2,
+      "ok": true,
+      "text": "...for the trip home too"
+     },
+     {
+      "phrase": 3,
+      "delay": 0.4,
+      "ok": true,
+      "text": "Plan a route around reefs"
+     },
+     {
+      "phrase": 4,
+      "delay": 0.6,
+      "ok": true,
+      "text": "Tell someone your plan"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "2",
+   "tag": "CHECK 2",
+   "title": "FUEL & ENGINE",
+   "color": "turq",
+   "phrases": [
+    "Check two: fuel and engine.",
+    "Use the rule of thirds:",
+    "a third out, a third back, and a third in reserve.",
+    "Check oil and coolant, and that the bilge, the bottom of the hull, is dry.",
+    "Something wrong? Fix it at the dock, not at sea."
+   ],
+   "shots": [
+    {
+     "photo": "ep010-fuel",
+     "cam": [
+      [
+       600,
+       1000,
+       1.0
+      ],
+      [
+       620,
+       1000,
+       1.06
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        720,
+        1060
+       ],
+       "text": "FILL UP FIRST",
+       "off": [
+        -200,
+        -330
+       ],
+       "phrase": 0,
+       "delay": 0.6
+      }
+     ]
+    },
+    {
+     "photo": "ep010-thirds",
+     "phrase": 1,
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       960,
+       1.04
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        750,
+        761
+       ],
+       "text": "GO OUT",
+       "off": [
+        150,
+        0
+       ],
+       "phrase": 2,
+       "delay": 0.1
+      },
+      {
+       "pt": [
+        330,
+        970
+       ],
+       "text": "COME BACK",
+       "off": [
+        -160,
+        0
+       ],
+       "phrase": 2,
+       "delay": 1.0
+      },
+      {
+       "pt": [
+        750,
+        1179
+       ],
+       "text": "RESERVE",
+       "off": [
+        150,
+        0
+       ],
+       "phrase": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "photo": "engine",
+     "phrase": 3,
+     "cam": [
+      [
+       700,
+       1050,
+       1.15
+      ],
+      [
+       720,
+       1060,
+       1.24
+      ]
+     ],
+     "pills": [
+      {
+       "text": "OIL  ·  COOLANT  ·  DRY BILGE",
+       "color": "turq",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.3
+      }
+     ]
+    },
+    {
+     "photo": "ep010-cleat",
+     "phrase": 4,
+     "cam": [
+      [
+       540,
+       1150,
+       1.3
+      ],
+      [
+       540,
+       1150,
+       1.38
+      ]
+     ],
+     "pills": [
+      {
+       "text": "FIX IT AT THE DOCK",
+       "color": "coral",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.3
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "FUEL & ENGINE",
+    "items": [
+     {
+      "phrase": 2,
+      "delay": 2.6,
+      "ok": true,
+      "text": "Rule of thirds for fuel"
+     },
+     {
+      "phrase": 3,
+      "delay": 0.6,
+      "ok": true,
+      "text": "Oil and coolant levels"
+     },
+     {
+      "phrase": 3,
+      "delay": 2.2,
+      "ok": true,
+      "text": "Bilge is dry"
+     },
+     {
+      "phrase": 4,
+      "delay": 0.4,
+      "ok": false,
+      "text": "Never leave with a known fault"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "3",
+   "tag": "CHECK 3",
+   "title": "SAFETY GEAR",
+   "color": "coral",
+   "phrases": [
+    "Check three: safety gear.",
+    "A life jacket for everyone on board, in the right size.",
+    "A working VHF radio, a fire extinguisher, and first aid.",
+    "And in Red Sea heat, plenty of water and shade."
+   ],
+   "shots": [
+    {
+     "photo": "ep010-lifejackets",
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       960,
+       1.06
+      ]
+     ]
+    },
+    {
+     "photo": "ep010-rescue",
+     "phrase": 1,
+     "cam": [
+      [
+       560,
+       980,
+       1.1
+      ],
+      [
+       600,
+       1000,
+       1.2
+      ]
+     ],
+     "pills": [
+      {
+       "text": "ONE FOR EVERY PERSON",
+       "color": "coral",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.3
+      }
+     ]
+    },
+    {
+     "photo": "ep010-vhf",
+     "phrase": 2,
+     "cam": [
+      [
+       600,
+       960,
+       1.05
+      ],
+      [
+       620,
+       970,
+       1.12
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        640,
+        980
+       ],
+       "text": "VHF RADIO",
+       "off": [
+        -180,
+        -300
+       ],
+       "phrase": 2,
+       "delay": 0.5
+      }
+     ]
+    },
+    {
+     "photo": "ep010-extinguisher",
+     "phrase": 2,
+     "offset": 1.9,
+     "cam": [
+      [
+       540,
+       1180,
+       1.18
+      ],
+      [
+       540,
+       1190,
+       1.24
+      ]
+     ]
+    },
+    {
+     "photo": "ep010-water",
+     "phrase": 3,
+     "cam": [
+      [
+       540,
+       960,
+       1.05
+      ],
+      [
+       540,
+       960,
+       1.12
+      ]
+     ],
+     "pills": [
+      {
+       "text": "WATER + SHADE",
+       "color": "coral",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.3
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "SAFETY GEAR",
+    "items": [
+     {
+      "phrase": 1,
+      "delay": 0.4,
+      "ok": true,
+      "text": "Life jacket for everyone"
+     },
+     {
+      "phrase": 2,
+      "delay": 0.4,
+      "ok": true,
+      "text": "VHF radio that works"
+     },
+     {
+      "phrase": 2,
+      "delay": 2.0,
+      "ok": true,
+      "text": "Fire extinguisher + first aid"
+     },
+     {
+      "phrase": 3,
+      "delay": 1.3,
+      "ok": true,
+      "text": "Drinking water and shade"
+     }
+    ]
+   }
+  },
+  {
+   "type": "cta",
+   "photo": "ep010-cta",
+   "phrases": [
+    "Weather, fuel, or safety gear?",
+    "Which check do people skip most?",
+    "Comment one, two, or three."
+   ],
+   "top": "WEATHER, FUEL OR SAFETY GEAR?",
+   "question": [
+    "WHICH ONE DO",
+    "PEOPLE SKIP?"
+   ],
+   "question_phrase": 1,
+   "options": [
+    {
+     "letter": "1",
+     "label": "WEATHER",
+     "color": "gold"
+    },
+    {
+     "letter": "2",
+     "label": "FUEL",
+     "color": "turq"
+    },
+    {
+     "letter": "3",
+     "label": "SAFETY",
+     "color": "coral"
+    }
+   ],
+   "comment": "COMMENT  1,  2  OR  3"
+  },
+  {
+   "type": "end",
+   "phrases": [
+    "Creative Tracks Marine.",
+    "Follow us for a new boat breakdown, every two days."
+   ]
+  }
+ ],
+ "title": "Before you leave the dock: 3 checks for a Red Sea day trip",
+ "cover_text": "3 CHECKS BEFORE YOU LEAVE THE DOCK",
+ "caption_en": "Heading out on the Red Sea? ⚓ Run these 3 checks before you leave the dock.\n1️⃣ Weather & plan: check the wind forecast, not just the sun, including for the trip home. Plan your route around the reefs, and tell someone where you're going and when you'll be back.\n2️⃣ Fuel & engine: use the rule of thirds (a third out, a third back, a third in reserve). Check oil and coolant, and make sure the bilge is dry. Something wrong? Fix it at the dock, not at sea.\n3️⃣ Safety gear: a life jacket for everyone in the right size, a working VHF radio, a fire extinguisher, first aid, and plenty of water and shade.\nWhich check do people skip most? Comment 1, 2 or 3 👇\n\nPhotos: Tanya Dedyukhina, Ahmed Abdulbasit, Shixart1985, Tony Webster, Coast Guard News, PaterMcFly (CC BY via Wikimedia Commons); Michelle Frechette, ProjectManhattan, Steve Johnson (CC0).",
+ "caption_ar": "خارج في رحلة بحرية في البحر الأحمر؟ ⚓ قبل أن تغادر الرصيف، قم بهذه الفحوصات الثلاثة:\n1️⃣ الطقس والخطة: تحقّق من توقعات الرياح وليس الشمس فقط، وانتبه لحالة البحر في طريق العودة أيضاً. خطّط مسارك بعيداً عن الشعاب المرجانية، وأخبر أحداً بوجهتك وموعد عودتك.\n2️⃣ الوقود والمحرك: اتبع قاعدة الأثلاث: ثلث للذهاب، وثلث للعودة، وثلث احتياطي. افحص زيت المحرك وسائل التبريد، وتأكد أن قاع القارب (البيلج) جاف. إن وجدت مشكلة، أصلحها على الرصيف لا في عرض البحر.\n3️⃣ معدات السلامة: سترة نجاة لكل شخص بالمقاس المناسب، وجهاز لاسلكي بحري VHF يعمل، وطفاية حريق، وحقيبة إسعافات أولية، وكمية كافية من ماء الشرب والظل.\nأي فحص يتجاهله الناس أكثر؟ اكتب 1 أو 2 أو 3 في التعليقات 👇",
+ "hashtags": "#yachtlife #boatlife #boatingsafety #marineengineering #redsea #jeddah #creativetracksmarine #يخوت #قوارب #سلامة_بحرية #جدة #البحر_الأحمر",
+ "photo_credits": "Photos: Tanya Dedyukhina, Ahmed Abdulbasit, Shixart1985, Tony Webster, Coast Guard News, PaterMcFly (CC BY via Wikimedia Commons); Michelle Frechette, ProjectManhattan, Steve Johnson (CC0)."
+}

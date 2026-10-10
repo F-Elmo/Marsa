@@ -121,7 +121,8 @@
    "002",
    "006",
    "007",
-   "009"
+   "009",
+   "010"
   ]
  },
  "ep002-cutaway": {
@@ -1370,6 +1371,164 @@
   "points": {},
   "used_in": [
    "009"
+  ]
+ },
+ "ep010-hook": {
+  "desc": "REAL photo (CC BY, Tanya Dedyukhina, Wikimedia): white day-trip boat at anchor on turquoise Red Sea off a desert island, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/010_photos.py",
+  "points": {
+   "boat": [
+    500,
+    920
+   ]
+  },
+  "used_in": [
+   "010"
+  ]
+ },
+ "ep010-weather": {
+  "desc": "REAL photo (CC BY, Ahmed Abdulbasit, Wikimedia): dark choppy Red Sea off Jeddah under heavy clouds, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/010_photos.py",
+  "points": {
+   "waves": [
+    540,
+    1150
+   ]
+  },
+  "used_in": [
+   "010"
+  ]
+ },
+ "ep010-reefs": {
+  "desc": "REAL photo (CC BY, Tanya Dedyukhina, Wikimedia): boats off a desert coast, small reef head breaking the surface in turquoise water, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/010_photos.py",
+  "points": {
+   "reef": [
+    780,
+    1160
+   ]
+  },
+  "used_in": [
+   "010"
+  ]
+ },
+ "ep010-cleat": {
+  "desc": "REAL photo (CC BY, Shixart1985, Wikimedia): stainless dock cleat with black mooring line, boat blurred behind",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/010_photos.py",
+  "points": {
+   "cleat": [
+    540,
+    1000
+   ]
+  },
+  "used_in": [
+   "010"
+  ]
+ },
+ "ep010-fuel": {
+  "desc": "REAL photo (CC BY, Tony Webster, Wikimedia): 'UNLEADED' fuel pump on a dock with green hose and nozzle",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/010_photos.py",
+  "points": {
+   "nozzle": [
+    720,
+    1060
+   ],
+   "pump": [
+    600,
+    900
+   ]
+  },
+  "used_in": [
+   "010"
+  ]
+ },
+ "ep010-lifejackets": {
+  "desc": "REAL photo (CC0, Michelle Frechette, WordPress Photos): rows of orange life jackets stowed in a rack",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/010_photos.py",
+  "points": {},
+  "used_in": [
+   "010"
+  ]
+ },
+ "ep010-rescue": {
+  "desc": "REAL photo (CC BY, Coast Guard News, Wikimedia): rescue boat crew with a person in a life jacket in the water, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/010_photos.py",
+  "points": {
+   "person": [
+    800,
+    1050
+   ]
+  },
+  "used_in": [
+   "010"
+  ]
+ },
+ "ep010-vhf": {
+  "desc": "REAL photo (CC BY, PaterMcFly, Wikimedia): fixed marine VHF radio (channel 68) under a stereo in a wooden console, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/010_photos.py",
+  "points": {
+   "vhf": [
+    640,
+    980
+   ]
+  },
+  "used_in": [
+   "010"
+  ]
+ },
+ "ep010-extinguisher": {
+  "desc": "REAL photo (CC0, ProjectManhattan, Wikimedia): red ABC powder fire extinguisher on a wall, sign at the very top",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/010_photos.py",
+  "points": {
+   "label": [
+    540,
+    1150
+   ]
+  },
+  "used_in": [
+   "010"
+  ]
+ },
+ "ep010-water": {
+  "desc": "REAL photo (CC0, Steve Johnson, StockSnap): single water bottle against a bright window, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/010_photos.py",
+  "points": {
+   "bottle": [
+    540,
+    960
+   ]
+  },
+  "used_in": [
+   "010"
+  ]
+ },
+ "ep010-cta": {
+  "desc": "Blurred, darkened open Red Sea + desert island (CC BY Tanya Dedyukhina) - CTA background",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/010_photos.py",
+  "points": {},
+  "used_in": [
+   "010"
+  ]
+ },
+ "ep010-thirds": {
+  "desc": "Cream nautical-chart illustration: fuel tank split in thirds (gold arrow out, turquoise arrow back, coral shield reserve), depth contours, compass rose",
+  "source": "Illustration (engine/diagram.py, episodes/art/010_diagrams.py)",
+  "points": {
+   "out": [
+    750,
+    761
+   ],
+   "back": [
+    330,
+    970
+   ],
+   "reserve": [
+    750,
+    1179
+   ]
+  },
+  "used_in": [
+   "010"
   ]
  }
 }
