@@ -1530,5 +1530,182 @@
   "used_in": [
    "010"
   ]
+ },
+ "ep011-hook": {
+  "desc": "REAL photo (CC BY-SA, Alexander Vasenin, Wikimedia): white dive-safari motor yacht at Small Brother island, Red Sea, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/011_photos.py",
+  "points": {
+   "yacht": [
+    540,
+    1080
+   ]
+  },
+  "used_in": [
+   "011"
+  ]
+ },
+ "ep011-single": {
+  "desc": "REAL photo (CC0, Mikasarkijarvi, Wikimedia): aluminium Buster boat at speed with ONE Yamaha outboard, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/011_photos.py",
+  "points": {
+   "outboard": [
+    270,
+    1242
+   ],
+   "boat": [
+    700,
+    1215
+   ]
+  },
+  "used_in": [
+   "011"
+  ]
+ },
+ "ep011-oneengine": {
+  "desc": "REAL photo (CC BY-SA, Rainmaker47, Wikimedia): single Yamaha F350 outboard on a display stand, full height",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/011_photos.py",
+  "points": {},
+  "used_in": [
+   "011"
+  ]
+ },
+ "ep011-light": {
+  "desc": "REAL photo (CC BY-SA, PattayaPatrol, Wikimedia): small teal boat with one outboard, lone skipper, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/011_photos.py",
+  "points": {
+   "outboard": [
+    162,
+    930
+   ],
+   "boat": [
+    540,
+    1000
+   ]
+  },
+  "used_in": [
+   "011"
+  ]
+ },
+ "ep011-tow": {
+  "desc": "REAL photo (CC BY-SA, M J Richardson, Wikimedia): orange lifeboat towing a boat on a loch, wooded hills behind, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/011_photos.py",
+  "points": {
+   "lifeboat": [
+    338,
+    950
+   ]
+  },
+  "used_in": [
+   "011"
+  ]
+ },
+ "ep011-twinprops": {
+  "desc": "REAL photo (public domain, US Navy 1946): two propellers + twin rudders under a ship in drydock, black & white, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/011_photos.py",
+  "points": {
+   "prop_left": [
+    190,
+    1050
+   ],
+   "prop_right": [
+    880,
+    1140
+   ]
+  },
+  "used_in": [
+   "011"
+  ]
+ },
+ "ep011-twinwake": {
+  "desc": "REAL photo (CC0, mdburnette): twin outboard cowlings + wake, tighter/higher crop than ep009r-hook",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/011_photos.py",
+  "points": {
+   "engine_left": [
+    365,
+    1270
+   ],
+   "engine_right": [
+    730,
+    1270
+   ]
+  },
+  "used_in": [
+   "011"
+  ]
+ },
+ "ep011-many": {
+  "desc": "REAL photo (CC BY-SA, Wikisympathisant, Wikimedia): row of rental boats with Suzuki outboards at a pontoon, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/011_photos.py",
+  "points": {},
+  "used_in": [
+   "011"
+  ]
+ },
+ "ep011-helm": {
+  "desc": "REAL photo (CC BY, Shixart1985, Wikimedia): modern boat helm with wheel at a boat show, band layout (table background)",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/011_photos.py",
+  "points": {},
+  "used_in": [
+   "011"
+  ]
+ },
+ "ep011-offshore": {
+  "desc": "REAL photo (CC BY, Yonatan Dodin, Wikimedia): aerial, one small red boat alone on the open Red Sea (Eilat), mountains behind, band layout",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/011_photos.py",
+  "points": {
+   "boat": [
+    540,
+    960
+   ]
+  },
+  "used_in": [
+   "011"
+  ]
+ },
+ "ep011-cta": {
+  "desc": "Blurred, darkened ep011-offshore - CTA background",
+  "source": "Real photo via fetch-media workflow (fetch/requests.json); graded by episodes/art/011_photos.py",
+  "points": {},
+  "used_in": [
+   "011"
+  ]
+ },
+ "ep011-spin": {
+  "desc": "Chalkboard: top view of a twin-engine boat; port engine FORWARD (turquoise arrow), starboard REVERSE (coral arrow), clockwise rotation arcs = spins in place",
+  "source": "Illustration (engine/diagram.py, episodes/art/011_diagrams.py)",
+  "points": {
+   "forward": [
+    470,
+    1080
+   ],
+   "reverse": [
+    610,
+    1060
+   ],
+   "bow": [
+    540,
+    670
+   ]
+  },
+  "used_in": [
+   "011"
+  ]
+ },
+ "ep011-ab": {
+  "desc": "Chalkboard: two top-view boats side by side, left with one gold engine (A), right with two turquoise engines (B)",
+  "source": "Illustration (engine/diagram.py, episodes/art/011_diagrams.py)",
+  "points": {
+   "engine_A": [
+    300,
+    1220
+   ],
+   "engines_B": [
+    780,
+    1220
+   ]
+  },
+  "used_in": [
+   "011"
+  ]
  }
 }

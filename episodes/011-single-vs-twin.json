@@ -1,0 +1,496 @@
+{
+ "topic": "Single engine vs twin engines",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "scenes": [
+  {
+   "type": "hook",
+   "shots": [
+    {
+     "photo": "ep011-hook",
+     "cam": [
+      [
+       540,
+       1000,
+       1.15
+      ],
+      [
+       560,
+       1000,
+       1.02
+      ]
+     ]
+    },
+    {
+     "photo": "ep011-ab",
+     "phrase": 1,
+     "cam": [
+      [
+       540,
+       980,
+       1.0
+      ],
+      [
+       540,
+       980,
+       1.06
+      ]
+     ]
+    }
+   ],
+   "lines": [
+    "ONE ENGINE",
+    "OR TWO?"
+   ],
+   "phrases": [
+    "One engine, or two?",
+    "It's one of the biggest choices when you buy a boat.",
+    "Here's the honest difference."
+   ],
+   "subtitle": {
+    "text": "Single vs twin engines: which would you own?",
+    "phrase": 1
+   },
+   "badges": {
+    "letters": [
+     "A",
+     "B"
+    ],
+    "phrase": 2,
+    "colors": [
+     "gold",
+     "turq"
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "A",
+   "tag": "OPTION A",
+   "title": "SINGLE ENGINE",
+   "color": "gold",
+   "phrases": [
+    "Option A: a single engine, the simple setup.",
+    "It costs less to buy, and there's only one engine to service.",
+    "It's lighter, and usually burns less fuel for the same total power.",
+    "The catch: if that engine stops, you have no backup."
+   ],
+   "shots": [
+    {
+     "photo": "ep011-single",
+     "cam": [
+      [
+       560,
+       1060,
+       1.05
+      ],
+      [
+       480,
+       1080,
+       1.14
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        270,
+        1242
+       ],
+       "text": "ONE ENGINE",
+       "off": [
+        200,
+        -330
+       ],
+       "phrase": 0,
+       "delay": 0.6
+      }
+     ]
+    },
+    {
+     "photo": "ep011-oneengine",
+     "phrase": 1,
+     "cam": [
+      [
+       540,
+       1000,
+       1.0
+      ],
+      [
+       540,
+       1040,
+       1.08
+      ]
+     ],
+     "pills": [
+      {
+       "text": "LOWER PRICE  ·  ONE ENGINE TO SERVICE",
+       "color": "gold",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.4
+      }
+     ]
+    },
+    {
+     "photo": "ep011-light",
+     "phrase": 2,
+     "cam": [
+      [
+       480,
+       1000,
+       1.12
+      ],
+      [
+       560,
+       990,
+       1.2
+      ]
+     ],
+     "pills": [
+      {
+       "text": "LIGHTER  ·  LESS FUEL",
+       "color": "gold",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.4
+      }
+     ]
+    },
+    {
+     "photo": "ep011-tow",
+     "phrase": 3,
+     "cam": [
+      [
+       420,
+       960,
+       1.25
+      ],
+      [
+       380,
+       950,
+       1.4
+      ]
+     ],
+     "pills": [
+      {
+       "text": "NO BACKUP",
+       "color": "coral",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.5
+      }
+     ],
+     "labels": [
+      {
+       "pt": [
+        338,
+        950
+       ],
+       "text": "CALL FOR A TOW",
+       "off": [
+        230,
+        -130
+       ],
+       "phrase": 3,
+       "delay": 1.6
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "SINGLE ENGINE",
+    "items": [
+     {
+      "phrase": 1,
+      "delay": 0.5,
+      "ok": true,
+      "text": "Cheaper to buy"
+     },
+     {
+      "phrase": 1,
+      "delay": 2.4,
+      "ok": true,
+      "text": "Only one engine to service"
+     },
+     {
+      "phrase": 2,
+      "delay": 0.6,
+      "ok": true,
+      "text": "Lighter, usually less fuel"
+     },
+     {
+      "phrase": 3,
+      "delay": 1.4,
+      "ok": false,
+      "text": "No backup if it stops"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "B",
+   "tag": "OPTION B",
+   "title": "TWIN ENGINES",
+   "color": "turq",
+   "phrases": [
+    "Option B: twin engines, side by side.",
+    "If one fails, the other can usually still get you home, slowly.",
+    "In the marina, put one in forward and one in reverse, and the boat spins almost in place.",
+    "But you pay for two: more fuel, and double the servicing."
+   ],
+   "shots": [
+    {
+     "photo": "ep011-twinwake",
+     "cam": [
+      [
+       540,
+       1100,
+       1.05
+      ],
+      [
+       540,
+       1120,
+       1.12
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        365,
+        1270
+       ],
+       "text": "ENGINE 1",
+       "off": [
+        -140,
+        -300
+       ],
+       "phrase": 0,
+       "delay": 0.5
+      },
+      {
+       "pt": [
+        730,
+        1270
+       ],
+       "text": "ENGINE 2",
+       "off": [
+        140,
+        -300
+       ],
+       "phrase": 0,
+       "delay": 0.9
+      }
+     ]
+    },
+    {
+     "photo": "ep011-twinprops",
+     "phrase": 1,
+     "cam": [
+      [
+       540,
+       1000,
+       1.0
+      ],
+      [
+       540,
+       1000,
+       1.06
+      ]
+     ],
+     "pills": [
+      {
+       "text": "A BACKUP TO GET HOME",
+       "color": "turq",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.4
+      }
+     ]
+    },
+    {
+     "photo": "ep011-spin",
+     "phrase": 2,
+     "cam": [
+      [
+       540,
+       980,
+       1.0
+      ],
+      [
+       540,
+       960,
+       1.05
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        470,
+        1080
+       ],
+       "text": "FORWARD",
+       "off": [
+        -250,
+        -120
+       ],
+       "phrase": 2,
+       "delay": 1.2
+      },
+      {
+       "pt": [
+        610,
+        1060
+       ],
+       "text": "REVERSE",
+       "off": [
+        250,
+        -120
+       ],
+       "phrase": 2,
+       "delay": 2.2
+      }
+     ]
+    },
+    {
+     "photo": "ep011-many",
+     "phrase": 3,
+     "cam": [
+      [
+       500,
+       1000,
+       1.05
+      ],
+      [
+       560,
+       1000,
+       1.14
+      ]
+     ],
+     "pills": [
+      {
+       "text": "MORE FUEL  ·  2× SERVICING",
+       "color": "coral",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.5
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "TWIN ENGINES",
+    "items": [
+     {
+      "phrase": 1,
+      "delay": 0.6,
+      "ok": true,
+      "text": "Backup to get you home"
+     },
+     {
+      "phrase": 2,
+      "delay": 2.6,
+      "ok": true,
+      "text": "Spins in tight marinas"
+     },
+     {
+      "phrase": 3,
+      "delay": 1.0,
+      "ok": false,
+      "text": "Costs more to buy"
+     },
+     {
+      "phrase": 3,
+      "delay": 2.4,
+      "ok": false,
+      "text": "More fuel and servicing"
+     }
+    ]
+   }
+  },
+  {
+   "type": "table",
+   "title": "HEAD TO HEAD",
+   "photo": "ep011-helm",
+   "phrases": [
+    "Lower cost and fuel? Single wins.",
+    "Backup and easy docking? Twins win."
+   ],
+   "rows": [
+    {
+     "text": "Lower price",
+     "win": "A",
+     "phrase": 0
+    },
+    {
+     "text": "Fuel economy",
+     "win": "A",
+     "phrase": 0,
+     "delay": 0.9
+    },
+    {
+     "text": "Backup engine",
+     "win": "B",
+     "phrase": 1
+    },
+    {
+     "text": "Tight-marina docking",
+     "win": "B",
+     "phrase": 1,
+     "delay": 0.9
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "photo": "ep011-cta",
+   "phrases": [
+    "Short trips near the coast, or long runs offshore?",
+    "Which would you own?",
+    "Comment A or B."
+   ],
+   "top": "SINGLE OR TWIN?",
+   "question": [
+    "WHICH WOULD",
+    "YOU OWN?"
+   ],
+   "question_phrase": 1,
+   "options": [
+    {
+     "letter": "A",
+     "label": "SINGLE",
+     "color": "gold"
+    },
+    {
+     "letter": "B",
+     "label": "TWIN",
+     "color": "turq"
+    }
+   ],
+   "comment": "COMMENT  A  OR  B"
+  },
+  {
+   "type": "end",
+   "phrases": [
+    "Creative Tracks Marine.",
+    "Follow us for a new boat breakdown, every two days."
+   ]
+  }
+ ],
+ "title": "One engine or two? Single vs twin engines on a boat",
+ "cover_text": "ONE ENGINE OR TWO?",
+ "caption_en": "One engine or two? ⚓ It's one of the biggest choices when you buy a boat.\n🅰️ Single engine: cheaper to buy, only one engine to service, lighter, and usually less fuel for the same total power. The catch: if it stops, there's no backup.\n🅱️ Twin engines: if one fails, the other can usually still get you home (slowly). In the marina, one in forward and one in reverse spins the boat almost in place. But you pay for two: more fuel and double the servicing.\nShort trips near the coast, or long runs offshore? Which would you own? Comment A or B 👇\n\nPhotos via Wikimedia Commons: Alexander Vasenin, Rainmaker47, PattayaPatrol, M J Richardson, Wikisympathisant (CC BY-SA); Shixart1985, Yonatan Dodin (CC BY); Mikasarkijarvi, mdburnette (CC0); US Navy (public domain).",
+ "caption_ar": "محرك واحد أم محركان؟ ⚓ من أهم القرارات عند شراء قارب.\n🅰️ محرك واحد: أرخص في الشراء، ومحرك واحد فقط للصيانة، ووزن أخف، وغالباً استهلاك وقود أقل لنفس القوة الإجمالية. لكن إذا توقف المحرك فلا يوجد بديل.\n🅱️ محركان: إذا تعطل أحدهما يستطيع الآخر غالباً أن يعيدك إلى المرسى ولو ببطء. وفي المارينا، ضع محركاً على الأمام والآخر على الخلف فيدور القارب تقريباً في مكانه. لكنك تدفع ثمن محركين: وقود أكثر وصيانة مضاعفة.\nرحلات قصيرة قرب الساحل أم رحلات طويلة في عرض البحر الأحمر؟ أيهما تختار؟ اكتب A أو B في التعليقات 👇",
+ "hashtags": "#yachtlife #boatlife #marineengineering #twinengines #boatbuying #redsea #jeddah #creativetracksmarine #يخوت #قوارب #جدة #البحر_الأحمر",
+ "photo_credits": "Photos via Wikimedia Commons: Alexander Vasenin, Rainmaker47, PattayaPatrol, M J Richardson, Wikisympathisant (CC BY-SA); Shixart1985, Yonatan Dodin (CC BY); Mikasarkijarvi, mdburnette (CC0); US Navy (public domain)."
+}
