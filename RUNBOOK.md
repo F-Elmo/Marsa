@@ -1,4 +1,41 @@
-# Creative Tracks Marine — reel runbook (read fully before starting)
+# Creative Tracks Marine — reel runbook
+
+> **USE PIPELINE v2 (below) FOR EVERY NEW EPISODE.** The owner rejected the old v1 look (still photos + Ken Burns +
+> robotic TTS) on 2026-10-14 as "very poor". v1 (engine/reel.py, Kokoro) is kept only as a fallback if vidIQ is unavailable.
+> Never repeat a topic or reuse the same footage/animation as an earlier episode. Reference: episodes/013-bilge-pump.json.
+
+## Pipeline v2 — real HD footage + animated diagram + pro voice (vidIQ)
+Budget: vidIQ plan has 150 credits/month (renews on the 7th). Per video: voice ~14, compose ~15, b-roll ~6,
+thumbnail QC 2. REUSE the music track (below) instead of generating new music (25 credits) unless credits > 100.
+Check `vidiq_balance` first; if < 40 credits, make the video with v1 and tell the owner credits ran out.
+
+1. **Topic & script** (see sections 1–2 of v1 below for topic rules and fact-checking). 140–155 words, ~58 s.
+   Hook in the first sentence = a question or surprising claim. End with a question for comments + "follow Creative Tracks Marine".
+   Hook title on screen: max ~28 characters per line, 2 lines (avoid single orphan words).
+2. **Voice:** `vidiq_voiceover_generate` voice "Brian" `nPczCjzI2devNBz1zQrb` (owner wants a clear male English voice).
+   Note returned duration. Caption timing: split by paragraph; estimate per-word time = (duration − pauses)/words.
+3. **Footage:** `vidiq_generate_broll` for 6–8 shots (yachts, marina, engine room, water, mechanic…). Its links are 360p:
+   open each Pexels page in Claude in Chrome and regex the HTML for `videos.pexels.com/video-files/<id>/..._1080_19..mp4`
+   (or 2160/1440 portrait). Credit photographers in the episode JSON.
+4. **Animated diagram (the explanation, 15–25 s):** write a PIL script that renders 1080x1920 30fps MP4s showing the
+   mechanism moving (see engine/v2/bilge_anim.py: hull cross-section, rising water, flow dashes, labels, PASS/FAIL states,
+   checklist card). Brand colours navy (9,24,54), gold (196,156,74), turquoise (18,196,204). Encode with ffmpeg libx264.
+   Push to `media/NNN/` on this branch, then import each raw.githubusercontent.com URL with `vidiq_video_upload`.
+   Logo badge: media/013/logo_badge.png (reuse).
+5. **Compose:** `vidiq_compose` 1080x1920: scenes = footage + animations cut to the script; music
+   https://ai-music-tracks.s3.us-east-1.amazonaws.com/5a296911-89e4-4313-9b4a-f1a47c445d03/3600b9e8-a118-4428-8d9a-893ad6316687.wav
+   ducked under voice; overlays: logo badge whole video (top), hook title 0.2–~6.5 s, word-group captions (≤5 words,
+   ≤45 overlays, y≈0.75), end text "FOLLOW FOR A NEW BOAT EXPLAINER EVERY 2 DAYS". Max 50 scenes / 50 overlays. See engine/v2/build.py.
+6. **QC:** `vidiq_edit_media extract_thumbnail` at ~4 timestamps (hook, diagram, caption, end); view each by navigating a
+   Chrome tab to the image URL and screenshotting. Check text never overlaps, labels correct, nothing in bottom 250 px.
+7. **Deliver:** `vidiq_video_upload` the composed MP4 to get a durable link; send the owner the link + title + EN/AR
+   captions + hashtags + cover text (SendUserMessage). If `vidiq_instagram_connected_accounts` lists the CTM account,
+   the owner has allowed publishing — publish with `vidiq_instagram_publish_reel`; otherwise just deliver.
+8. **Save:** episodes/NNN-slug.json (script, shots, captions, compose plan, caption_en/ar, hashtags), tick topics.md,
+   commit + push to `ctm-reels` (never touch other branches of this repo).
+
+---
+# Pipeline v1 (fallback only)
 
 You are making ONE new ~60-second vertical educational video for Creative Tracks Marine (CTM), a marine
 engineering & yacht services company in Jeddah, Saudi Arabia. It is posted on TikTok, Instagram and Facebook.

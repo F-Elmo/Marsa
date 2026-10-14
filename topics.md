@@ -18,6 +18,7 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [x] 010 — Pre-departure checklist before a Red Sea day trip (safety, checklist) — 2026-10-10
 - [x] 011 — Single engine vs twin engines (propulsion, A-vs-B) — 2026-10-12
 - [x] 012 — How trim tabs work — and when to use them (seamanship, explainer) — 2026-10-14
+- [x] 013 — Bilge pumps and high-water alarms (safety, explainer) — 2026-10-14
 
 ## Next up (take the first unchecked one unless the owner asked for something else)
 <!-- note (004): the impeller-signs topic below was skipped for now because ep 002 already covered the impeller; give it a few episodes of distance. -->
@@ -43,7 +44,6 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] Buying a used yacht: 5 checks before you sign (ownership, checklist)
 - [ ] Engine hours vs age: which matters more when buying used? (ownership, A-vs-B)
 - [ ] Sea trial: what to watch and listen for (ownership, checklist)
-- [ ] Bilge pumps and high-water alarms: your last line of defence (safety, explainer)
 - [ ] Teak deck vs synthetic teak (design, A-vs-B)
 - [ ] Why your boat has a seacock — and why you should exercise it (safety / maintenance, explainer)
 - [ ] Engine overheating alarm at sea: what to do in the first 60 seconds (seamanship, checklist)
@@ -67,3 +67,5 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] Why twin-engine boats have counter-rotating propellers (propulsion, explainer)
 - [ ] Trim tabs vs interceptors: plates vs blades for levelling a fast boat (hull & design, A-vs-B)
 - [ ] Power trim on outboards and sterndrives: what the 'trim up / trim down' button does (propulsion, explainer)
+- [ ] Shore power cable & galvanic isolator: why marinas eat your anodes (electrical, explainer)
+- [ ] Fuel filters & water separators: the cheapest engine insurance (maintenance, explainer)

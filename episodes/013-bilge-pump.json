@@ -1,0 +1,1229 @@
+{
+ "episode": "013",
+ "slug": "bilge-pump",
+ "format": "explainer",
+ "category": "safety",
+ "pipeline": "v2-vidiq-compose",
+ "title": "Bilge pump: the one pump that decides if your boat floats",
+ "voice": {
+  "engine": "vidiq/ElevenLabs",
+  "voice_id": "nPczCjzI2devNBz1zQrb",
+  "name": "Brian",
+  "duration": 57.97
+ },
+ "music": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/5a296911-89e4-4313-9b4a-f1a47c445d03/3600b9e8-a118-4428-8d9a-893ad6316687.wav",
+ "final_video": "vidIQ upload efb30bf7-b81f-4ccb-a67f-3d918738dce2",
+ "pexels_ids": [
+  37788138,
+  34127015,
+  7568436,
+  36190000,
+  36928186,
+  38228706,
+  30272608,
+  34646251
+ ],
+ "credits": "Pexels: Alex Vo, Batu Akat, cottonbro studio, ysnapshotjournal, HÜSEYİN AVCI, David Saurik, Nelemson G, Sergei Starostin",
+ "captions": [
+  [
+   0.0,
+   1.71,
+   "THERE'S ONE PUMP ON YOUR"
+  ],
+  [
+   1.71,
+   1.71,
+   "BOAT THAT DECIDES IF IT'S"
+  ],
+  [
+   3.42,
+   1.03,
+   "STILL FLOATING TOMORROW."
+  ],
+  [
+   4.44,
+   1.71,
+   "AND MOST OWNERS NEVER CHECK"
+  ],
+  [
+   6.15,
+   0.34,
+   "IT."
+  ],
+  [
+   7.04,
+   1.37,
+   "IT'S THE BILGE PUMP."
+  ],
+  [
+   8.41,
+   1.71,
+   "THE BILGE IS THE LOWEST"
+  ],
+  [
+   10.12,
+   1.37,
+   "PART OF THE HULL."
+  ],
+  [
+   11.48,
+   1.71,
+   "ANY WATER THAT GETS IN"
+  ],
+  [
+   13.19,
+   0.68,
+   "FROM RAIN"
+  ],
+  [
+   13.88,
+   1.37,
+   "A DRIPPING SHAFT SEAL"
+  ],
+  [
+   15.24,
+   1.37,
+   "OR A LOOSE HOSE"
+  ],
+  [
+   16.61,
+   1.03,
+   "ENDS UP THERE."
+  ],
+  [
+   18.18,
+   1.71,
+   "DOWN IN THE BILGE SITS"
+  ],
+  [
+   19.89,
+   1.71,
+   "AN ELECTRIC PUMP WITH A"
+  ],
+  [
+   21.6,
+   0.68,
+   "FLOAT SWITCH."
+  ],
+  [
+   22.28,
+   1.37,
+   "AS THE WATER RISES"
+  ],
+  [
+   23.65,
+   1.03,
+   "THE FLOAT LIFTS"
+  ],
+  [
+   24.68,
+   1.37,
+   "THE PUMP SWITCHES ON"
+  ],
+  [
+   26.04,
+   1.71,
+   "AND PUSHES THE WATER OVERBOARD."
+  ],
+  [
+   28.3,
+   1.37,
+   "BUT HERE'S THE PROBLEM."
+  ],
+  [
+   29.67,
+   1.71,
+   "IF THE FLOAT JAMS WITH"
+  ],
+  [
+   31.38,
+   1.03,
+   "OIL AND DIRT"
+  ],
+  [
+   32.4,
+   1.71,
+   "OR THE BATTERY GOES FLAT"
+  ],
+  [
+   34.11,
+   1.37,
+   "THE PUMP NEVER STARTS."
+  ],
+  [
+   35.48,
+   1.71,
+   "AND A BOAT CAN QUIETLY"
+  ],
+  [
+   37.19,
+   0.34,
+   "SINK"
+  ],
+  [
+   37.53,
+   1.37,
+   "RIGHT AT THE DOCK."
+  ],
+  [
+   39.44,
+   1.71,
+   "SO MAKE SURE YOU HAVE"
+  ],
+  [
+   41.15,
+   0.68,
+   "THREE THINGS:"
+  ],
+  [
+   41.84,
+   1.37,
+   "A CLEAN FLOAT SWITCH"
+  ],
+  [
+   43.2,
+   1.71,
+   "A BACKUP PUMP MOUNTED HIGHER"
+  ],
+  [
+   44.91,
+   1.37,
+   "AND A HIGH-WATER ALARM."
+  ],
+  [
+   46.83,
+   1.03,
+   "ONCE A MONTH"
+  ],
+  [
+   47.85,
+   1.71,
+   "LIFT THE FLOAT BY HAND"
+  ],
+  [
+   49.56,
+   1.71,
+   "AND LISTEN FOR THE PUMP."
+  ],
+  [
+   51.82,
+   1.71,
+   "WHEN DID YOU LAST TEST"
+  ],
+  [
+   53.53,
+   0.34,
+   "YOURS?"
+  ],
+  [
+   53.87,
+   1.71,
+   "TELL US IN THE COMMENTS"
+  ],
+  [
+   55.58,
+   1.71,
+   "AND FOLLOW CREATIVE TRACKS MARINE"
+  ],
+  [
+   57.29,
+   0.68,
+   "FOR MORE."
+  ]
+ ],
+ "compose": {
+  "scenes": [
+   {
+    "source": "https://videos.pexels.com/video-files/37788138/16028693_1080_1920_60fps.mp4",
+    "duration": 3.6,
+    "type": "video"
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/34127015/14470842_1080_1920_50fps.mp4",
+    "duration": 3.4,
+    "type": "video",
+    "startFromSeconds": 2,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/7568436/7568436-hd_1080_2048_25fps.mp4",
+    "duration": 3.5,
+    "type": "video",
+    "startFromSeconds": 3,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/36190000/15348247_1080_1920_60fps.mp4",
+    "duration": 3.8,
+    "type": "video",
+    "startFromSeconds": 1,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/36928186/15643830_1080_1920_30fps.mp4",
+    "duration": 3.9,
+    "type": "video",
+    "startFromSeconds": 1,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://storage.googleapis.com/vidiq-user-videos/5a296911-89e4-4313-9b4a-f1a47c445d03/32e48347-daf8-4ac4-8aac-5427e4982a4c.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1792569964&Signature=lLv5Ro2XE0ODyUMp3MQhF7iCjcJUV4%2B08dvJww68MgmBMaeY3uS2sOvUUfGdfw3cXDk%2B%2Fe6rBbrRXjHde3JeoqRCw5l3pQEfup9FW0OsNSAEZbHNAdqp5ZSNYUFlTlOXopyWIrL1C%2BvtMgyrjNIQfe7oNWBWl0IUVIOCVbCRH9AcDjaA7SjA2rOEfiRPM6VRa0UnNxSlqf69zw3iOmvQbx4B50h8Nb1joTXa3tz%2Bvxh02i4F0heuH6tQypOvaOPfL2N8MXGPuCU4Ydd7n5RhlfWatVkCgN48MVwgwWALhSsE8jlaLN0dfB8belI7%2F5Dvb5aaMJGzg22R0V5%2FSDCpTw%3D%3D",
+    "duration": 10.1,
+    "type": "video",
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://storage.googleapis.com/vidiq-user-videos/5a296911-89e4-4313-9b4a-f1a47c445d03/062ba2c6-4d9c-42c7-a859-5b3b0b273476.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1792569967&Signature=PXgwpx20jjw1XGNvpod9Ny%2BgkF%2FGuPXN95EWBr8mF6ujwcBDgXgFfMqw9%2BE5CLW7cWc2ex6aEW40RpyEckJfBdRCsNaAJPVpa4Qgr0Zw8BRpyuIVsI0TPfkTfT5ijtM2sGcenSrfXn%2FX05DG57WhpsyRKqAXrZ9N7lZ1OaTDBRZO5LkXrZXgPytXX9Ymwfn75VMCHt5dasm8qW4nC1zzarzq62rWGPad7b2Eyqf1Xl0c798Z8soZF8KtiPW%2FMKY1lyJqR%2Bruy%2BSU01w1rNBgrTx%2B%2BezY7XupSLWA3bzqR8U3AbqOwh3WZ3QWc5Taf4yscmUfKBtpt%2FDk1moz8vK%2BRg%3D%3D",
+    "duration": 6.3,
+    "type": "video",
+    "startFromSeconds": 0.4,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/38228706/16230136_1080_1920_60fps.mp4",
+    "duration": 4.8,
+    "type": "video",
+    "startFromSeconds": 2,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://storage.googleapis.com/vidiq-user-videos/5a296911-89e4-4313-9b4a-f1a47c445d03/0cc81f18-ec99-4c35-80d8-9699429a41d3.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1792569971&Signature=Sl3PIi9po%2BCWX%2BAYafW%2FbKoqwLPqDtNvvVjIOEzwlbjIPwYiYDXTA9BA0GQc4%2FrxGT1oU2Ve3KP4VaZecNioFkAaA0yeKnwjcYkClgol3lHcFGthCVhFtGBZMoZZVTn78SYOj6tGXkPqwGrmHfkgwvoPybA7%2BEPRM95mEZb6dVnHXFcBIKEd1D1Inmm1KopUjwNQU56KJR7Nhuxq6NOvShiFxuAcECXDT0X7IM0fPU112pBvUYC%2F5v7p5XTF%2FrxuOkuHy9ykIvqfTPcG9qgkgZ9HEguTCd6EcxKnfmAij4v%2FdC4IdRm21N5nvVr9GKjohJoO7v1sYIRo0VNGvm38Pg%3D%3D",
+    "duration": 7.4,
+    "type": "video",
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/7568436/7568436-hd_1080_2048_25fps.mp4",
+    "duration": 5.0,
+    "type": "video",
+    "startFromSeconds": 18,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/30272608/12977132_1080_1920_60fps.mp4",
+    "duration": 3.7,
+    "type": "video",
+    "startFromSeconds": 1,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/34646251/14684446_1080_1920_30fps.mp4",
+    "duration": 3.5,
+    "type": "video",
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   }
+  ],
+  "overlays": [
+   {
+    "kind": "image",
+    "src": "https://raw.githubusercontent.com/F-Elmo/Marsa/ctm-reels/media/013/logo_badge.png",
+    "start": 0,
+    "duration": 59.0,
+    "position": {
+     "x": 0.33,
+     "y": 0.045,
+     "width": 0.34,
+     "height": 0.083
+    }
+   },
+   {
+    "kind": "text",
+    "text": "THE ONE PUMP THAT DECIDES\nIF YOUR BOAT FLOATS",
+    "start": 0.2,
+    "duration": 6.6,
+    "position": {
+     "x": 0.05,
+     "y": 0.2,
+     "width": 0.9,
+     "height": 0.16
+    },
+    "style": {
+     "fontSize": 78,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 6,
+     "strokeColor": "#09183A",
+     "textAlign": "center",
+     "lineHeight": 1.1
+    }
+   },
+   {
+    "kind": "text",
+    "text": "FOLLOW FOR A NEW\nBOAT EXPLAINER EVERY 2 DAYS",
+    "start": 55.6,
+    "duration": 3.3,
+    "position": {
+     "x": 0.06,
+     "y": 0.22,
+     "width": 0.88,
+     "height": 0.14
+    },
+    "style": {
+     "fontSize": 64,
+     "fontWeight": 900,
+     "color": "#ECC878",
+     "strokeWidth": 6,
+     "strokeColor": "#09183A",
+     "textAlign": "center",
+     "lineHeight": 1.1
+    }
+   },
+   {
+    "kind": "text",
+    "text": "THERE'S ONE PUMP ON YOUR",
+    "start": 0,
+    "duration": 1.71,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "BOAT THAT DECIDES IF IT'S",
+    "start": 1.71,
+    "duration": 1.71,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "STILL FLOATING TOMORROW",
+    "start": 3.42,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "AND MOST OWNERS",
+    "start": 4.44,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "NEVER CHECK IT",
+    "start": 5.47,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "IT'S THE BILGE PUMP",
+    "start": 7.04,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "THE BILGE IS THE LOWEST",
+    "start": 8.41,
+    "duration": 1.71,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "PART OF THE HULL",
+    "start": 10.12,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "ANY WATER THAT GETS IN",
+    "start": 11.48,
+    "duration": 1.71,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "FROM RAIN, A",
+    "start": 13.19,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "DRIPPING SHAFT SEAL",
+    "start": 14.22,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "OR A LOOSE HOSE",
+    "start": 15.24,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "ENDS UP THERE",
+    "start": 16.61,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "DOWN IN THE BILGE",
+    "start": 18.18,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "SITS AN ELECTRIC PUMP",
+    "start": 19.55,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "WITH A FLOAT SWITCH",
+    "start": 20.92,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "AS THE WATER RISES",
+    "start": 22.28,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "THE FLOAT LIFTS",
+    "start": 23.65,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "THE PUMP SWITCHES ON",
+    "start": 24.68,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "AND PUSHES THE WATER OVERBOARD",
+    "start": 26.04,
+    "duration": 1.71,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "BUT HERE'S THE PROBLEM",
+    "start": 28.3,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "IF THE FLOAT JAMS",
+    "start": 29.67,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "WITH OIL AND DIRT",
+    "start": 31.04,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "OR THE BATTERY GOES FLAT",
+    "start": 32.4,
+    "duration": 1.71,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "THE PUMP NEVER STARTS",
+    "start": 34.11,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "AND A BOAT",
+    "start": 35.48,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "CAN QUIETLY SINK",
+    "start": 36.5,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "RIGHT AT THE DOCK",
+    "start": 37.53,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "SO MAKE SURE YOU",
+    "start": 39.44,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "HAVE THREE THINGS",
+    "start": 40.81,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "A CLEAN FLOAT SWITCH",
+    "start": 41.84,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "A BACKUP PUMP MOUNTED HIGHER",
+    "start": 43.2,
+    "duration": 1.71,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "AND A HIGH-WATER ALARM",
+    "start": 44.91,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "ONCE A MONTH",
+    "start": 46.83,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "LIFT THE FLOAT BY HAND",
+    "start": 47.85,
+    "duration": 1.71,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "AND LISTEN FOR THE PUMP",
+    "start": 49.56,
+    "duration": 1.71,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "WHEN DID YOU",
+    "start": 51.82,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "LAST TEST YOURS?",
+    "start": 52.84,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "TELL US IN THE COMMENTS",
+    "start": 53.87,
+    "duration": 1.71,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "AND FOLLOW CREATIVE TRACKS",
+    "start": 55.58,
+    "duration": 1.37,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "MARINE FOR MORE",
+    "start": 56.94,
+    "duration": 1.03,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   }
+  ]
+ },
+ "caption_en": "Your bilge pump is the one pump that decides if your boat is still floating tomorrow 🚤💧 Float switch, backup pump, high-water alarm — and test it every month. When did you last test yours? 👇",
+ "caption_ar": "مضخة الآسن هي المضخة الوحيدة التي تحدد إن كان قاربك سيبقى طافياً غداً 🚤💧 مفتاح عوامة نظيف، مضخة احتياطية، وإنذار ارتفاع المياه — واختبرها كل شهر. متى اختبرت مضختك آخر مرة؟ 👇",
+ "hashtags": "#bilgepump #boatsafety #boatlife #yachtlife #marineengineering #boatmaintenance #redsea #jeddah #creativetracksmarine #يخوت #قوارب #جدة #البحر_الأحمر #صيانة_القوارب"
+}
