@@ -1,0 +1,535 @@
+{
+ "topic": "How trim tabs work and when to use them",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "scenes": [
+  {
+   "type": "hook",
+   "shots": [
+    {
+     "photo": "ep012-hook",
+     "cam": [
+      [
+       560,
+       1040,
+       1.1
+      ],
+      [
+       600,
+       1040,
+       1.0
+      ]
+     ]
+    },
+    {
+     "photo": "shaft",
+     "phrase": 1,
+     "cam": [
+      [
+       600,
+       980,
+       1.25
+      ],
+      [
+       560,
+       960,
+       1.12
+      ]
+     ]
+    }
+   ],
+   "lines": [
+    "WHAT ARE",
+    "TRIM TABS?"
+   ],
+   "phrases": [
+    "See those two small plates on the back of a boat?",
+    "They're called trim tabs.",
+    "And they change how your whole boat rides."
+   ],
+   "subtitle": {
+    "text": "Two small plates. A big difference.",
+    "phrase": 1
+   },
+   "badges": {
+    "letters": [
+     "1",
+     "2",
+     "3"
+    ],
+    "phrase": 2,
+    "colors": [
+     "gold",
+     "turq",
+     "coral"
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "1",
+   "tag": "HOW IT WORKS",
+   "title": "WATER PUSHES UP",
+   "color": "gold",
+   "phrases": [
+    "Trim tabs are two flat plates at the bottom of the transom, the flat back of the boat.",
+    "A switch at the helm tilts them down into the water rushing past.",
+    "The water pushes up on the plate. So the stern lifts, and the bow comes down."
+   ],
+   "shots": [
+    {
+     "photo": "shaft",
+     "cam": [
+      [
+       640,
+       1000,
+       1.0
+      ],
+      [
+       620,
+       990,
+       1.08
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        400,
+        930
+       ],
+       "text": "TRIM TAB",
+       "off": [
+        -120,
+        -280
+       ],
+       "phrase": 0,
+       "delay": 0.8
+      },
+      {
+       "pt": [
+        890,
+        1010
+       ],
+       "text": "TRIM TAB",
+       "off": [
+        40,
+        -340
+       ],
+       "phrase": 0,
+       "delay": 1.4
+      }
+     ]
+    },
+    {
+     "photo": "ep012-flow",
+     "phrase": 1,
+     "cam": [
+      [
+       540,
+       1000,
+       1.0
+      ],
+      [
+       560,
+       1020,
+       1.06
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        790,
+        900
+       ],
+       "text": "ACTUATOR",
+       "off": [
+        80,
+        -230
+       ],
+       "phrase": 1,
+       "delay": 1.0
+      },
+      {
+       "pt": [
+        810,
+        1075
+       ],
+       "text": "TAB DOWN",
+       "off": [
+        -330,
+        150
+       ],
+       "phrase": 1,
+       "delay": 1.8
+      }
+     ]
+    },
+    {
+     "photo": "ep012-profile",
+     "phrase": 2,
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       960,
+       1.05
+      ]
+     ],
+     "pills": [
+      {
+       "text": "STERN UP  ·  BOW DOWN",
+       "color": "gold",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 1.2
+      }
+     ],
+     "labels": [
+      {
+       "pt": [
+        980,
+        1040
+       ],
+       "text": "PUSH UP",
+       "off": [
+        -180,
+        240
+       ],
+       "phrase": 2,
+       "delay": 0.4
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "HOW IT WORKS",
+    "items": [
+     {
+      "phrase": 0,
+      "delay": 2.0,
+      "ok": true,
+      "text": "Two plates on the transom"
+     },
+     {
+      "phrase": 1,
+      "delay": 0.8,
+      "ok": true,
+      "text": "Moved by switches at the helm"
+     },
+     {
+      "phrase": 2,
+      "delay": 2.2,
+      "ok": true,
+      "text": "Tabs down = bow down"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "2",
+   "tag": "WHEN TO USE THEM",
+   "title": "LEVEL & SMOOTH",
+   "color": "turq",
+   "phrases": [
+    "Tabs down help you climb on plane, on top of the water, faster, with the bow low so you can see ahead.",
+    "Leaning to one side from wind or passengers? Lower the tab on the low side to lift it.",
+    "Pounding into waves? A little bow-down lets the sharp front of the hull cut through."
+   ],
+   "shots": [
+    {
+     "photo": "ep012-plane",
+     "cam": [
+      [
+       620,
+       1000,
+       1.05
+      ],
+      [
+       680,
+       990,
+       1.14
+      ]
+     ],
+     "pills": [
+      {
+       "text": "ON PLANE FASTER  ·  SEE AHEAD",
+       "color": "turq",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 1.2
+      }
+     ]
+    },
+    {
+     "photo": "ep012-lean",
+     "phrase": 1,
+     "cam": [
+      [
+       540,
+       960,
+       1.0
+      ],
+      [
+       540,
+       980,
+       1.05
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        700,
+        1090
+       ],
+       "text": "LOW SIDE: TAB DOWN",
+       "off": [
+        -380,
+        160
+       ],
+       "phrase": 1,
+       "delay": 2.2
+      }
+     ],
+     "pills": [
+      {
+       "text": "FIXES A LEAN",
+       "color": "turq",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.6
+      }
+     ]
+    },
+    {
+     "photo": "ep012-spray",
+     "phrase": 2,
+     "cam": [
+      [
+       600,
+       1000,
+       1.0
+      ],
+      [
+       560,
+       1000,
+       1.08
+      ]
+     ],
+     "pills": [
+      {
+       "text": "SOFTER RIDE INTO WAVES",
+       "color": "turq",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 1.0
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "WHEN TO USE THEM",
+    "items": [
+     {
+      "phrase": 0,
+      "delay": 1.5,
+      "ok": true,
+      "text": "Faster onto the plane"
+     },
+     {
+      "phrase": 0,
+      "delay": 4.0,
+      "ok": true,
+      "text": "Better view ahead"
+     },
+     {
+      "phrase": 1,
+      "delay": 2.8,
+      "ok": true,
+      "text": "Levels a leaning boat"
+     },
+     {
+      "phrase": 2,
+      "delay": 2.0,
+      "ok": true,
+      "text": "Softer ride into waves"
+     }
+    ]
+   }
+  },
+  {
+   "type": "section",
+   "letter": "3",
+   "tag": "USE THEM RIGHT",
+   "title": "SMALL TAPS",
+   "color": "coral",
+   "phrases": [
+    "Tap the switch in short bursts, and give the boat a moment to respond.",
+    "Too much tab, and the bow digs in and steers badly.",
+    "And with waves coming from behind, raise them fully."
+   ],
+   "shots": [
+    {
+     "photo": "ep012-helm",
+     "cam": [
+      [
+       560,
+       900,
+       1.0
+      ],
+      [
+       600,
+       860,
+       1.1
+      ]
+     ],
+     "labels": [
+      {
+       "pt": [
+        600,
+        740
+       ],
+       "text": "HELM SWITCHES",
+       "off": [
+        0,
+        -170
+       ],
+       "phrase": 0,
+       "delay": 0.5
+      }
+     ]
+    },
+    {
+     "photo": "ep012-cruise",
+     "phrase": 1,
+     "cam": [
+      [
+       620,
+       1000,
+       1.1
+      ],
+      [
+       680,
+       1010,
+       1.25
+      ]
+     ],
+     "pills": [
+      {
+       "text": "TOO MUCH = BOW DIGS IN",
+       "color": "coral",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.4
+      }
+     ]
+    },
+    {
+     "photo": "ep012-wakes",
+     "phrase": 2,
+     "cam": [
+      [
+       540,
+       980,
+       1.0
+      ],
+      [
+       540,
+       980,
+       1.08
+      ]
+     ],
+     "pills": [
+      {
+       "text": "WAVES BEHIND? TABS UP",
+       "color": "coral",
+       "pos": [
+        540,
+        640
+       ],
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "card": {
+    "title": "USE THEM RIGHT",
+    "items": [
+     {
+      "phrase": 0,
+      "delay": 1.0,
+      "ok": true,
+      "text": "Short taps, then wait"
+     },
+     {
+      "phrase": 1,
+      "delay": 1.0,
+      "ok": false,
+      "text": "Too much: bow digs in"
+     },
+     {
+      "phrase": 2,
+      "delay": 1.6,
+      "ok": true,
+      "text": "Following seas: tabs fully up"
+     }
+    ]
+   }
+  },
+  {
+   "type": "cta",
+   "photo": "ep012-cta",
+   "phrases": [
+    "Does your boat have trim tabs?",
+    "Do you actually use them?",
+    "Comment A or B."
+   ],
+   "top": "TRIM TABS",
+   "question": [
+    "DO YOU",
+    "USE THEM?"
+   ],
+   "question_phrase": 1,
+   "options": [
+    {
+     "letter": "A",
+     "label": "ALL THE TIME",
+     "color": "gold"
+    },
+    {
+     "letter": "B",
+     "label": "NEVER TOUCHED",
+     "color": "turq"
+    }
+   ],
+   "comment": "COMMENT  A  OR  B"
+  },
+  {
+   "type": "end",
+   "phrases": [
+    "Creative Tracks Marine.",
+    "Follow us for a new boat breakdown, every two days."
+   ]
+  }
+ ],
+ "title": "What are trim tabs? How they work and when to use them",
+ "cover_text": "WHAT ARE TRIM TABS?",
+ "caption_en": "See those two small plates on the back of a boat? ⚓ They're trim tabs, and they change how your whole boat rides.\n1️⃣ How they work: a switch at the helm tilts the plates down into the passing water. The water pushes up on them, so the stern lifts and the bow comes down.\n2️⃣ When to use them: get on plane faster with a better view ahead, level a boat that leans from wind or passengers (lower the tab on the low side), and soften the ride into waves.\n3️⃣ Use them right: short taps, then wait. Too much tab makes the bow dig in. With waves from behind, raise them fully.\nDoes your boat have trim tabs, and do you use them? Comment A or B 👇\n\nPhotos via Wikimedia Commons: PattayaPatrol, MB-one, Matti Blume, Nathannn20 (CC BY-SA); Michael Gaylard (CC BY); Wilfredor, Denys Nevozhai (CC0).",
+ "caption_ar": "هل لاحظت اللوحين الصغيرين في مؤخرة القارب؟ ⚓ اسمهما ألواح التريم (Trim Tabs)، ويغيّران طريقة إبحار القارب بالكامل.\n1️⃣ كيف تعمل: مفتاح عند مقعد القيادة يميل اللوحين إلى الأسفل في الماء المتدفق، فيدفعهما الماء إلى الأعلى، فترتفع المؤخرة وتنخفض المقدمة.\n2️⃣ متى تستخدمها: للصعود على سطح الماء (الانزلاق) أسرع مع رؤية أوضح للأمام، ولتعديل ميلان القارب بسبب الرياح أو توزيع الركاب (أنزل اللوح في الجهة المنخفضة)، ولرحلة أنعم عند مواجهة الأمواج.\n3️⃣ الاستخدام الصحيح: ضغطات قصيرة ثم انتظر. الإفراط يجعل المقدمة تغوص ويصعب التوجيه. وإذا كانت الأمواج من الخلف، ارفعها بالكامل.\nهل في قاربك ألواح تريم؟ وهل تستخدمها؟ اكتب A أو B في التعليقات 👇",
+ "hashtags": "#yachtlife #boatlife #marineengineering #trimtabs #boating101 #redsea #jeddah #creativetracksmarine #يخوت #قوارب #جدة #البحر_الأحمر",
+ "photo_credits": "Photos via Wikimedia Commons: PattayaPatrol, MB-one, Matti Blume, Nathannn20 (CC BY-SA); Michael Gaylard (CC BY); Wilfredor, Denys Nevozhai (CC0)."
+}

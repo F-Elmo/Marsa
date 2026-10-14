@@ -17,9 +17,11 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [x] 009 — Outboards vs inboards (propulsion, A-vs-B) — 2026-10-07
 - [x] 010 — Pre-departure checklist before a Red Sea day trip (safety, checklist) — 2026-10-10
 - [x] 011 — Single engine vs twin engines (propulsion, A-vs-B) — 2026-10-12
+- [x] 012 — How trim tabs work — and when to use them (seamanship, explainer) — 2026-10-14
 
 ## Next up (take the first unchecked one unless the owner asked for something else)
 <!-- note (004): the impeller-signs topic below was skipped for now because ep 002 already covered the impeller; give it a few episodes of distance. -->
+<!-- note (012): skipped impeller-signs (still no new angle) and 100-hour service (overlaps 002/006); antifouling + generator-vs-lithium skipped because 011 was A-vs-B. Took trim tabs (explainer). Drive inbox was empty; no Chrome to capture Gamma images, so no AI photos. Visual look: real Commons photos + graph-paper felt-tip sketches. Next run: an A-vs-B or signs format would alternate well. -->
 <!-- note (011): impeller-signs skipped again (no new angle yet; fetch/raw has im-* overheating photos if someone frames it as 'overheating warning signs'); 100-hour service still overlaps. Took Single vs twin (differs from ep 010 safety checklist). Gamma had only 50 credits (no AI photos). Visual look: real Commons photos + chalkboard diagrams. -->
 <!-- note (010): skipped impeller-signs again: ep 002 already taught run-dry damage, broken blades, yearly replacement and checking exhaust water, so it would feel like a repeat; consider it only with a clearly new angle. 100-hour service skipped (overlaps 002/006); single vs twin skipped (same category+format as 009). Took the Red Sea pre-departure checklist. Visual look: real photos + cream nautical-chart diagram. -->
 <!-- note (009): impeller-signs skipped once more (ep 010 is the earliest per note 008); took Outboards vs inboards. Visual look used: paper-cut craft layers. -->
@@ -28,7 +30,6 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] What a 100-hour engine service actually includes (maintenance, checklist)
 - [ ] Antifouling: hard vs ablative paint (hull care, A-vs-B)
 - [ ] Generator vs lithium house bank for quiet nights at anchor (electrical, A-vs-B)
-- [ ] How trim tabs work — and when to use them (seamanship, explainer)
 - [ ] Forward-looking sonar: seeing reefs before you hit them (safety / Red Sea reefs, explainer)
 - [ ] Fibreglass vs aluminium hulls (hull & design, A-vs-B)
 - [ ] Flybridge vs hardtop / sport cruiser (design, A-vs-B)
@@ -64,3 +65,5 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] Man overboard: what everyone on board should do in the first minute (safety, checklist)
 - [ ] Joystick docking systems: how one stick moves a twin-engine boat sideways (handling, explainer)
 - [ ] Why twin-engine boats have counter-rotating propellers (propulsion, explainer)
+- [ ] Trim tabs vs interceptors: plates vs blades for levelling a fast boat (hull & design, A-vs-B)
+- [ ] Power trim on outboards and sterndrives: what the 'trim up / trim down' button does (propulsion, explainer)

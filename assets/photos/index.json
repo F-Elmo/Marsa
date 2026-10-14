@@ -39,12 +39,21 @@
    "trim_tab": [
     400,
     930
+   ],
+   "trim_tab2": [
+    890,
+    1010
+   ],
+   "tab_actuator": [
+    430,
+    850
    ]
   },
   "used_in": [
    "001",
    "006",
-   "009"
+   "009",
+   "012"
   ]
  },
  "ips": {
@@ -1706,6 +1715,167 @@
   },
   "used_in": [
    "011"
+  ]
+ },
+ "ep012-hook": {
+  "desc": "Red/white race powerboat with outboard skimming on plane over grey sea (band)",
+  "source": "Wikimedia Commons, PattayaPatrol, CC BY-SA 4.0",
+  "points": {
+   "boat": [
+    620,
+    1160
+   ]
+  },
+  "used_in": [
+   "012"
+  ]
+ },
+ "ep012-transom": {
+  "desc": "Boat-show stern: teak swim platform, flat transom, sterndrive and propeller below (band)",
+  "source": "Wikimedia Commons, MB-one, CC BY-SA 4.0",
+  "points": {
+   "transom": [
+    600,
+    1160
+   ],
+   "propeller": [
+    600,
+    1300
+   ]
+  },
+  "used_in": []
+ },
+ "ep012-plane": {
+  "desc": "Small red/white canopy boat accelerating, bow raised, spray, people aboard, sunset light (band)",
+  "source": "Wikimedia Commons, Wilfredor, CC0",
+  "points": {
+   "bow": [
+    960,
+    930
+   ],
+   "boat": [
+    540,
+    1000
+   ]
+  },
+  "used_in": [
+   "012"
+  ]
+ },
+ "ep012-spray": {
+  "desc": "Blue/white race powerboat through choppy grey water, buoys behind (band)",
+  "source": "Wikimedia Commons, PattayaPatrol, CC BY-SA 4.0",
+  "points": {
+   "boat": [
+    560,
+    1000
+   ]
+  },
+  "used_in": [
+   "012"
+  ]
+ },
+ "ep012-helm": {
+  "desc": "Modern open boat at a show, helm console with T-top seen from the stern, people at the helm",
+  "source": "Wikimedia Commons, Matti Blume, CC BY-SA 4.0",
+  "points": {
+   "console": [
+    600,
+    740
+   ]
+  },
+  "used_in": [
+   "012"
+  ]
+ },
+ "ep012-cruise": {
+  "desc": "White flybridge motor yacht cruising on the Douro, old stone warehouses behind (band)",
+  "source": "Wikimedia Commons, Michael Gaylard, CC BY 4.0",
+  "points": {
+   "yacht": [
+    680,
+    1020
+   ]
+  },
+  "used_in": [
+   "012"
+  ]
+ },
+ "ep012-wakes": {
+  "desc": "Aerial: several boats with white wakes along a rocky coast, deep blue sea (band)",
+  "source": "Wikimedia Commons, Nathannn20, CC BY-SA 4.0",
+  "points": {},
+  "used_in": [
+   "012"
+  ]
+ },
+ "ep012-aerial": {
+  "desc": "Aerial: turquoise shallows, islets and boat wakes",
+  "source": "Wikimedia Commons, Denys Nevozhai, CC0",
+  "points": {},
+  "used_in": []
+ },
+ "ep012-cta": {
+  "desc": "Blurred/darkened ep012-aerial for CTA",
+  "source": "Wikimedia Commons, Denys Nevozhai, CC0",
+  "points": {},
+  "used_in": [
+   "012"
+  ]
+ },
+ "ep012-flow": {
+  "desc": "Diagram (graph-paper sketch): stern cross-section, trim tab hinged down, water streamlines deflected, lift arrows",
+  "source": "Illustration (012_diagrams.py)",
+  "points": {
+   "hinge": [
+    720,
+    1040
+   ],
+   "tab": [
+    810,
+    1075
+   ],
+   "actuator": [
+    790,
+    900
+   ]
+  },
+  "used_in": [
+   "012"
+  ]
+ },
+ "ep012-profile": {
+  "desc": "Diagram (graph-paper sketch): side profile, ghost bow-high hull vs level boat with tab down, arrows bow down / stern up",
+  "source": "Illustration (012_diagrams.py)",
+  "points": {
+   "tab": [
+    980,
+    1040
+   ],
+   "bow": [
+    170,
+    910
+   ]
+  },
+  "used_in": [
+   "012"
+  ]
+ },
+ "ep012-lean": {
+  "desc": "Diagram (graph-paper sketch): rear view, boat leaning to the right, low-side tab down with lift arrow, dashed level line",
+  "source": "Illustration (012_diagrams.py)",
+  "points": {
+   "low_tab": [
+    700,
+    1090
+   ],
+   "high_tab": [
+    380,
+    1000
+   ]
+  },
+  "used_in": [
+   "012"
   ]
  }
 }
