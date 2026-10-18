@@ -1,17 +1,4 @@
-ok tt-grandezza.jpg 1000485
-ok tt-ib428.jpg 1151987
-ok tt-ib591.jpg 757357
-ok tt-ib762.jpg 506395
-ok tt-ib424.jpg 1281365
-ok tt-ib439.jpg 1308221
-ok tt-regal.jpg 866180
-ok tt-say.jpg 470704
-ok tt-searay.jpg 430860
-ok tt-douro1.jpg 751595
-ok tt-douro2.jpg 751543
-ok tt-aonang.jpg 1689780
-ok tt-restinga.jpg 382383
-ok tt-race11.jpg 339697
-ok tt-race-blue.jpg 370315
-ok tt-ionian.jpg 656091
-FAIL tt-maldives.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+ok qc014-02s.jpg 281162
+ok qc014-22s.jpg 186472
+ok qc014-39s.jpg 184264
+ok qc014-59s.jpg 439736
