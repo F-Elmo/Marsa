@@ -1,4 +1,1 @@
-ok qc014-02s.jpg 281162
-ok qc014-22s.jpg 186472
-ok qc014-39s.jpg 184264
-ok qc014-59s.jpg 439736
+ok qc014-v2-sheet.jpg 481270
