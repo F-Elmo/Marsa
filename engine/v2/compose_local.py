@@ -44,7 +44,7 @@ def main(plan, out, step="all"):
         for k, o in enumerate(man):
             st, en = o["start"], o["end"]
             fc.append(f"[{k+4}:v]format=rgba[o{k}]")  # single-frame PNG inputs: no fade (a fade on one frame blanks it)
-            fc.append(f"[v{k}][o{k}]overlay={o['x']}:{o['y']}:enable='between(t,{st},{en})'[v{k+1}]")
+            fc.append(f"[v{k}][o{k}]overlay={o['x']}:{o['y']}:enable='gte(t,{st})*lt(t,{en})'[v{k+1}]")
         vlast = f"[v{len(man)}]"
         fc.append(f"[2:a]volume={P['music_vol']},afade=t=out:st={total-1.5}:d=1.5[m]")
         fc.append(f"[1:a]volume=1.0[vo]")
