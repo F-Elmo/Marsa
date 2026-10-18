@@ -30,7 +30,7 @@ def main(plan, out, step="all"):
             sh(f'ffmpeg -y -loglevel error -i seg/s{i:02d}.mp4 -vf "trim=start_frame={a}:end_frame={b},setpts=PTS-STARTPTS" {enc} {o}')
             if i < len(sc) - 1:
                 o = f"seg/t{i:02d}.mp4"; parts.append(o)
-                sh(f'ffmpeg -y -loglevel error -i seg/s{i:02d}.mp4 -i seg/s{i+1:02d}.mp4 -filter_complex "[0:v]trim=start_frame={b}:end_frame={b+fr(T)},setpts=PTS-STARTPTS[a];[1:v]trim=end_frame={fr(T)},setpts=PTS-STARTPTS[b];[a][b]xfade=transition=fade:duration={T}:offset=0[v]" -map "[v]" {enc} {o}')
+                sh(f'ffmpeg -y -loglevel error -i seg/s{i:02d}.mp4 -i seg/s{i+1:02d}.mp4 -filter_complex "[0:v]trim=start_frame={b}:end_frame={b+fr(T)},setpts=PTS-STARTPTS[a];[1:v]trim=end_frame={fr(T)},setpts=PTS-STARTPTS[b];[a][b]blend=all_expr='A*(1-N/{fr(T)-1})+B*(N/{fr(T)-1})',format=yuv420p[v]" -map "[v]" {enc} {o}')
         open("seg/list.txt", "w").write("".join(f"file '{os.path.basename(p)}'\n" for p in parts))
         sh("cd seg && ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy joined.mp4")
     if step in ("all", "final"):
