@@ -3,7 +3,7 @@
  "slug": "antifouling-hard-vs-ablative",
  "format": "A-vs-B",
  "category": "hull care",
- "pipeline": "v2-vidiq-compose",
+ "pipeline": "v2 assets (vidIQ voice/b-roll + new animations); final composed with engine/v2/compose_local.py (ffmpeg on Composio remote sandbox) because vidIQ credits ran out",
  "title": "Hard vs ablative antifouling: why some hulls stay clean",
  "script": "Why does one boat come out of the water clean, and another covered in barnacles? Often, it's the paint on the bottom.\n\nAntifouling paint stops weed and barnacles by releasing a biocide, a chemical they don't like. There are two main types.\n\nHard paint is like a sponge. The biocide slowly leaches out, but the paint film stays. It's tough, and handles speed and scrubbing. But once the biocide runs out, it stops working, and old layers build up.\n\nAblative paint is like a bar of soap. As water flows past, the surface slowly wears away, exposing fresh biocide. Less build-up, but it wears faster on very fast boats, or if you scrub it hard.\n\nSo: a fast boat that gets scrubbed often? Hard paint. A cruiser at normal speeds? Ablative is usually easier.\n\nWhich paint is on your hull? Tell us in the comments, and follow Creative Tracks Marine.",
  "voice": {
@@ -45,13 +45,13 @@
  "captions": [
   [
    0,
-   1.55,
-   "WHY DOES ONE BOAT"
+   1.94,
+   "WHY DOES ONE BOAT COME"
   ],
   [
-   1.55,
-   2.33,
-   "COME OUT OF THE WATER CLEAN"
+   1.94,
+   1.94,
+   "OUT OF THE WATER CLEAN"
   ],
   [
    3.88,
@@ -1297,21 +1297,52 @@
    }
   ]
  },
- "final_video": "vidIQ upload ceef957a-6917-4ae9-af54-99296fe4544d",
+ "final_video": "vidIQ upload 6a22fee5-a3b5-40ac-ae90-5fbe80714ba8 (v2, fixed text; first vidIQ render ceef957a-6917-4ae9-af54-99296fe4544d superseded)",
  "caption_en": "Why does one hull come out clean and another covered in barnacles? 🚤 It's often the antifouling paint. Hard paint = a sponge: tough, handles speed and scrubbing, but old layers build up. Ablative = a bar of soap: it slowly wears away to expose fresh biocide, with less build-up. Which paint is on your hull? 👇",
  "caption_ar": "لماذا يخرج قارب من الماء نظيفاً وآخر مغطى بالأصداف (البرنقيل)؟ 🚤 السبب غالباً هو دهان القاع المضاد للحشف. الدهان الصلب مثل الإسفنجة: متين ويتحمل السرعة والتنظيف، لكن طبقاته القديمة تتراكم. الدهان الذاتي التآكل (Ablative) مثل قطعة الصابون: يتآكل ببطء ليكشف مادة مبيدة جديدة، وتراكمه أقل. ما نوع الدهان على بدن قاربك؟ 👇",
  "hashtags": "#antifouling #boatmaintenance #hullcare #boatlife #yachtlife #marineengineering #redsea #jeddah #creativetracksmarine #يخوت #قوارب #جدة #البحر_الأحمر #صيانة_القوارب",
  "cover_text": "HARD vs ABLATIVE — which bottom paint?",
  "qc": {
-  "frames_s": [
-   2.5,
-   22.5,
-   39.5,
-   59.6
+  "frames_checked_s": [
+   0.8,
+   3.5,
+   4.5,
+   6.3,
+   9.6,
+   12.5,
+   16,
+   19,
+   21.77,
+   23,
+   25,
+   27.5,
+   31,
+   35,
+   38.5,
+   42,
+   47.5,
+   50.15,
+   51,
+   53.5,
+   56,
+   58.2,
+   58.5,
+   59.5,
+   60.8,
+   61.2
   ],
-  "frames": "fetch/raw/qc014-*.jpg",
-  "found": "logo, animations, captions OK, nothing in bottom 250 px; hook title wrapped to 4 lines ('PAINT' orphan), end text wrapped with 'DAYS' orphan, caption 'COME OUT OF THE WATER CLEAN' wrapped to 2 lines.",
-  "fix_prepared_not_rendered": "hook 'HARD VS ABLATIVE\\nANTIFOULING PAINT' @74px, end text in 3 lines, captions @52px. Re-render refused: vidIQ credits ran out (1 left; a parallel run 'B' used credits the same morning).",
-  "lesson": "vidIQ text renders ~0.675 em per char: at 78px only ~14 chars fit per line in a 0.9-wide box; keep hook lines <=15 chars at 78px or use 64-74px; captions <=25 chars at 58px."
- }
+  "sheets": [
+   "fetch/raw/qc014-v2-sheet.jpg",
+   "fetch/raw/qc014-v2-sheet2.jpg"
+  ],
+  "result": "hook 2 lines, end text 3 lines, every caption 1 line, no overlaps, nothing in bottom 350 px; 61.4 s, 1080x1920@30, AAC, -15.6 LUFS, voice present throughout",
+  "lesson": "vidIQ compose auto-wraps text (~0.675 em/char): keep hook lines <=15 chars at 78px. Pre-rendered PNG overlays (text_overlays.py) avoid wrapping entirely."
+ },
+ "text_overlays": {
+  "script": "engine/v2/text_overlays.py",
+  "files": "media/014/ovl/ (manifest.json)",
+  "hook": "HARD VS ABLATIVE / ANTIFOULING PAINT",
+  "end": "FOLLOW FOR A NEW / BOAT EXPLAINER / EVERY 2 DAYS"
+ },
+ "local_plan": "media/014/local_plan.json"
 }
