@@ -21,12 +21,18 @@ def main(plan, out, step="all"):
             if os.path.exists(o): continue
             sh(f'ffmpeg -y -loglevel error -ss {s.get("start",0)} -i {src} -t {d:.3f} -an -vf "scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1,format=yuv420p" -c:v libx264 -preset veryfast -crf 18 {o}')
     if step in ("all", "join"):
-        ins = " ".join(f"-i seg/s{i:02d}.mp4" for i in range(len(sc)))
-        fc = []; prev = "[0:v]"; t = 0
-        for i in range(1, len(sc)):
-            t += sc[i - 1]["dur"]; lab = f"[x{i}]"
-            fc.append(f"{prev}[{i}:v]xfade=transition=fade:duration={F}:offset={t:.3f}{lab}"); prev = lab
-        sh(f'ffmpeg -y -loglevel error {ins} -filter_complex "{";".join(fc)}" -map "{prev}" -c:v libx264 -preset veryfast -crf 18 -pix_fmt yuv420p seg/joined.mp4')
+        # low-memory join: body pieces + short crossfade pieces, then concat (stream copy)
+        T = 0.2; fr = lambda x: int(round(x * FPS)); parts = []
+        enc = "-c:v libx264 -preset veryfast -crf 18 -pix_fmt yuv420p -r 30"
+        for i, s in enumerate(sc):
+            a = 0 if i == 0 else fr(T); b = fr(s["dur"])
+            o = f"seg/b{i:02d}.mp4"; parts.append(o)
+            sh(f'ffmpeg -y -loglevel error -i seg/s{i:02d}.mp4 -vf "trim=start_frame={a}:end_frame={b},setpts=PTS-STARTPTS" {enc} {o}')
+            if i < len(sc) - 1:
+                o = f"seg/t{i:02d}.mp4"; parts.append(o)
+                sh(f'ffmpeg -y -loglevel error -i seg/s{i:02d}.mp4 -i seg/s{i+1:02d}.mp4 -filter_complex "[0:v]trim=start_frame={b}:end_frame={b+fr(T)},setpts=PTS-STARTPTS[a];[1:v]trim=end_frame={fr(T)},setpts=PTS-STARTPTS[b];[a][b]xfade=transition=fade:duration={T}:offset=0[v]" -map "[v]" {enc} {o}')
+        open("seg/list.txt", "w").write("".join(f"file '{os.path.basename(p)}'\n" for p in parts))
+        sh("cd seg && ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy joined.mp4")
     if step in ("all", "final"):
         man = json.loads(urllib.request.urlopen(P["manifest"]).read()); os.makedirs("ovl", exist_ok=True)
         for o in man: get(P["ovl_base"] + o["file"], "ovl/" + o["file"])
