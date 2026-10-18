@@ -1,0 +1,77 @@
+{
+ "scenes": [
+  {
+   "src": "https://videos.pexels.com/video-files/28852955/12495916_1440_2560_30fps.mp4",
+   "dur": 3.9,
+   "start": 0
+  },
+  {
+   "src": "https://videos.pexels.com/video-files/33873175/14375401_1440_2560_60fps.mp4",
+   "dur": 5.2,
+   "start": 2
+  },
+  {
+   "src": "https://raw.githubusercontent.com/F-Elmo/Marsa/ctm-reels/media/014/af_intro.mp4",
+   "dur": 5.8,
+   "start": 0
+  },
+  {
+   "src": "https://videos.pexels.com/video-files/19713848/19713848-hd_1080_1920_30fps.mp4",
+   "dur": 2.6,
+   "start": 3
+  },
+  {
+   "src": "https://raw.githubusercontent.com/F-Elmo/Marsa/ctm-reels/media/014/af_hard.mp4",
+   "dur": 6.2,
+   "start": 0
+  },
+  {
+   "src": "https://videos.pexels.com/video-files/28894005/12507034_1080_1920_60fps.mp4",
+   "dur": 2.7,
+   "start": 1
+  },
+  {
+   "src": "https://raw.githubusercontent.com/F-Elmo/Marsa/ctm-reels/media/014/af_hard.mp4",
+   "dur": 6.0,
+   "start": 6.2
+  },
+  {
+   "src": "https://raw.githubusercontent.com/F-Elmo/Marsa/ctm-reels/media/014/af_ablative.mp4",
+   "dur": 8.6,
+   "start": 0
+  },
+  {
+   "src": "https://videos.pexels.com/video-files/12554795/12554795-uhd_1440_2560_60fps.mp4",
+   "dur": 6.0,
+   "start": 2
+  },
+  {
+   "src": "https://videos.pexels.com/video-files/13915515/13915515-uhd_1440_2560_30fps.mp4",
+   "dur": 3.9,
+   "start": 1
+  },
+  {
+   "src": "https://videos.pexels.com/video-files/34702305/14709190_1440_2560_30fps.mp4",
+   "dur": 4.1,
+   "start": 2
+  },
+  {
+   "src": "https://videos.pexels.com/video-files/39426137/16788756_1440_2560_30fps.mp4",
+   "dur": 6.4,
+   "start": 0
+  }
+ ],
+ "fade": 0.25,
+ "voice": "https://ai-voiceovers.s3.us-east-1.amazonaws.com/5a296911-89e4-4313-9b4a-f1a47c445d03/00fa3762-e75c-4ed6-a638-c86e3b837a71.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAQLTYEZQZ4W4S3QQZ%2F20261018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261018T063429Z&X-Amz-Expires=43200&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEcaCXVzLWVhc3QtMSJIMEYCIQDzY4v%2BmbtkkUkchzU%2BsTR3aDvwuTQIrMv8k0oX4MOaFAIhAPMSLIeyLpOvncc3122U4f34oM8wmbWwnmnEC7EUvFugKoAFCA8QABoMMDI0OTQ4MDM0NjExIgxvQGFgs5knj7%2FaujMq3QS4CZ%2BkHERiKdClzrZC5juJ8TTPAVYWdP4NPCjjwFTkVfuHLIeDQoFeHmaHFSJmcIGCidd9UPd1%2FWHcMeTzH6zRXvcGZjFfZ7Us9AIMv3Eppf3Tpr09wG8uVeY4tHMrTslEvykS0MkdNK8OdkQA0P%2FnfNxykMLK4Dy3fjGRxDrV0SODwNIICm4SFwutlUsXIWKFVnyr%2BMPtD8PPwT1SQRgSixvjcLyu374q9LphX2XwpnoYTeuLgc1jrp5ckWyMzRMvvkBUOK5TjSIykZmPo%2FP6JfzwwfdvCcETcXzs%2Fti7zEmaeRVcheer7rbL4CThO6EZ5rzIlXK38%2F7MyPDdlP5eacIxJD9S74wqJgX7cUZjmfZU0DthiqwWxh%2BhpllhwcFpotNjJmgKow46WIuLED0p9y5SKGFSJQRZpbH9Zt7ZwDAv9ArE8QcfW0WYepSJKYNQR4m7NX9s%2B51H1RxWpIoIEQUn49edvr3K94%2BpOsLS8Pww%2FewHlruH7VZZ4D66RGYPn4lCY%2FkNmUsTrTi5kOLwcXbhYQcDCsqjhaj74CxgLUoVh1Gee6zGUgHQV9PoGjoLiAmhxNsFynRhOqUqlJoHvFKTip3WZQP7i8JpEjqqKjCaoYmD9uMLmTneycKgc5mMD5pCkDTddsopGXCilqS1eJSjBYsb30NDAittBozBp9RTcvdOLZjfrmPcrrdwWefvOd%2Bk9TkLPSC7JaYKU%2BDFZEBrGJCZswkO9XPbIfy7EISb1fR1rQXHCno3kZOflxARqzmw5BYnRrr7vasfEJ%2FO0HwENEHxi7mc%2FmtFGTD10NHWBjqXAVDRkuUHEosbDaqB5HXCgVAwGBUI0%2Bm%2Bo%2BxUksM%2Fj7qXyaBa28gdTdcaXctoRX0Bn5Ffp8KZYJLBukR7%2Be52dXcnvmXzTHLxPEWltabin9yneN5N7MHqvGjoEweSduZHFzEBIHQpCql9Lyb2M60psoeVq7HU8oNnlRv8YB6FBKUtsgZ5xPjyKoDMokK8RxqzIXinuOS%2FS4k%3D&X-Amz-Signature=8e41c730847cc8b07741851b5aee5640798cf197e2dc2ed2d0767de4189bba3f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+ "music": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/5a296911-89e4-4313-9b4a-f1a47c445d03/3600b9e8-a118-4428-8d9a-893ad6316687.wav",
+ "music_vol": 0.14,
+ "logo": {
+  "src": "https://raw.githubusercontent.com/F-Elmo/Marsa/ctm-reels/media/013/logo_badge.png",
+  "x": 356,
+  "y": 86,
+  "w": 367,
+  "h": 163
+ },
+ "ovl_base": "https://raw.githubusercontent.com/F-Elmo/Marsa/ctm-reels/media/014/ovl/",
+ "manifest": "https://raw.githubusercontent.com/F-Elmo/Marsa/ctm-reels/media/014/ovl/manifest.json"
+}
