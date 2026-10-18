@@ -42,8 +42,8 @@ def main(plan, out, step="all"):
         ins = "-i seg/joined.mp4 -i seg/voice.mp3 -stream_loop -1 -i seg/music.wav -i ovl/logo.png " + " ".join(f"-i ovl/{o['file']}" for o in man)
         fc = [f"[3:v]scale={L['w']}:{L['h']}[lg]", f"[0:v][lg]overlay={L['x']}:{L['y']}[v0]"]
         for k, o in enumerate(man):
-            st, en = o["start"], o["end"]; fi = min(0.12, (en - st) / 3)
-            fc.append(f"[{k+4}:v]format=rgba,fade=t=in:st={st}:d={fi}:alpha=1,fade=t=out:st={en-fi:.3f}:d={fi}:alpha=1[o{k}]") if o["file"] in ("hook.png", "end.png") else fc.append(f"[{k+4}:v]format=rgba[o{k}]")
+            st, en = o["start"], o["end"]
+            fc.append(f"[{k+4}:v]format=rgba[o{k}]")  # single-frame PNG inputs: no fade (a fade on one frame blanks it)
             fc.append(f"[v{k}][o{k}]overlay={o['x']}:{o['y']}:enable='between(t,{st},{en})'[v{k+1}]")
         vlast = f"[v{len(man)}]"
         fc.append(f"[2:a]volume={P['music_vol']},afade=t=out:st={total-1.5}:d=1.5[m]")
