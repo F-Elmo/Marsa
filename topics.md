@@ -19,9 +19,11 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [x] 011 — Single engine vs twin engines (propulsion, A-vs-B) — 2026-10-12
 - [x] 012 — How trim tabs work — and when to use them (seamanship, explainer) — 2026-10-14
 - [x] 013 — Bilge pumps and high-water alarms (safety, explainer) — 2026-10-14
+- [x] 014 — Antifouling: hard vs ablative paint (hull care, A-vs-B) — 2026-10-18
 
 ## Next up (take the first unchecked one unless the owner asked for something else)
 <!-- note (004): the impeller-signs topic below was skipped for now because ep 002 already covered the impeller; give it a few episodes of distance. -->
+<!-- note (014): impeller-signs and 100-hour service skipped again (same reasons as before). Took antifouling hard vs ablative (A-vs-B after 013's safety explainer). Pipeline v2: Brian voice 61.2 s, 8 new Pexels clips (HD links via WebFetch of the Pexels page — the 'Edit in Canva' link holds the 1080/1440 file URL; no Chrome needed), new 'magnified paint cross-section' animations. Next run: an explainer or signs format would alternate well. WARNING: a second run ('run B', media/014b) worked on the same topic at the same time and both used vidIQ credits; credits are now ~1 until 2026-11-07 → use v1 until then. -->
 <!-- note (012): skipped impeller-signs (still no new angle) and 100-hour service (overlaps 002/006); antifouling + generator-vs-lithium skipped because 011 was A-vs-B. Took trim tabs (explainer). Drive inbox was empty; no Chrome to capture Gamma images, so no AI photos. Visual look: real Commons photos + graph-paper felt-tip sketches. Next run: an A-vs-B or signs format would alternate well. -->
 <!-- note (011): impeller-signs skipped again (no new angle yet; fetch/raw has im-* overheating photos if someone frames it as 'overheating warning signs'); 100-hour service still overlaps. Took Single vs twin (differs from ep 010 safety checklist). Gamma had only 50 credits (no AI photos). Visual look: real Commons photos + chalkboard diagrams. -->
 <!-- note (010): skipped impeller-signs again: ep 002 already taught run-dry damage, broken blades, yearly replacement and checking exhaust water, so it would feel like a repeat; consider it only with a clearly new angle. 100-hour service skipped (overlaps 002/006); single vs twin skipped (same category+format as 009). Took the Red Sea pre-departure checklist. Visual look: real photos + cream nautical-chart diagram. -->
@@ -29,7 +31,6 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 <!-- note (008): skipped the impeller-signs topic again (ep 002 showed worn impellers) and the 100-hour-service checklist (would re-cover impeller/anodes); took the AC topic to keep subjects fresh. Impeller signs is fine from ~ep 010 on. -->
 - [ ] 5 signs your raw-water impeller is about to fail (maintenance, signs)
 - [ ] What a 100-hour engine service actually includes (maintenance, checklist)
-- [ ] Antifouling: hard vs ablative paint (hull care, A-vs-B)
 - [ ] Generator vs lithium house bank for quiet nights at anchor (electrical, A-vs-B)
 - [ ] Forward-looking sonar: seeing reefs before you hit them (safety / Red Sea reefs, explainer)
 - [ ] Fibreglass vs aluminium hulls (hull & design, A-vs-B)
@@ -69,3 +70,5 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] Power trim on outboards and sterndrives: what the 'trim up / trim down' button does (propulsion, explainer)
 - [ ] Shore power cable & galvanic isolator: why marinas eat your anodes (electrical, explainer)
 - [ ] Fuel filters & water separators: the cheapest engine insurance (maintenance, explainer)
+- [ ] Copper-coat (copper-epoxy) vs conventional antifouling: is a 10-year bottom worth it? (hull care, A-vs-B)
+- [ ] Hull cleaning by divers vs haul-out: how often in warm Red Sea water? (maintenance, explainer)

@@ -1,0 +1,1317 @@
+{
+ "episode": "014",
+ "slug": "antifouling-hard-vs-ablative",
+ "format": "A-vs-B",
+ "category": "hull care",
+ "pipeline": "v2-vidiq-compose",
+ "title": "Hard vs ablative antifouling: why some hulls stay clean",
+ "script": "Why does one boat come out of the water clean, and another covered in barnacles? Often, it's the paint on the bottom.\n\nAntifouling paint stops weed and barnacles by releasing a biocide, a chemical they don't like. There are two main types.\n\nHard paint is like a sponge. The biocide slowly leaches out, but the paint film stays. It's tough, and handles speed and scrubbing. But once the biocide runs out, it stops working, and old layers build up.\n\nAblative paint is like a bar of soap. As water flows past, the surface slowly wears away, exposing fresh biocide. Less build-up, but it wears faster on very fast boats, or if you scrub it hard.\n\nSo: a fast boat that gets scrubbed often? Hard paint. A cruiser at normal speeds? Ablative is usually easier.\n\nWhich paint is on your hull? Tell us in the comments, and follow Creative Tracks Marine.",
+ "voice": {
+  "engine": "vidiq/ElevenLabs",
+  "voice_id": "nPczCjzI2devNBz1zQrb",
+  "name": "Brian",
+  "duration": 61.23
+ },
+ "music": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/5a296911-89e4-4313-9b4a-f1a47c445d03/3600b9e8-a118-4428-8d9a-893ad6316687.wav",
+ "animations": {
+  "script": "engine/v2/antifouling_anim.py",
+  "files": [
+   "media/014/af_intro.mp4",
+   "media/014/af_hard.mp4",
+   "media/014/af_ablative.mp4"
+  ],
+  "vidiq_uploads": {
+   "af_intro": "89a29dc6-50c8-42bd-b2a0-1ae2f7aa6aa6",
+   "af_hard": "801d6a99-41ad-40f2-a0f7-ee9ad5329084",
+   "af_ablative": "0ff4e398-921e-49de-881a-2e649416cfa0"
+  },
+  "look": "magnified paint cross-section panel on deep-teal bubbles background (new; ep 013 used navy grid hull section)"
+ },
+ "pexels_ids": [
+  28852955,
+  33873175,
+  19713848,
+  28894005,
+  12554795,
+  13915515,
+  34702305,
+  39426137
+ ],
+ "credits": "Pexels: Tümay Hasret, JUN HO LEE, paashuu, Zhangxiang Fan, Ahmet Kurt, Marsel Sharipov, Faisal Abdullah, Kenan Turguç",
+ "fact_sources": [
+  "https://international-yachtpaint.com/en/au/support/boat-paint-expert-advice/types-of-antifouling",
+  "https://boatingmag.com/how-to/hard-vs-multiseason-antifouling/"
+ ],
+ "captions": [
+  [
+   0,
+   1.55,
+   "WHY DOES ONE BOAT"
+  ],
+  [
+   1.55,
+   2.33,
+   "COME OUT OF THE WATER CLEAN"
+  ],
+  [
+   3.88,
+   1.16,
+   "AND ANOTHER COVERED"
+  ],
+  [
+   5.05,
+   0.78,
+   "IN BARNACLES?"
+  ],
+  [
+   5.82,
+   1.55,
+   "OFTEN, IT'S THE PAINT"
+  ],
+  [
+   7.38,
+   1.16,
+   "ON THE BOTTOM."
+  ],
+  [
+   9.14,
+   0.78,
+   "ANTIFOULING PAINT"
+  ],
+  [
+   9.92,
+   1.55,
+   "STOPS WEED AND BARNACLES"
+  ],
+  [
+   11.47,
+   1.55,
+   "BY RELEASING A BIOCIDE"
+  ],
+  [
+   13.02,
+   1.94,
+   "A CHEMICAL THEY DON'T LIKE."
+  ],
+  [
+   14.96,
+   1.94,
+   "THERE ARE TWO MAIN TYPES."
+  ],
+  [
+   17.5,
+   0.78,
+   "HARD PAINT"
+  ],
+  [
+   18.28,
+   1.55,
+   "IS LIKE A SPONGE."
+  ],
+  [
+   19.83,
+   1.16,
+   "THE BIOCIDE SLOWLY"
+  ],
+  [
+   21.0,
+   0.78,
+   "LEACHES OUT"
+  ],
+  [
+   21.77,
+   1.94,
+   "BUT THE PAINT FILM STAYS."
+  ],
+  [
+   23.72,
+   0.78,
+   "IT'S TOUGH"
+  ],
+  [
+   24.49,
+   1.16,
+   "AND HANDLES SPEED"
+  ],
+  [
+   25.66,
+   0.78,
+   "AND SCRUBBING."
+  ],
+  [
+   26.43,
+   1.55,
+   "BUT ONCE THE BIOCIDE"
+  ],
+  [
+   27.99,
+   0.78,
+   "RUNS OUT"
+  ],
+  [
+   28.76,
+   1.16,
+   "IT STOPS WORKING"
+  ],
+  [
+   29.93,
+   1.94,
+   "AND OLD LAYERS BUILD UP."
+  ],
+  [
+   32.47,
+   0.78,
+   "ABLATIVE PAINT"
+  ],
+  [
+   33.24,
+   2.33,
+   "IS LIKE A BAR OF SOAP."
+  ],
+  [
+   35.57,
+   1.55,
+   "AS WATER FLOWS PAST"
+  ],
+  [
+   37.13,
+   1.16,
+   "THE SURFACE SLOWLY"
+  ],
+  [
+   38.29,
+   0.78,
+   "WEARS AWAY"
+  ],
+  [
+   39.07,
+   1.16,
+   "EXPOSING FRESH BIOCIDE."
+  ],
+  [
+   40.23,
+   0.78,
+   "LESS BUILD-UP"
+  ],
+  [
+   41.01,
+   1.55,
+   "BUT IT WEARS FASTER"
+  ],
+  [
+   42.56,
+   1.55,
+   "ON VERY FAST BOATS"
+  ],
+  [
+   44.11,
+   2.33,
+   "OR IF YOU SCRUB IT HARD."
+  ],
+  [
+   47.04,
+   1.55,
+   "SO: A FAST BOAT"
+  ],
+  [
+   48.6,
+   1.55,
+   "THAT GETS SCRUBBED OFTEN?"
+  ],
+  [
+   50.15,
+   0.78,
+   "HARD PAINT."
+  ],
+  [
+   50.92,
+   1.94,
+   "A CRUISER AT NORMAL SPEEDS?"
+  ],
+  [
+   52.87,
+   1.55,
+   "ABLATIVE IS USUALLY EASIER."
+  ],
+  [
+   55.02,
+   0.78,
+   "WHICH PAINT"
+  ],
+  [
+   55.8,
+   1.55,
+   "IS ON YOUR HULL?"
+  ],
+  [
+   57.35,
+   1.94,
+   "TELL US IN THE COMMENTS"
+  ],
+  [
+   59.29,
+   0.78,
+   "AND FOLLOW"
+  ],
+  [
+   60.07,
+   1.16,
+   "CREATIVE TRACKS MARINE."
+  ]
+ ],
+ "compose": {
+  "format": "vertical",
+  "scenes": [
+   {
+    "source": "https://videos.pexels.com/video-files/28852955/12495916_1440_2560_30fps.mp4",
+    "duration": 3.9,
+    "type": "video"
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/33873175/14375401_1440_2560_60fps.mp4",
+    "duration": 5.2,
+    "type": "video",
+    "startFromSeconds": 2,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://storage.googleapis.com/vidiq-user-videos/5a296911-89e4-4313-9b4a-f1a47c445d03/89a29dc6-50c8-42bd-b2a0-1ae2f7aa6aa6.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1792910649&Signature=OJYYVENr7FQay9DS5RQZIF0RQDnZEMx00G3HVvabEbFQzvCXbRAbzdXHMrfV5GjANTgH%2F0W7uB%2BbhyXbehl2sf2n6vU8VQWTbu6nsYAdQSSQVEuoQwDBS9aExKQ5HNlgnDxvJpUuvLMwcHRZoK%2FU1Xk7mLaw24%2FIYTP0GL%2FdOZe9Xj4qvLnWyRy5bWgCulbiXgvHVf1FKyLxy5AwK01sfXTgeCvPBzHTRjlU4WkNxBEGvQAzzzRG1WbckPvuNIGFuBc9Hf8uzwoGfuqxMWspW61yMC%2Fw5B9uKuWdPwra%2B3eIjWW6s1OhWpbI3nBO%2FGlOvwTZSVpsHlMrUm7%2FmvWKjA%3D%3D",
+    "duration": 5.8,
+    "type": "video",
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/19713848/19713848-hd_1080_1920_30fps.mp4",
+    "duration": 2.6,
+    "type": "video",
+    "startFromSeconds": 3,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://storage.googleapis.com/vidiq-user-videos/5a296911-89e4-4313-9b4a-f1a47c445d03/801d6a99-41ad-40f2-a0f7-ee9ad5329084.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1792910658&Signature=DBp5237J1dVHQrBILZ2H6Lfk31vDWG7FRdsueJGTMOpUJe8s9yuYk08s9vHmU1iUbzwlsbhFcQwn9%2BabI9J6I6cpT6OF%2FKWVVKA6SSM%2Fgn9PqN5PscXmQo7%2FBx%2BiAmymHNxSb3ckMHdMp%2FQhowUEuNL6z3mWEicTZqKdMasqpscbbj%2FRPG43Jjyn85BYUynPHmkX38Ii9yzmBuADiDLBjG29hN1m2X%2FjGkqoparjjXuTuK%2BVsdsdEqWL8vKTy5hef6SiRNE3FrHhETpz7LSmCznuQTY33OrKFsR6xHAD9QvJvhutAbakMFo5bKAD02LvR0u1kKA3SAkszOSRqtlmZg%3D%3D",
+    "duration": 6.2,
+    "type": "video",
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/28894005/12507034_1080_1920_60fps.mp4",
+    "duration": 2.7,
+    "type": "video",
+    "startFromSeconds": 1,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://storage.googleapis.com/vidiq-user-videos/5a296911-89e4-4313-9b4a-f1a47c445d03/801d6a99-41ad-40f2-a0f7-ee9ad5329084.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1792910658&Signature=DBp5237J1dVHQrBILZ2H6Lfk31vDWG7FRdsueJGTMOpUJe8s9yuYk08s9vHmU1iUbzwlsbhFcQwn9%2BabI9J6I6cpT6OF%2FKWVVKA6SSM%2Fgn9PqN5PscXmQo7%2FBx%2BiAmymHNxSb3ckMHdMp%2FQhowUEuNL6z3mWEicTZqKdMasqpscbbj%2FRPG43Jjyn85BYUynPHmkX38Ii9yzmBuADiDLBjG29hN1m2X%2FjGkqoparjjXuTuK%2BVsdsdEqWL8vKTy5hef6SiRNE3FrHhETpz7LSmCznuQTY33OrKFsR6xHAD9QvJvhutAbakMFo5bKAD02LvR0u1kKA3SAkszOSRqtlmZg%3D%3D",
+    "duration": 6.0,
+    "type": "video",
+    "startFromSeconds": 6.2
+   },
+   {
+    "source": "https://storage.googleapis.com/vidiq-user-videos/5a296911-89e4-4313-9b4a-f1a47c445d03/0ff4e398-921e-49de-881a-2e649416cfa0.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1792910659&Signature=h%2FEaejd2yKz9FF%2BYD%2BKDDtUMYrPxvkvnVhReTsyaIiE2aNRfwhWiEZxT9TAvX7mhgrntdLhLRhq85oJNvF5NIHQRAvvmvAQVaw8z3Luk18vIwC6YImfAQ9k90dZDKFKncGBnHxG0Fa%2BEQLA1g8yZ6aGodyCgZVegjoZw4Vxr0zUZJEGbsAYz9Kq70ipLLZrs2z9iYgZbgJfrgj4zShMKcayekr%2FUmT1QpsUjkRWbuqk2HOPwdJdlDgu7sFNjh%2FgeIFz08uSu1wbecgynylsU9IPz8sVEArXmgSvKIevzJ29UyM1sMKbthkg6nF6%2B7OQQa4iW%2FHySwgmTm7EPa4dwBg%3D%3D",
+    "duration": 8.6,
+    "type": "video",
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/12554795/12554795-uhd_1440_2560_60fps.mp4",
+    "duration": 6.0,
+    "type": "video",
+    "startFromSeconds": 2,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/13915515/13915515-uhd_1440_2560_30fps.mp4",
+    "duration": 3.9,
+    "type": "video",
+    "startFromSeconds": 1,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/34702305/14709190_1440_2560_30fps.mp4",
+    "duration": 4.1,
+    "type": "video",
+    "startFromSeconds": 2,
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   },
+   {
+    "source": "https://videos.pexels.com/video-files/39426137/16788756_1440_2560_30fps.mp4",
+    "duration": 6.4,
+    "type": "video",
+    "transitionIn": {
+     "kind": "fade",
+     "duration": 0.25
+    }
+   }
+  ],
+  "voiceover": {
+   "audioUrl": "vidIQ voiceover 00fa3762-e75c-4ed6-a638-c86e3b837a71 (signed URL expires)"
+  },
+  "music": {
+   "audioUrl": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/5a296911-89e4-4313-9b4a-f1a47c445d03/3600b9e8-a118-4428-8d9a-893ad6316687.wav",
+   "volume": 0.5,
+   "duckTo": 0.12,
+   "fadeMs": 400,
+   "loop": true
+  },
+  "overlays": [
+   {
+    "kind": "image",
+    "src": "https://raw.githubusercontent.com/F-Elmo/Marsa/ctm-reels/media/013/logo_badge.png",
+    "start": 0,
+    "duration": 61.4,
+    "position": {
+     "x": 0.33,
+     "y": 0.045,
+     "width": 0.34,
+     "height": 0.083
+    }
+   },
+   {
+    "kind": "text",
+    "text": "WHY SOME HULLS STAY CLEAN\nHARD VS ABLATIVE PAINT",
+    "start": 0.2,
+    "duration": 6.4,
+    "position": {
+     "x": 0.05,
+     "y": 0.2,
+     "width": 0.9,
+     "height": 0.16
+    },
+    "style": {
+     "fontSize": 78,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 6,
+     "strokeColor": "#09183A",
+     "textAlign": "center",
+     "lineHeight": 1.1
+    }
+   },
+   {
+    "kind": "text",
+    "text": "FOLLOW FOR A NEW\nBOAT EXPLAINER EVERY 2 DAYS",
+    "start": 57.9,
+    "duration": 3.5,
+    "position": {
+     "x": 0.06,
+     "y": 0.22,
+     "width": 0.88,
+     "height": 0.14
+    },
+    "style": {
+     "fontSize": 64,
+     "fontWeight": 900,
+     "color": "#ECC878",
+     "strokeWidth": 6,
+     "strokeColor": "#09183A",
+     "textAlign": "center",
+     "lineHeight": 1.1
+    }
+   },
+   {
+    "kind": "text",
+    "text": "WHY DOES ONE BOAT",
+    "start": 0,
+    "duration": 1.55,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "COME OUT OF THE WATER CLEAN",
+    "start": 1.55,
+    "duration": 2.33,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "AND ANOTHER COVERED",
+    "start": 3.88,
+    "duration": 1.17,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "IN BARNACLES?",
+    "start": 5.05,
+    "duration": 0.77,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "OFTEN, IT'S THE PAINT",
+    "start": 5.82,
+    "duration": 1.56,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "ON THE BOTTOM.",
+    "start": 7.38,
+    "duration": 1.76,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "ANTIFOULING PAINT",
+    "start": 9.14,
+    "duration": 0.78,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "STOPS WEED AND BARNACLES",
+    "start": 9.92,
+    "duration": 1.55,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "BY RELEASING A BIOCIDE",
+    "start": 11.47,
+    "duration": 1.55,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "A CHEMICAL THEY DON'T LIKE.",
+    "start": 13.02,
+    "duration": 1.94,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "THERE ARE TWO MAIN TYPES.",
+    "start": 14.96,
+    "duration": 2.54,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "HARD PAINT",
+    "start": 17.5,
+    "duration": 0.78,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "IS LIKE A SPONGE.",
+    "start": 18.28,
+    "duration": 1.55,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "THE BIOCIDE SLOWLY",
+    "start": 19.83,
+    "duration": 1.17,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "LEACHES OUT",
+    "start": 21.0,
+    "duration": 0.77,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "BUT THE PAINT FILM STAYS.",
+    "start": 21.77,
+    "duration": 1.95,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "IT'S TOUGH",
+    "start": 23.72,
+    "duration": 0.77,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "AND HANDLES SPEED",
+    "start": 24.49,
+    "duration": 1.17,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "AND SCRUBBING.",
+    "start": 25.66,
+    "duration": 0.77,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "BUT ONCE THE BIOCIDE",
+    "start": 26.43,
+    "duration": 1.56,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "RUNS OUT",
+    "start": 27.99,
+    "duration": 0.77,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "IT STOPS WORKING",
+    "start": 28.76,
+    "duration": 1.17,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "AND OLD LAYERS BUILD UP.",
+    "start": 29.93,
+    "duration": 2.54,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "ABLATIVE PAINT",
+    "start": 32.47,
+    "duration": 0.77,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "IS LIKE A BAR OF SOAP.",
+    "start": 33.24,
+    "duration": 2.33,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "AS WATER FLOWS PAST",
+    "start": 35.57,
+    "duration": 1.56,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "THE SURFACE SLOWLY",
+    "start": 37.13,
+    "duration": 1.16,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "WEARS AWAY",
+    "start": 38.29,
+    "duration": 0.78,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "EXPOSING FRESH BIOCIDE.",
+    "start": 39.07,
+    "duration": 1.16,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "LESS BUILD-UP",
+    "start": 40.23,
+    "duration": 0.78,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "BUT IT WEARS FASTER",
+    "start": 41.01,
+    "duration": 1.55,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "ON VERY FAST BOATS",
+    "start": 42.56,
+    "duration": 1.55,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "OR IF YOU SCRUB IT HARD.",
+    "start": 44.11,
+    "duration": 2.93,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "SO: A FAST BOAT",
+    "start": 47.04,
+    "duration": 1.56,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "THAT GETS SCRUBBED OFTEN?",
+    "start": 48.6,
+    "duration": 1.55,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "HARD PAINT.",
+    "start": 50.15,
+    "duration": 0.77,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "A CRUISER AT NORMAL SPEEDS?",
+    "start": 50.92,
+    "duration": 1.95,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "ABLATIVE IS USUALLY EASIER.",
+    "start": 52.87,
+    "duration": 2.15,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "WHICH PAINT",
+    "start": 55.02,
+    "duration": 0.78,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "IS ON YOUR HULL?",
+    "start": 55.8,
+    "duration": 1.55,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "TELL US IN THE COMMENTS",
+    "start": 57.35,
+    "duration": 1.94,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "AND FOLLOW",
+    "start": 59.29,
+    "duration": 0.78,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   },
+   {
+    "kind": "text",
+    "text": "CREATIVE TRACKS MARINE.",
+    "start": 60.07,
+    "duration": 1.33,
+    "position": {
+     "x": 0.05,
+     "y": 0.755,
+     "width": 0.9,
+     "height": 0.075
+    },
+    "style": {
+     "fontSize": 58,
+     "fontWeight": 900,
+     "color": "#FFFFFF",
+     "strokeWidth": 7,
+     "strokeColor": "#000000",
+     "textAlign": "center"
+    }
+   }
+  ]
+ },
+ "final_video": "vidIQ upload ceef957a-6917-4ae9-af54-99296fe4544d",
+ "caption_en": "Why does one hull come out clean and another covered in barnacles? 🚤 It's often the antifouling paint. Hard paint = a sponge: tough, handles speed and scrubbing, but old layers build up. Ablative = a bar of soap: it slowly wears away to expose fresh biocide, with less build-up. Which paint is on your hull? 👇",
+ "caption_ar": "لماذا يخرج قارب من الماء نظيفاً وآخر مغطى بالأصداف (البرنقيل)؟ 🚤 السبب غالباً هو دهان القاع المضاد للحشف. الدهان الصلب مثل الإسفنجة: متين ويتحمل السرعة والتنظيف، لكن طبقاته القديمة تتراكم. الدهان الذاتي التآكل (Ablative) مثل قطعة الصابون: يتآكل ببطء ليكشف مادة مبيدة جديدة، وتراكمه أقل. ما نوع الدهان على بدن قاربك؟ 👇",
+ "hashtags": "#antifouling #boatmaintenance #hullcare #boatlife #yachtlife #marineengineering #redsea #jeddah #creativetracksmarine #يخوت #قوارب #جدة #البحر_الأحمر #صيانة_القوارب",
+ "cover_text": "HARD vs ABLATIVE — which bottom paint?",
+ "qc": {
+  "frames_s": [
+   2.5,
+   22.5,
+   39.5,
+   59.6
+  ],
+  "frames": "fetch/raw/qc014-*.jpg",
+  "found": "logo, animations, captions OK, nothing in bottom 250 px; hook title wrapped to 4 lines ('PAINT' orphan), end text wrapped with 'DAYS' orphan, caption 'COME OUT OF THE WATER CLEAN' wrapped to 2 lines.",
+  "fix_prepared_not_rendered": "hook 'HARD VS ABLATIVE\\nANTIFOULING PAINT' @74px, end text in 3 lines, captions @52px. Re-render refused: vidIQ credits ran out (1 left; a parallel run 'B' used credits the same morning).",
+  "lesson": "vidIQ text renders ~0.675 em per char: at 78px only ~14 chars fit per line in a 0.9-wide box; keep hook lines <=15 chars at 78px or use 64-74px; captions <=25 chars at 58px."
+ }
+}
