@@ -1,22 +1,12 @@
 [
- {
-  "name": "qc014-v2-sheet2.jpg",
-  "url": "https://litter.catbox.moe/27d5d8.jpg"
- },
- {
-  "name": "qc014b-sheet2.jpg",
-  "url": "https://litter.catbox.moe/bkgpps.jpg"
- },
- {
-  "name": "qc014b-hi.jpg",
-  "url": "https://litter.catbox.moe/gj5ron.jpg"
- },
- {
-  "name": "qc014b-end.jpg",
-  "url": "https://litter.catbox.moe/tv9d21.jpg"
- },
- {
-  "name": "qc014b-end2.jpg",
-  "url": "https://litter.catbox.moe/t7wey4.jpg"
- }
+ {"name": "ep015-aerial-turq.mp4", "url": "https://videos.pexels.com/video-files/36710783/15560809_2560_1440_60fps.mp4"},
+ {"name": "ep015-reef-drone.mp4", "url": "https://videos.pexels.com/video-files/12952333/12952333-hd_1920_1080_25fps.mp4"},
+ {"name": "ep015-yacht-driver.mp4", "url": "https://videos.pexels.com/video-files/3772123/3772123-hd_1920_1080_30fps.mp4"},
+ {"name": "ep015-coral.mp4", "url": "https://videos.pexels.com/video-files/29337096/12645450_1440_2560_30fps.mp4"},
+ {"name": "ep015-speedboat.mp4", "url": "https://videos.pexels.com/video-files/30862558/13197835_1440_2560_30fps.mp4"},
+ {"name": "ep015-steering.mp4", "url": "https://videos.pexels.com/video-files/5417077/5417077-hd_1920_1080_25fps.mp4"},
+ {"name": "ep015-hullside.mp4", "url": "https://videos.pexels.com/video-files/29378894/12655945_1080_1920_60fps.mp4"},
+ {"name": "ep015-rocks-shallow.mp4", "url": "https://videos.pexels.com/video-files/12738229/12738229-hd_1920_1080_30fps.mp4"},
+ {"name": "ep015-yacht-top.mp4", "url": "https://videos.pexels.com/video-files/13525313/13525313-hd_1920_1080_60fps.mp4"},
+ {"name": "ctm-music.wav", "url": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/5a296911-89e4-4313-9b4a-f1a47c445d03/3600b9e8-a118-4428-8d9a-893ad6316687.wav"}
 ]
