@@ -20,9 +20,11 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [x] 012 — How trim tabs work — and when to use them (seamanship, explainer) — 2026-10-14
 - [x] 013 — Bilge pumps and high-water alarms (safety, explainer) — 2026-10-14
 - [x] 014 — Antifouling: hard vs ablative paint (hull care, A-vs-B) — 2026-10-18
+- [x] 015 — Forward-looking sonar: seeing reefs before you hit them (safety / Red Sea reefs, explainer) — 2026-10-20
 
 ## Next up (take the first unchecked one unless the owner asked for something else)
 <!-- note (004): the impeller-signs topic below was skipped for now because ep 002 already covered the impeller; give it a few episodes of distance. -->
+<!-- note (015): impeller-signs and 100-hour service skipped again (same reasons); generator-vs-lithium skipped (A-vs-B right after 014's A-vs-B). Took forward-looking sonar (explainer). vidIQ had 1 credit (renews 2026-11-07), so: Kokoro am_michael voice (v1) + 8 new Pexels clips fetched via the fetch-media Action (HD links from the Pexels page 'Edit in Canva' URL via WebFetch; '-hd_1920_1080_25fps' guess for 5417077 gave 403) + new underwater side-view sonar animations (engine/v2/sonar_anim.py) + local ffmpeg compose (engine/v2/build_015.py, fully offline once fetch/raw has the clips and ctm-music.wav). Final hosted in media/015 and imported with vidiq_video_upload (0 credits). Next run: an A-vs-B or signs format would alternate well. -->
 <!-- note (014): impeller-signs and 100-hour service skipped again (same reasons as before). Took antifouling hard vs ablative (A-vs-B after 013's safety explainer). Pipeline v2: Brian voice 61.2 s, 8 new Pexels clips (HD links via WebFetch of the Pexels page — the 'Edit in Canva' link holds the 1080/1440 file URL; no Chrome needed), new 'magnified paint cross-section' animations. Next run: an explainer or signs format would alternate well. WARNING: a second run ('run B', media/014b) worked on the same topic at the same time and both used vidIQ credits; credits are now ~1 until 2026-11-07. The 014 final was composed for free with engine/v2/compose_local.py on the Composio remote sandbox (open internet), hosted via litterbox.catbox.moe, then imported with vidiq_video_upload (0 credits); v2 still needs voice credits, so use v1 (Kokoro) for voice until renewal. -->
 <!-- note (012): skipped impeller-signs (still no new angle) and 100-hour service (overlaps 002/006); antifouling + generator-vs-lithium skipped because 011 was A-vs-B. Took trim tabs (explainer). Drive inbox was empty; no Chrome to capture Gamma images, so no AI photos. Visual look: real Commons photos + graph-paper felt-tip sketches. Next run: an A-vs-B or signs format would alternate well. -->
 <!-- note (011): impeller-signs skipped again (no new angle yet; fetch/raw has im-* overheating photos if someone frames it as 'overheating warning signs'); 100-hour service still overlaps. Took Single vs twin (differs from ep 010 safety checklist). Gamma had only 50 credits (no AI photos). Visual look: real Commons photos + chalkboard diagrams. -->
@@ -32,7 +34,6 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] 5 signs your raw-water impeller is about to fail (maintenance, signs)
 - [ ] What a 100-hour engine service actually includes (maintenance, checklist)
 - [ ] Generator vs lithium house bank for quiet nights at anchor (electrical, A-vs-B)
-- [ ] Forward-looking sonar: seeing reefs before you hit them (safety / Red Sea reefs, explainer)
 - [ ] Fibreglass vs aluminium hulls (hull & design, A-vs-B)
 - [ ] Flybridge vs hardtop / sport cruiser (design, A-vs-B)
 - [ ] Why boat engines are measured in hours, not kilometres (ownership, explainer)
@@ -72,3 +73,5 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] Fuel filters & water separators: the cheapest engine insurance (maintenance, explainer)
 - [ ] Copper-coat (copper-epoxy) vs conventional antifouling: is a 10-year bottom worth it? (hull care, A-vs-B)
 - [ ] Hull cleaning by divers vs haul-out: how often in warm Red Sea water? (maintenance, explainer)
+- [ ] Depth sounder vs side-scan sonar: what each one actually shows you (electronics, A-vs-B)
+- [ ] Reading coral colours from the helm: why brown, green and dark blue water mean different depths (Red Sea seamanship, explainer)

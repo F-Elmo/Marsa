@@ -1,0 +1,403 @@
+{
+ "topic": "Forward-looking sonar: seeing reefs before you hit them",
+ "episode": "015",
+ "category": "safety / Red Sea reefs",
+ "format": "explainer",
+ "pipeline": "v1 fallback (vidIQ credits 1 < 40): Kokoro voice + local ffmpeg compose of real Pexels footage + new PIL sonar animations",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "scenes": [
+  {
+   "type": "hook",
+   "phrases": [
+    "Your depth sounder only shows what's under your boat.",
+    "On a Red Sea reef, that can be too late."
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "HOW IT WORKS",
+   "phrases": [
+    "Forward-looking sonar fixes that. It's like a depth sounder tipped on its side.",
+    "A transducer in the bow sends pulses of sound ahead of the boat.",
+    "They bounce off the seabed and come back. The time they take shows how far away the bottom is, and how high it rises.",
+    "Your screen draws the seabed in front of you, and an alarm sounds when it gets too shallow."
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "THE CATCH",
+   "phrases": [
+    "The catch? It sees further in deep water than in shallow.",
+    "One popular system sees about eight times the depth ahead.",
+    "So in three metres of water, that's only about twenty-five metres.",
+    "At ten knots, you cover that in under five seconds.",
+    "So slow down near reefs, keep a lookout, and use your charts too."
+   ]
+  },
+  {
+   "type": "cta",
+   "phrases": [
+    "Would you fit one on your boat? Tell us in the comments.",
+    "And follow Creative Tracks Marine."
+   ]
+  }
+ ],
+ "date": "2026-10-20",
+ "title": "Forward-Looking Sonar: See the Reef Before You Hit It",
+ "voice_duration_s": 54.1,
+ "video_duration_s": 58.0,
+ "research": [
+  "https://passagemaker.com/design-restoration-and-refit/simrad-launches-forward-scanning-sonar-first-integrated-with-mfds/ (ForwardScan: range about 8x depth, e.g. 12 ft -> ~96 ft; works like a sounder tipped on its side; shallow-depth alarm)",
+  "https://southernboating.com/electronics-hub/what-is-forward-looking-sonar/ (bow transducers, colour-coded depth/alarm on the plotter, limited reaction time at speed)",
+  "10 kn = 5.14 m/s -> 24 m in ~4.7 s; sound in seawater ~1,500 m/s"
+ ],
+ "footage": [
+  {
+   "file": "ep015-aerial-turq.mp4",
+   "pexels": "https://www.pexels.com/video/aerial-view-of-boat-on-turquoise-sea-36710783/",
+   "by": "Efrem Efre"
+  },
+  {
+   "file": "ep015-reef-drone.mp4",
+   "pexels": "https://www.pexels.com/video/drone-video-of-coral-reefs-under-turquoise-sea-water-12952333/",
+   "by": "kwnos Iv"
+  },
+  {
+   "file": "ep015-hullside.mp4",
+   "pexels": "https://www.pexels.com/video/side-of-boat-cutting-through-ocean-waves-29378894/",
+   "by": "Rahime Gul"
+  },
+  {
+   "file": "ep015-yacht-top.mp4",
+   "pexels": "https://www.pexels.com/video/top-view-of-a-yacht-in-the-sea-13525313/",
+   "by": "Giorgi Chkhaidze"
+  },
+  {
+   "file": "ep015-rocks-shallow.mp4",
+   "pexels": "https://www.pexels.com/video/drone-view-of-rocks-in-shallow-turquoise-water-12738229/",
+   "by": "ANjoytrips"
+  },
+  {
+   "file": "ep015-speedboat.mp4",
+   "pexels": "https://www.pexels.com/video/speedboat-on-clear-blue-ocean-water-30862558/",
+   "by": "Eyup Can"
+  },
+  {
+   "file": "ep015-yacht-driver.mp4",
+   "pexels": "https://www.pexels.com/video/a-person-driving-a-yacht-3772123/",
+   "by": "Taryn Elliott"
+  },
+  {
+   "file": "ep015-coral.mp4",
+   "pexels": "https://www.pexels.com/video/vibrant-coral-reef-teeming-with-marine-life-29337096/",
+   "by": "hayriyenur"
+  }
+ ],
+ "animations": {
+  "script": "engine/v2/sonar_anim.py",
+  "clips": [
+   "media/015/sonar_look.mp4",
+   "media/015/sonar_echo.mp4",
+   "media/015/sonar_screen.mp4",
+   "media/015/sonar_range.mp4"
+  ],
+  "look": "NEW side-view underwater cut-away: depth-sounder cone looking down rotates into a forward sonar fan; pulses/echoes off a rising reef; echo-time distance line + reef-height arrow; simulated sonar screen drawing the seabed with shallow alarm; deep vs 3 m range panels (8x3 m = 24 m)."
+ },
+ "compose_plan": {
+  "builder": "engine/v2/build_015.py",
+  "scenes": [
+   {
+    "src": "fetch/raw/ep015-aerial-turq.mp4",
+    "start": 5.0,
+    "dur": 3.4,
+    "crop_cx": 0.66
+   },
+   {
+    "src": "fetch/raw/ep015-reef-drone.mp4",
+    "start": 0.5,
+    "dur": 2.8,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/015/sonar_look.mp4",
+    "start": 0,
+    "dur": 5.1,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep015-hullside.mp4",
+    "start": 1.0,
+    "dur": 2.0,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/015/sonar_echo.mp4",
+    "start": 0,
+    "dur": 9.8,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/015/sonar_screen.mp4",
+    "start": 0,
+    "dur": 5.5,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep015-yacht-top.mp4",
+    "start": 4.0,
+    "dur": 1.9,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep015-rocks-shallow.mp4",
+    "start": 5.0,
+    "dur": 1.8,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/015/sonar_range.mp4",
+    "start": 0,
+    "dur": 8.4,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep015-speedboat.mp4",
+    "start": 0.5,
+    "dur": 3.3,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep015-yacht-driver.mp4",
+    "start": 0.3,
+    "dur": 4.5,
+    "crop_cx": 0.6
+   },
+   {
+    "src": "fetch/raw/ep015-coral.mp4",
+    "start": 3.0,
+    "dur": 3.5,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep015-rocks-shallow.mp4",
+    "start": 15.0,
+    "dur": 6.0,
+    "crop_cx": 0.5
+   }
+  ],
+  "music": "fetch/raw/ctm-music.wav (stored CTM track, 0.13 under voice, 0.34 on end card)",
+  "logo": "media/013/logo_badge.png at 356,86 367x163",
+  "overlays": "hook 0.2-6.0 'SEE THE REEF / BEFORE YOU HIT IT'; 38 word-group captions y=1500; end text 54.0-58.0"
+ },
+ "captions_onscreen": [
+  [
+   0.3,
+   1.32,
+   "YOUR DEPTH SOUNDER ONLY"
+  ],
+  [
+   1.62,
+   1.64,
+   "SHOWS WHAT'S UNDER YOUR BOAT"
+  ],
+  [
+   3.46,
+   1.11,
+   "ON A RED SEA REEF"
+  ],
+  [
+   4.57,
+   1.28,
+   "THAT CAN BE TOO LATE"
+  ],
+  [
+   6.3,
+   2.1,
+   "FORWARD-LOOKING SONAR FIXES THAT"
+  ],
+  [
+   8.4,
+   1.11,
+   "IT'S LIKE A DEPTH"
+  ],
+  [
+   9.51,
+   1.73,
+   "SOUNDER TIPPED ON ITS SIDE"
+  ],
+  [
+   11.44,
+   1.2,
+   "A TRANSDUCER IN THE"
+  ],
+  [
+   12.64,
+   1.57,
+   "BOW SENDS PULSES OF SOUND"
+  ],
+  [
+   14.21,
+   1.14,
+   "AHEAD OF THE BOAT"
+  ],
+  [
+   15.55,
+   1.26,
+   "THEY BOUNCE OFF THE"
+  ],
+  [
+   16.81,
+   1.39,
+   "SEABED AND COME BACK"
+  ],
+  [
+   18.2,
+   1.2,
+   "THE TIME THEY TAKE"
+  ],
+  [
+   19.4,
+   0.88,
+   "SHOWS HOW FAR"
+  ],
+  [
+   20.29,
+   1.26,
+   "AWAY THE BOTTOM IS"
+  ],
+  [
+   21.55,
+   1.45,
+   "AND HOW HIGH IT RISES"
+  ],
+  [
+   23.2,
+   1.24,
+   "YOUR SCREEN DRAWS THE"
+  ],
+  [
+   24.44,
+   1.36,
+   "SEABED IN FRONT OF YOU"
+  ],
+  [
+   25.8,
+   1.13,
+   "AND AN ALARM SOUNDS"
+  ],
+  [
+   26.93,
+   1.47,
+   "WHEN IT GETS TOO SHALLOW"
+  ],
+  [
+   28.85,
+   0.62,
+   "THE CATCH?"
+  ],
+  [
+   29.47,
+   1.06,
+   "IT SEES FURTHER IN"
+  ],
+  [
+   30.53,
+   1.57,
+   "DEEP WATER THAN IN SHALLOW"
+  ],
+  [
+   32.3,
+   1.95,
+   "ONE POPULAR SYSTEM SEES ABOUT"
+  ],
+  [
+   34.25,
+   1.89,
+   "EIGHT TIMES THE DEPTH AHEAD"
+  ],
+  [
+   36.34,
+   0.76,
+   "SO IN THREE"
+  ],
+  [
+   37.09,
+   1.07,
+   "METRES OF WATER"
+  ],
+  [
+   38.17,
+   2.4,
+   "THAT'S ONLY ABOUT TWENTY-FIVE METRES"
+  ],
+  [
+   40.77,
+   0.84,
+   "AT TEN KNOTS"
+  ],
+  [
+   41.61,
+   1.08,
+   "YOU COVER THAT IN"
+  ],
+  [
+   42.69,
+   1.2,
+   "UNDER FIVE SECONDS"
+  ],
+  [
+   44.1,
+   1.52,
+   "SO SLOW DOWN NEAR REEFS"
+  ],
+  [
+   45.62,
+   0.98,
+   "KEEP A LOOKOUT"
+  ],
+  [
+   46.6,
+   1.52,
+   "AND USE YOUR CHARTS TOO"
+  ],
+  [
+   48.57,
+   0.93,
+   "WOULD YOU FIT ONE"
+  ],
+  [
+   49.5,
+   0.72,
+   "ON YOUR BOAT?"
+  ],
+  [
+   50.23,
+   1.29,
+   "TELL US IN THE COMMENTS"
+  ],
+  [
+   51.72,
+   1.93,
+   "AND FOLLOW CREATIVE TRACKS MARINE"
+  ]
+ ],
+ "cover_text": "SEE THE REEF BEFORE YOU HIT IT",
+ "caption_en": "Your depth sounder only shows what's under your boat. On a Red Sea reef, that can be too late. Forward-looking sonar sends pulses of sound ahead of the bow and draws the seabed in front of you, with an alarm when it gets too shallow. The catch: it sees less in shallow water. One popular system sees about 8x the depth ahead, so in 3 m of water that's only around 24 m. At 10 knots you cover that in under 5 seconds. Slow down near reefs, keep a lookout and use your charts too. Would you fit one on your boat? Tell us in the comments.",
+ "caption_ar": "جهاز قياس العمق يُريك فقط ما تحت قاربك، وعلى شعاب البحر الأحمر قد يكون ذلك متأخرًا. السونار الأمامي يرسل نبضات صوتية أمام مقدّمة القارب ويرسم قاع البحر أمامك، وينبّهك عندما يصبح الماء ضحلًا. لكن انتبه: مداه يقلّ في المياه الضحلة؛ فأحد الأنظمة الشائعة يرى نحو ثمانية أضعاف العمق أمامه، أي حوالي ٢٤ مترًا فقط في عمق ٣ أمتار. وبسرعة ١٠ عقد تقطع هذه المسافة في أقل من ٥ ثوانٍ. لذلك خفّف السرعة قرب الشعاب، وراقب بعينك، واعتمد على الخرائط أيضًا. هل تركّب واحدًا على قاربك؟ أخبرنا في التعليقات.",
+ "hashtags": [
+  "#yachtlife",
+  "#boatlife",
+  "#marineengineering",
+  "#redsea",
+  "#jeddah",
+  "#creativetracksmarine",
+  "#forwardsonar",
+  "#boatsafety",
+  "#يخوت",
+  "#جدة",
+  "#البحر_الأحمر",
+  "#سلامة_بحرية"
+ ],
+ "deliverable": "media/015/ep015_final.mp4"
+}
