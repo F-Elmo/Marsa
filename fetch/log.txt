@@ -1,1 +1,10 @@
-ok qc014b-end2.jpg 173162
+ok ep015-aerial-turq.mp4 8811003
+ok ep015-reef-drone.mp4 5429942
+ok ep015-yacht-driver.mp4 3239045
+ok ep015-coral.mp4 104055171
+ok ep015-speedboat.mp4 27296638
+FAIL ep015-steering.mp4 HTTP Error 403: Forbidden
+ok ep015-hullside.mp4 19016974
+ok ep015-rocks-shallow.mp4 22722113
+ok ep015-yacht-top.mp4 10946691
+ok ctm-music.wav 1753739
