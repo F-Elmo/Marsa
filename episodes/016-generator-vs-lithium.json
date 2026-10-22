@@ -1,0 +1,426 @@
+{
+ "topic": "Generator vs lithium house bank for quiet nights at anchor",
+ "episode": "016",
+ "category": "electrical",
+ "format": "A-vs-B",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "scenes": [
+  {
+   "type": "hook",
+   "phrases": [
+    "Quiet night at anchor. Generator, or lithium batteries?"
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "A: GENERATOR",
+   "phrases": [
+    "A generator is a small diesel engine spinning an alternator.",
+    "It makes power on demand, so it can run the air-conditioning all night.",
+    "The downsides? Noise, exhaust, fuel, and service hours.",
+    "And hours at light load can leave unburned fuel and soot inside."
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "B: LITHIUM",
+   "phrases": [
+    "A lithium house bank stores power silently.",
+    "An inverter turns it into household power for the fridge, lights and fans.",
+    "It's far lighter than lead-acid, and you can use much more of it.",
+    "But one sixteen-thousand BTU air-conditioner draws about twelve hundred watts.",
+    "All night, that's nearly ten kilowatt-hours. A very big bank."
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "VERDICT",
+   "phrases": [
+    "So in a Red Sea summer, many yachts use both.",
+    "Run the generator in the evening to cool down and charge, then let the batteries carry the quiet night."
+   ]
+  },
+  {
+   "type": "cta",
+   "phrases": [
+    "Which would you choose? Tell us in the comments.",
+    "And follow Creative Tracks Marine."
+   ]
+  }
+ ],
+ "pipeline": "v1 fallback (vidIQ credits 1 < 40, renews 2026-11-07): Kokoro am_michael voice + local ffmpeg compose of 8 new Pexels clips + new PIL power-schematic animations",
+ "date": "2026-10-22",
+ "title": "Generator vs Lithium: Which Powers a Quiet Night at Anchor?",
+ "voice_duration_s": 58.5,
+ "video_duration_s": 62.0,
+ "research": [
+  "https://www.practical-sailor.com/marine-electronics/can-you-run-a-marine-air-conditioner-on-battery-power/ (16,000 BTU marine A/C units run ~980-1,290 W at 115 V; reader runs a Dometic 16k ~1,200 W for 6-8 h a night; LFP bank >=600-800 Ah recommended, lead-acid would need double)",
+  "https://www.yachtingmonthly.com/gear/how-to-improve-power-management-on-a-yacht-98777 (lead-acid should not go below 50%; lithium can be run down much further and is far lighter; inverter A/C is a 'battery power killer', best with generator/shore power; batch generator running)",
+  "https://trystar.com/article/how-do-load-banks-prevent-generator-wet-stacking (light load -> engine too cool to burn all fuel -> unburned fuel + carbon/soot deposits, 'wet stacking')",
+  "1.2 kW x 8 h = 9.6 kWh"
+ ],
+ "footage": [
+  {
+   "file": "ep016-yacht-night-people.mp4",
+   "pexels": "https://www.pexels.com/video/people-on-motor-yacht-at-night-14234185/",
+   "by": "khanhhoangminh"
+  },
+  {
+   "file": "ep016-yacht-port-night.mp4",
+   "pexels": "https://www.pexels.com/video/a-yacht-moored-at-port-on-a-dark-night-15270579/",
+   "by": "Foster"
+  },
+  {
+   "file": "ep016-diesel-start.mp4",
+   "pexels": "https://www.pexels.com/video/diesel-engine-starts-20555841/",
+   "by": "Nadim Hossen"
+  },
+  {
+   "file": "ep016-mechanic.mp4",
+   "pexels": "https://www.pexels.com/video/mechanic-working-on-an-engine-8986876/",
+   "by": "Artem Podrez"
+  },
+  {
+   "file": "ep016-battery-bank.mp4",
+   "pexels": "https://www.pexels.com/video/electrician-working-on-industrial-battery-bank-36167827/",
+   "by": "Mumtaz Niazi"
+  },
+  {
+   "file": "ep016-yacht-interior.mp4",
+   "pexels": "https://www.pexels.com/video/interior-of-a-luxury-yacht-7007353/",
+   "by": "mark lane"
+  },
+  {
+   "file": "ep016-aegean-sunset.mp4",
+   "pexels": "https://www.pexels.com/video/scenic-yacht-at-sunset-in-aegean-sea-31985718/",
+   "by": "Shuttercraftsman"
+  },
+  {
+   "file": "ep016-anchored-bay.mp4",
+   "pexels": "https://www.pexels.com/video/a-boat-anchored-at-the-sea-bay-6010311/",
+   "by": "Tima Miroshnichenko"
+  }
+ ],
+ "animations": {
+  "script": "engine/v2/power_anim.py",
+  "clips": [
+   "media/016/power_gen.mp4",
+   "media/016/power_soot.mp4",
+   "media/016/power_lith.mp4",
+   "media/016/power_ac.mp4",
+   "media/016/power_verdict.mp4"
+  ],
+  "look": "NEW night-sky 'power schematic' board: glowing component boxes joined by wires with moving energy dashes. Generator (engine block + spinning alternator, sound arcs, exhaust puffs) feeding air-con/fridge/lights; light-load gauge + cylinder cut-away with unburned fuel and soot; lithium bank -> inverter (DC line morphs to AC sine) -> fridge/bulb/fan; lead-acid ~50% vs lithium usable bars; 16,000 BTU A/C ~1,200 W x 8 h clock = 9.6 kWh meter; evening/night timeline (generator charges, batteries carry the night)."
+ },
+ "compose_plan": {
+  "builder": "engine/v2/build_016.py",
+  "scenes": [
+   {
+    "src": "fetch/raw/ep016-yacht-night-people.mp4",
+    "start": 0.5,
+    "dur": 2.3,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep016-yacht-port-night.mp4",
+    "start": 1.0,
+    "dur": 2.2,
+    "crop_cx": 0.62
+   },
+   {
+    "src": "media/016/power_gen.mp4",
+    "start": 0,
+    "dur": 8.6,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep016-diesel-start.mp4",
+    "start": 0.5,
+    "dur": 2.3,
+    "crop_cx": 0.4
+   },
+   {
+    "src": "fetch/raw/ep016-mechanic.mp4",
+    "start": 2.0,
+    "dur": 1.9,
+    "crop_cx": 0.55
+   },
+   {
+    "src": "media/016/power_soot.mp4",
+    "start": 0,
+    "dur": 4.3,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep016-battery-bank.mp4",
+    "start": 2.0,
+    "dur": 2.6,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/016/power_lith.mp4",
+    "start": 0,
+    "dur": 8.9,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/016/power_ac.mp4",
+    "start": 0,
+    "dur": 10.2,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep016-aegean-sunset.mp4",
+    "start": 0.2,
+    "dur": 3.2,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/016/power_verdict.mp4",
+    "start": 0,
+    "dur": 6.6,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep016-yacht-interior.mp4",
+    "start": 6.0,
+    "dur": 2.8,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep016-anchored-bay.mp4",
+    "start": 2.0,
+    "dur": 6.1,
+    "crop_cx": 0.5
+   }
+  ],
+  "music": "fetch/raw/ctm-music.wav (stored CTM track, 0.13 under voice, 0.34 on end card)",
+  "logo": "media/013/logo_badge.png at 356,86 367x163",
+  "overlays": "hook 0.2-4.4 'GENERATOR VS LITHIUM / FOR QUIET NIGHTS'; 40 word-group captions y=1500; end text 58.2-62.0"
+ },
+ "captions_onscreen": [
+  [
+   0.3,
+   1.52,
+   "QUIET NIGHT AT ANCHOR"
+  ],
+  [
+   1.82,
+   0.73,
+   "GENERATOR"
+  ],
+  [
+   2.55,
+   1.46,
+   "OR LITHIUM BATTERIES?"
+  ],
+  [
+   4.46,
+   1.52,
+   "A GENERATOR IS A SMALL"
+  ],
+  [
+   5.98,
+   2.52,
+   "DIESEL ENGINE SPINNING AN ALTERNATOR"
+  ],
+  [
+   8.7,
+   1.54,
+   "IT MAKES POWER ON DEMAND"
+  ],
+  [
+   10.23,
+   0.83,
+   "SO IT CAN RUN"
+  ],
+  [
+   11.06,
+   1.89,
+   "THE AIR-CONDITIONING ALL NIGHT"
+  ],
+  [
+   13.15,
+   1.05,
+   "THE DOWNSIDES?"
+  ],
+  [
+   14.2,
+   0.49,
+   "NOISE"
+  ],
+  [
+   14.68,
+   0.63,
+   "EXHAUST"
+  ],
+  [
+   15.31,
+   0.42,
+   "FUEL"
+  ],
+  [
+   15.73,
+   1.33,
+   "AND SERVICE HOURS"
+  ],
+  [
+   17.26,
+   1.15,
+   "AND HOURS AT LIGHT"
+  ],
+  [
+   18.41,
+   1.45,
+   "LOAD CAN LEAVE UNBURNED"
+  ],
+  [
+   19.87,
+   1.33,
+   "FUEL AND SOOT INSIDE"
+  ],
+  [
+   21.65,
+   1.17,
+   "A LITHIUM HOUSE BANK"
+  ],
+  [
+   22.82,
+   1.28,
+   "STORES POWER SILENTLY"
+  ],
+  [
+   24.3,
+   1.58,
+   "AN INVERTER TURNS IT INTO"
+  ],
+  [
+   25.88,
+   1.94,
+   "HOUSEHOLD POWER FOR THE FRIDGE"
+  ],
+  [
+   27.82,
+   1.03,
+   "LIGHTS AND FANS"
+  ],
+  [
+   29.05,
+   1.93,
+   "IT'S FAR LIGHTER THAN LEAD-ACID"
+  ],
+  [
+   30.98,
+   0.94,
+   "AND YOU CAN USE"
+  ],
+  [
+   31.92,
+   1.0,
+   "MUCH MORE OF IT"
+  ],
+  [
+   33.11,
+   3.3,
+   "BUT ONE SIXTEEN-THOUSAND BTU AIR-CONDITIONER"
+  ],
+  [
+   36.41,
+   2.49,
+   "DRAWS ABOUT TWELVE HUNDRED WATTS"
+  ],
+  [
+   39.11,
+   0.69,
+   "ALL NIGHT"
+  ],
+  [
+   39.8,
+   2.12,
+   "THAT'S NEARLY TEN KILOWATT-HOURS"
+  ],
+  [
+   41.92,
+   1.06,
+   "A VERY BIG BANK"
+  ],
+  [
+   43.43,
+   0.52,
+   "SO IN A"
+  ],
+  [
+   43.95,
+   1.03,
+   "RED SEA SUMMER"
+  ],
+  [
+   44.98,
+   1.42,
+   "MANY YACHTS USE BOTH"
+  ],
+  [
+   46.6,
+   1.27,
+   "RUN THE GENERATOR IN"
+  ],
+  [
+   47.87,
+   0.9,
+   "THE EVENING TO"
+  ],
+  [
+   48.77,
+   1.33,
+   "COOL DOWN AND CHARGE"
+  ],
+  [
+   50.1,
+   1.39,
+   "THEN LET THE BATTERIES"
+  ],
+  [
+   51.48,
+   1.39,
+   "CARRY THE QUIET NIGHT"
+  ],
+  [
+   53.32,
+   1.25,
+   "WHICH WOULD YOU CHOOSE?"
+  ],
+  [
+   54.57,
+   1.31,
+   "TELL US IN THE COMMENTS"
+  ],
+  [
+   56.08,
+   1.93,
+   "AND FOLLOW CREATIVE TRACKS MARINE"
+  ]
+ ],
+ "cover_text": "GENERATOR VS LITHIUM: WHO WINS THE NIGHT?",
+ "caption_en": "Quiet night at anchor: generator or lithium batteries? ⚡ A generator makes power on demand and can run the air-con all night, but brings noise, exhaust, fuel and service hours, and long hours at light load can leave unburned fuel and soot inside. A lithium house bank is silent, far lighter than lead-acid and you can use much more of its capacity. The catch: one 16,000 BTU air-con draws about 1,200 W, so a whole night is close to 10 kWh. In a Red Sea summer, many yachts use both: run the generator in the evening to cool down and charge, then let the batteries carry the quiet night. Which would you choose? Tell us in the comments 👇",
+ "caption_ar": "ليلة هادئة على المرساة: المولّد أم بطاريات الليثيوم؟ ⚡ المولّد يعطيك كهرباء عند الطلب ويشغّل المكيّف طوال الليل، لكن معه ضجيج وعادم ووقود وساعات صيانة، وتشغيله لساعات طويلة بحمل خفيف قد يترك وقودًا غير محترق وسخامًا داخل المحرك. أما بنك بطاريات الليثيوم فهو صامت، وأخفّ بكثير من بطاريات الرصاص الحمضية، ويمكنك استخدام جزء أكبر بكثير من سعته. لكن انتبه: مكيّف واحد بقدرة ١٦٬٠٠٠ وحدة حرارية يسحب نحو ١٬٢٠٠ واط، أي ما يقارب ١٠ كيلوواط ساعة في ليلة كاملة. لذلك في صيف البحر الأحمر يجمع كثير من اليخوت بين الاثنين: شغّل المولّد في المساء للتبريد والشحن، ثم دع البطاريات تحمل الليل بهدوء. أيّهما تختار؟ أخبرنا في التعليقات 👇",
+ "hashtags": [
+  "#yachtlife",
+  "#boatlife",
+  "#marineengineering",
+  "#redsea",
+  "#jeddah",
+  "#creativetracksmarine",
+  "#lithiumbattery",
+  "#boatgenerator",
+  "#يخوت",
+  "#جدة",
+  "#البحر_الأحمر",
+  "#كهرباء_القارب"
+ ],
+ "deliverable": "media/016/ep016_final.mp4",
+ "hosted": {
+  "github_raw": "https://raw.githubusercontent.com/F-Elmo/Marsa/ctm-reels/media/016/ep016_final.mp4",
+  "vidiq_upload_id": "5c98fcd8-a87f-41e9-a019-c0e6dbafcc34"
+ }
+}
