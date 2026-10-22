@@ -1,10 +1,8 @@
-ok ep015-aerial-turq.mp4 8811003
-ok ep015-reef-drone.mp4 5429942
-ok ep015-yacht-driver.mp4 3239045
-ok ep015-coral.mp4 104055171
-ok ep015-speedboat.mp4 27296638
-FAIL ep015-steering.mp4 HTTP Error 403: Forbidden
-ok ep015-hullside.mp4 19016974
-ok ep015-rocks-shallow.mp4 22722113
-ok ep015-yacht-top.mp4 10946691
-ok ctm-music.wav 1753739
+ok ep016-yacht-night-people.mp4 19005971
+ok ep016-yacht-port-night.mp4 21355846
+ok ep016-diesel-start.mp4 2437835
+ok ep016-mechanic.mp4 14606116
+ok ep016-battery-bank.mp4 7460224
+ok ep016-yacht-interior.mp4 30809203
+ok ep016-aegean-sunset.mp4 9988714
+ok ep016-anchored-bay.mp4 41356621
