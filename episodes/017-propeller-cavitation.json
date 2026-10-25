@@ -1,0 +1,459 @@
+{
+ "topic": "Why props cavitate — and what that rumble is doing to your propeller",
+ "episode": "017",
+ "category": "propulsion",
+ "format": "explainer",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "scenes": [
+  {
+   "type": "hook",
+   "phrases": [
+    "That rumble from your propeller? It could be water boiling. In cool sea water."
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "HOW IT HAPPENS",
+   "phrases": [
+    "A propeller blade works like a wing. As it spins, the pressure on its back face drops.",
+    "Drop pressure low enough, and water boils, even when it's cool.",
+    "Tiny vapour bubbles form on the blade. That's cavitation."
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "THE DAMAGE",
+   "phrases": [
+    "Then the bubbles reach higher pressure and collapse, violently, right against the metal.",
+    "Millions of tiny hammer blows eat pits into the blade. Mechanics call it cavitation burn.",
+    "You feel vibration, hear a rumble, and lose top speed at the same RPM."
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "THE FIX",
+   "phrases": [
+    "Common causes: nicked or bent blades, marine growth, or the wrong pitch for your boat.",
+    "So keep blades smooth and clean, and have the prop checked by a specialist.",
+    "And if a clean, undamaged prop still cavitates, a different prop design can solve it."
+   ]
+  },
+  {
+   "type": "cta",
+   "phrases": [
+    "Ever heard your prop rumble? Tell us in the comments.",
+    "And follow Creative Tracks Marine."
+   ]
+  }
+ ],
+ "pipeline": "v1 fallback (vidIQ credits 1 < 40, renews 2026-11-07): Kokoro am_michael voice + local ffmpeg compose of new Pexels clips + new PIL 'underwater blueprint' cavitation animations",
+ "date": "2026-10-25",
+ "title": "Why Your Propeller Rumbles: Cavitation Explained",
+ "voice_duration_s": 58.2,
+ "video_duration_s": 61.5,
+ "research": [
+  "https://www.westmarine.com/west-advisor/propeller-cavitation-vs-ventilation.html (cavitation = low pressure on the back of the blade forms vapour bubbles that collapse violently against the metal -> pitting/'cavitation burn'; symptoms: vibration rising with RPM, rattling/knocking, loss of top speed at full RPM; causes: nicked/bent/corroded edges, too much pitch, marine growth/fishing line, RPM beyond design; fixes: recondition/replace, correct pitch, clean, cupped/higher-load design; ventilation is surface air, a different problem)",
+  "Physics: water boils when local pressure falls to its vapour pressure, so it can boil at sea temperature (100 C only at normal atmospheric pressure)."
+ ],
+ "footage": [
+  {
+   "file": "ep017-prop-underwater.mp4",
+   "pexels": "https://www.pexels.com/video/underwater-view-of-speedboat-propeller-in-motion-39079706/",
+   "by": "Glowplug Media"
+  },
+  {
+   "file": "ep017-engine-calm.mp4",
+   "pexels": "https://www.pexels.com/video/boat-engine-on-calm-water-close-up-34428321/",
+   "by": "Riccardo Fraccarollo"
+  },
+  {
+   "file": "ep017-wake-dramatic.mp4",
+   "pexels": "https://www.pexels.com/video/boat-speeding-through-ocean-with-dramatic-wake-34646250/",
+   "by": "Sergei Starostin"
+  },
+  {
+   "file": "ep017-shipyard-props.mp4",
+   "pexels": "https://www.pexels.com/video/industrial-shipyard-with-metal-propellers-38400372/",
+   "by": "Somogro Bangladesh"
+  },
+  {
+   "file": "ep017-prop-weeds.mp4",
+   "pexels": "https://www.pexels.com/video/propeller-of-motorboat-surrounded-by-plants-9656587/",
+   "by": "Mathew Kurian"
+  },
+  {
+   "file": "ep017-speedboat-aerial.mp4",
+   "pexels": "https://www.pexels.com/video/aerial-shot-of-speed-boat-in-the-ocean-7511665/",
+   "by": "Hamzah Tariq"
+  },
+  {
+   "file": "ep017-wake-auckland.mp4",
+   "pexels": "https://www.pexels.com/video/speedboat-wake-in-auckland-harbor-38824878/",
+   "by": "Kiwi and Camera"
+  },
+  {
+   "file": "ep017-yacht-sunset-drone.mp4",
+   "pexels": "https://www.pexels.com/video/a-drone-shot-of-yacht-in-the-bay-8490929/",
+   "by": "ArtHouse Studio"
+  }
+ ],
+ "footage_rejected": [
+  "ep017-prop-spin-closeup.mp4 (Pexels 8822799, Kindel Media): turned out to be a hose/wheel, not a propeller - not used"
+ ],
+ "animations": {
+  "script": "engine/v2/cav_anim.py",
+  "clips": [
+   "media/017/cav_wing.mp4",
+   "media/017/cav_boil.mp4",
+   "media/017/cav_bubbles.mp4",
+   "media/017/cav_collapse.mp4",
+   "media/017/cav_pits.mp4",
+   "media/017/cav_signs.mp4",
+   "media/017/cav_causes.mp4",
+   "media/017/cav_fix.mp4"
+  ],
+  "look": "NEW deep-teal 'underwater blueprint' (light rays, drifting particles, faint grid): blade cross-section (NACA-style aerofoil) in moving flow lines with red/blue pressure colour-map + pressure gauge; pressure column + thermometer where the boiling point slides down to sea temperature while a tank boils; vapour bubbles growing/shrinking on the blade back; magnified blade surface where bubbles drift into higher pressure and implode with micro-jets leaving pits; pitted 'cavitation burn' blade with magnifier + million-hit counter; symptom cards (shaking hull, rumble waves, RPM vs speed dials); causes cards (nicked prop, weed-covered prop, pitch angles); fix checklist + 3-blade/4-blade/cupped props."
+ },
+ "compose_plan": {
+  "builder": "engine/v2/build_017.py",
+  "scenes": [
+   {
+    "src": "fetch/raw/ep017-prop-underwater.mp4",
+    "start": 0.6,
+    "dur": 1.8,
+    "crop_cx": 0.4
+   },
+   {
+    "src": "fetch/raw/ep017-engine-calm.mp4",
+    "start": 2.0,
+    "dur": 1.8,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep017-wake-dramatic.mp4",
+    "start": 1.0,
+    "dur": 1.8,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/017/cav_wing.mp4",
+    "start": 0,
+    "dur": 6.2,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/017/cav_boil.mp4",
+    "start": 0,
+    "dur": 3.8,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/017/cav_bubbles.mp4",
+    "start": 0,
+    "dur": 4.1,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/017/cav_collapse.mp4",
+    "start": 0,
+    "dur": 5.1,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep017-shipyard-props.mp4",
+    "start": 3.0,
+    "dur": 2.2,
+    "crop_cx": 0.62
+   },
+   {
+    "src": "media/017/cav_pits.mp4",
+    "start": 0,
+    "dur": 3.9,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/017/cav_signs.mp4",
+    "start": 0,
+    "dur": 5.1,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/017/cav_causes.mp4",
+    "start": 0,
+    "dur": 2.8,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep017-prop-weeds.mp4",
+    "start": 1.0,
+    "dur": 1.7,
+    "crop_cx": 0.4
+   },
+   {
+    "src": "media/017/cav_causes.mp4",
+    "start": 4.5,
+    "dur": 1.5,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep017-prop-underwater.mp4",
+    "start": 5.2,
+    "dur": 1.8,
+    "crop_cx": 0.36
+   },
+   {
+    "src": "media/017/cav_fix.mp4",
+    "start": 0,
+    "dur": 8.8,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep017-speedboat-aerial.mp4",
+    "start": 2.5,
+    "dur": 3.2,
+    "crop_cx": 0.58
+   },
+   {
+    "src": "fetch/raw/ep017-wake-auckland.mp4",
+    "start": 3.0,
+    "dur": 2.6,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep017-yacht-sunset-drone.mp4",
+    "start": 3.0,
+    "dur": 3.3,
+    "crop_cx": 0.52
+   }
+  ]
+ },
+ "captions_onscreen": [
+  [
+   0.3,
+   1.96,
+   "THAT RUMBLE FROM YOUR PROPELLER?"
+  ],
+  [
+   2.26,
+   1.6,
+   "IT COULD BE WATER BOILING"
+  ],
+  [
+   3.86,
+   1.13,
+   "IN COOL SEA WATER"
+  ],
+  [
+   5.44,
+   1.64,
+   "A PROPELLER BLADE WORKS"
+  ],
+  [
+   7.07,
+   0.89,
+   "LIKE A WING"
+  ],
+  [
+   7.96,
+   0.89,
+   "AS IT SPINS"
+  ],
+  [
+   8.84,
+   1.36,
+   "THE PRESSURE ON ITS"
+  ],
+  [
+   10.21,
+   1.16,
+   "BACK FACE DROPS"
+  ],
+  [
+   11.57,
+   1.47,
+   "DROP PRESSURE LOW ENOUGH"
+  ],
+  [
+   13.03,
+   0.96,
+   "AND WATER BOILS"
+  ],
+  [
+   13.99,
+   1.18,
+   "EVEN WHEN IT'S COOL"
+  ],
+  [
+   15.37,
+   1.61,
+   "TINY VAPOUR BUBBLES FORM"
+  ],
+  [
+   16.98,
+   0.9,
+   "ON THE BLADE"
+  ],
+  [
+   17.88,
+   1.22,
+   "THAT'S CAVITATION"
+  ],
+  [
+   19.55,
+   1.25,
+   "THEN THE BUBBLES REACH"
+  ],
+  [
+   20.8,
+   1.63,
+   "HIGHER PRESSURE AND COLLAPSE"
+  ],
+  [
+   22.43,
+   0.6,
+   "VIOLENTLY"
+  ],
+  [
+   23.03,
+   1.36,
+   "RIGHT AGAINST THE METAL"
+  ],
+  [
+   24.58,
+   1.96,
+   "MILLIONS OF TINY HAMMER BLOWS"
+  ],
+  [
+   26.54,
+   1.63,
+   "EAT PITS INTO THE BLADE"
+  ],
+  [
+   28.17,
+   2.29,
+   "MECHANICS CALL IT CAVITATION BURN"
+  ],
+  [
+   30.66,
+   1.43,
+   "YOU FEEL VIBRATION"
+  ],
+  [
+   32.09,
+   1.07,
+   "HEAR A RUMBLE"
+  ],
+  [
+   33.16,
+   1.36,
+   "AND LOSE TOP SPEED"
+  ],
+  [
+   34.51,
+   1.21,
+   "AT THE SAME RPM"
+  ],
+  [
+   36.17,
+   1.38,
+   "COMMON CAUSES: NICKED"
+  ],
+  [
+   37.56,
+   1.0,
+   "OR BENT BLADES"
+  ],
+  [
+   38.56,
+   0.94,
+   "MARINE GROWTH"
+  ],
+  [
+   39.5,
+   1.19,
+   "OR THE WRONG PITCH"
+  ],
+  [
+   40.7,
+   0.94,
+   "FOR YOUR BOAT"
+  ],
+  [
+   41.84,
+   0.9,
+   "SO KEEP BLADES"
+  ],
+  [
+   42.74,
+   1.08,
+   "SMOOTH AND CLEAN"
+  ],
+  [
+   43.82,
+   1.08,
+   "AND HAVE THE PROP"
+  ],
+  [
+   44.91,
+   1.51,
+   "CHECKED BY A SPECIALIST"
+  ],
+  [
+   46.61,
+   1.04,
+   "AND IF A CLEAN"
+  ],
+  [
+   47.65,
+   2.07,
+   "UNDAMAGED PROP STILL CAVITATES"
+  ],
+  [
+   49.72,
+   1.55,
+   "A DIFFERENT PROP DESIGN"
+  ],
+  [
+   51.27,
+   0.91,
+   "CAN SOLVE IT"
+  ],
+  [
+   52.63,
+   1.61,
+   "EVER HEARD YOUR PROP RUMBLE?"
+  ],
+  [
+   54.24,
+   1.38,
+   "TELL US IN THE COMMENTS"
+  ],
+  [
+   55.82,
+   1.93,
+   "AND FOLLOW CREATIVE TRACKS MARINE"
+  ]
+ ],
+ "cover_text": "WHY YOUR PROP RUMBLES",
+ "caption_en": "That rumble from your propeller could be water boiling, in cool sea water. 🌊 A prop blade works like a wing: as it spins, pressure on its back face drops. Drop pressure low enough and water boils even when it's cool, forming tiny vapour bubbles: that's cavitation. When the bubbles reach higher pressure they collapse violently against the metal, and millions of tiny hammer blows eat pits into the blade ('cavitation burn'). Signs: vibration, a rumble, and less top speed at the same RPM. Common causes: nicked or bent blades, marine growth, or the wrong pitch for your boat. Keep blades smooth and clean, have the prop checked by a specialist, and if a clean, undamaged prop still cavitates, a different prop design can solve it. Ever heard your prop rumble? Tell us in the comments 👇 Follow Creative Tracks Marine for a new boat explainer every 2 days.",
+ "caption_ar": "هل تسمع هديرًا من مروحة قاربك؟ قد يكون الماء يغلي… في مياه البحر الباردة! 🌊 شفرة المروحة تعمل مثل جناح الطائرة: أثناء دورانها ينخفض الضغط على ظهرها. وعندما ينخفض الضغط بما يكفي يغلي الماء حتى وهو بارد، فتتكوّن فقاعات بخار صغيرة، وهذا ما يسمّى «التكهّف». وعندما تصل الفقاعات إلى منطقة ضغط أعلى تنفجر للداخل بعنف ملاصقةً للمعدن، وملايين الضربات الصغيرة تحفر نقرًا في الشفرة يسميها الفنيون «حرق التكهّف». العلامات: اهتزاز، وهدير، وانخفاض السرعة القصوى عند نفس عدد الدورات. أشهر الأسباب: شفرات مخدوشة أو منحنية، أو نموّ بحري، أو خطوة مروحة غير مناسبة لقاربك. حافظ على الشفرات ناعمة ونظيفة، واطلب فحص المروحة من مختص، وإذا استمر التكهّف مع مروحة نظيفة وسليمة فقد يكون الحل تصميم مروحة مختلف. هل سمعت هدير مروحتك من قبل؟ أخبرنا في التعليقات 👇 وتابع Creative Tracks Marine لشرح جديد عن القوارب كل يومين.",
+ "hashtags": [
+  "#yachtlife",
+  "#boatlife",
+  "#marineengineering",
+  "#redsea",
+  "#jeddah",
+  "#creativetracksmarine",
+  "#propeller",
+  "#cavitation",
+  "#يخوت",
+  "#جدة",
+  "#البحر_الأحمر",
+  "#مروحة_القارب"
+ ],
+ "deliverable": "media/017/ep017_final.mp4",
+ "hosted": {
+  "github_raw": "https://raw.githubusercontent.com/F-Elmo/Marsa/ctm-reels/media/017/ep017_final.mp4"
+ }
+}
