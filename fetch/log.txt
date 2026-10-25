@@ -1,8 +1,9 @@
-ok ep016-yacht-night-people.mp4 19005971
-ok ep016-yacht-port-night.mp4 21355846
-ok ep016-diesel-start.mp4 2437835
-ok ep016-mechanic.mp4 14606116
-ok ep016-battery-bank.mp4 7460224
-ok ep016-yacht-interior.mp4 30809203
-ok ep016-aegean-sunset.mp4 9988714
-ok ep016-anchored-bay.mp4 41356621
+ok ep017-prop-underwater.mp4 38137622
+ok ep017-prop-spin-closeup.mp4 18566667
+ok ep017-prop-weeds.mp4 4998932
+ok ep017-shipyard-props.mp4 45065668
+ok ep017-wake-dramatic.mp4 17065775
+ok ep017-engine-calm.mp4 14067985
+ok ep017-speedboat-aerial.mp4 4036606
+ok ep017-wake-auckland.mp4 17429782
+ok ep017-yacht-sunset-drone.mp4 26799016
