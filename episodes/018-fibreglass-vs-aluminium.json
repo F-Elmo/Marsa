@@ -1,0 +1,252 @@
+{
+ "topic": "Fibreglass vs aluminium hulls",
+ "episode": "018",
+ "category": "hull & design",
+ "format": "A-vs-B",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "scenes": [
+  {
+   "type": "hook",
+   "phrases": [
+    "Fibreglass or aluminium. Which hull would you own in the Red Sea?"
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "A · FIBREGLASS",
+   "phrases": [
+    "Fibreglass is glass fibres locked in hard resin, moulded into almost any shape.",
+    "That's why most yachts use it. Sleek curves, a quiet ride, and it can't rust.",
+    "The catch? It's heavier, and a hard hit can crack it. Over years, water can also seep in and cause blisters."
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "B · ALUMINIUM",
+   "phrases": [
+    "Aluminium is metal plates, welded together. It's lighter, so it needs less power.",
+    "And it's tough. A rock often leaves a dent, not a crack.",
+    "But it's noisier in a chop, it gets hot in our sun, and in salt water it needs anodes and correct wiring to stop corrosion."
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "THE VERDICT",
+   "phrases": [
+    "Both can last for decades with good care.",
+    "For cruising comfort, most owners pick fibreglass. For workboats, tenders and rocky shallows, aluminium shines."
+   ]
+  },
+  {
+   "type": "cta",
+   "phrases": [
+    "Which would you own, A or B? Tell us in the comments.",
+    "And follow Creative Tracks Marine."
+   ]
+  }
+ ],
+ "date": "2026-10-29",
+ "title": "Fibreglass vs Aluminium Hulls: Which Would You Own?",
+ "pipeline": "v1 fallback (vidIQ credits 1 < 40, renews 2026-11-07): Kokoro am_michael voice + local ffmpeg compose of new Pexels clips + new PIL 'materials lab' hull animations",
+ "voice_duration_s": 57.0,
+ "video_duration_s": 58.6,
+ "research": [
+  "https://yachtway.com/news/aluminum-vs-fiberglass-yachts-comparison/ (fibreglass: far more variety of shape, heavier, more stable in swell, impacts can crack it and cracks are costly; aluminium: lighter so faster/cheaper to run, dents and scrapes do little harm, repair dents to keep corrosion at bay, recyclable)",
+  "General marine-engineering knowledge (CTM): aluminium in salt water needs sacrificial anodes and correct (isolated) wiring to prevent galvanic/stray-current corrosion; metal decks get hot in strong sun; aluminium hulls are noisier in a chop; fibreglass can absorb water over years and form osmosis blisters under the gelcoat."
+ ],
+ "footage": [
+  {
+   "file": "ep018-yacht-med-aerial.mp4",
+   "pexels": "https://www.pexels.com/video/luxury-yacht-cruising-in-the-mediterranean-sea-37524012/",
+   "by": "Yunus Terk"
+  },
+  {
+   "file": "ep018-small-boat-lake.mp4",
+   "pexels": "https://www.pexels.com/video/small-boat-cruising-on-serene-lake-32239323/",
+   "by": "Efrem Efre"
+  },
+  {
+   "file": "ep018-hauled-out-marina.mp4",
+   "pexels": "https://www.pexels.com/video/hauled-out-boats-at-a-marina-8906209/",
+   "by": "Los Muertos Crew"
+  },
+  {
+   "file": "ep018-welding-sparks.mp4",
+   "pexels": "https://www.pexels.com/video/expert-welding-with-sparks-indoors-34771890/",
+   "by": "Saulo Nulo"
+  },
+  {
+   "file": "ep018-dubai-marina.mp4",
+   "pexels": "https://www.pexels.com/video/aerial-view-of-luxury-yacht-in-dubai-marina-31873241/",
+   "by": "Nelemson G"
+  },
+  {
+   "file": "ep018-motorboat-river.mp4",
+   "pexels": "https://www.pexels.com/video/aerial-footage-of-motorboat-in-river-9765686/",
+   "by": "Stephen Pierce"
+  },
+  {
+   "file": "ep018-yacht-serene-portrait.mp4",
+   "pexels": "https://www.pexels.com/video/luxury-yacht-cruises-on-serene-waters-35419038/",
+   "by": "mohcen cherifi"
+  }
+ ],
+ "footage_unused": [
+  "ep018-boat-stern-lake (8916728)",
+  "ep018-hull-sanding (33895302)",
+  "ep018-motorboat-aerial (14551614)",
+  "ep018-yacht-turquoise (7318810, nice Red-Sea-like deck shot)",
+  "ep018-yacht-sunset (34980555)",
+  "ep018-hull-repair-close (12966134, barnacle scraping)",
+  "ep018-yacht-side-water (19713912)"
+ ],
+ "animations": {
+  "script": "engine/v2/hull_anim.py",
+  "clips": [
+   "media/018/hull_vs.mp4",
+   "media/018/hull_layup.mp4",
+   "media/018/hull_gpros.mp4",
+   "media/018/hull_gcons.mp4",
+   "media/018/hull_weld.mp4",
+   "media/018/hull_dent.mp4",
+   "media/018/hull_acons.mp4",
+   "media/018/hull_verdict.mp4",
+   "media/018/hull_cta.mp4"
+  ],
+  "look": "NEW 'materials lab': dark charcoal workbench with dot grid + warm spotlight; A = amber/cream fibreglass laminate, B = brushed-silver aluminium. Shows A-vs-B hull sections, glass mat + resin moulded into a hull, pros checklist, weight scale, impact crack vs dent, water seeping through gelcoat into osmosis blisters, welded plates with sparks, lighter hull riding higher, chop noise waves, sun heating a metal deck, galvanic current to an anode with correct wiring, verdict scoreboard, A/B comment CTA."
+ },
+ "compose_plan": {
+  "builder": "engine/v2/build_018.py",
+  "scenes": [
+   {
+    "src": "fetch/raw/ep018-yacht-med-aerial.mp4",
+    "start": 3.0,
+    "dur": 1.6,
+    "crop_cx": 0.47
+   },
+   {
+    "src": "fetch/raw/ep018-small-boat-lake.mp4",
+    "start": 1.0,
+    "dur": 1.4,
+    "crop_cx": 0.36
+   },
+   {
+    "src": "media/018/hull_vs.mp4",
+    "start": 0,
+    "dur": 2.0,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/018/hull_layup.mp4",
+    "start": 0,
+    "dur": 5.9,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep018-hauled-out-marina.mp4",
+    "start": 2.0,
+    "dur": 1.9,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/018/hull_gpros.mp4",
+    "start": 0,
+    "dur": 3.1,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/018/hull_gcons.mp4",
+    "start": 0,
+    "dur": 7.3,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep018-welding-sparks.mp4",
+    "start": 0.3,
+    "dur": 1.8,
+    "crop_cx": 0.3
+   },
+   {
+    "src": "media/018/hull_weld.mp4",
+    "start": 0,
+    "dur": 3.8,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/018/hull_dent.mp4",
+    "start": 0,
+    "dur": 3.7,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/018/hull_acons.mp4",
+    "start": 0,
+    "dur": 8.7,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep018-dubai-marina.mp4",
+    "start": 1.0,
+    "dur": 2.6,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/018/hull_verdict.mp4",
+    "start": 0,
+    "dur": 4.3,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep018-motorboat-river.mp4",
+    "start": 7.0,
+    "dur": 1.3,
+    "crop_cx": 0.6
+   },
+   {
+    "src": "media/018/hull_verdict.mp4",
+    "start": 4.3,
+    "dur": 2.2,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/018/hull_cta.mp4",
+    "start": 0,
+    "dur": 3.4,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep018-yacht-serene-portrait.mp4",
+    "start": 2.0,
+    "dur": 3.6,
+    "crop_cx": 0.5
+   }
+  ],
+  "music": "fetch/raw/ctm-music.wav (stored CTM track, ducked 0.13 under voice)",
+  "logo": "media/013/logo_badge.png"
+ },
+ "captions_onscreen": "word groups <=5 words at y~1500, hook 'FIBREGLASS OR / ALUMINIUM HULL?' 0.2-3.0 s, end 'FOLLOW FOR A NEW BOAT EXPLAINER EVERY 2 DAYS' 57.1-58.6 s",
+ "cover_text": "FIBREGLASS vs ALUMINIUM — which hull would you own?",
+ "caption_en": "Fibreglass or aluminium: which hull would you own in the Red Sea? 🚤\nA · Fibreglass = glass fibres locked in hard resin, moulded into almost any shape. Sleek curves, a quiet ride, and it can't rust. The catch: it's heavier, a hard hit can crack it, and over the years water can seep in and cause osmosis blisters.\nB · Aluminium = welded metal plates. Lighter, so it needs less power, and tough: a rock often leaves a dent, not a crack. The catch: noisier in a chop, hot in our sun, and in salt water it needs anodes and correct wiring to stop corrosion.\nBoth can last for decades with good care. Cruising comfort? Most owners pick fibreglass. Workboats, tenders and rocky shallows? Aluminium shines.\nWhich would you own, A or B? Tell us in the comments 👇 Follow Creative Tracks Marine for a new boat explainer every 2 days.",
+ "caption_ar": "فايبرجلاس أم ألمنيوم: أي بدن قارب تختار في البحر الأحمر؟ 🚤\nأ · الفايبرجلاس: ألياف زجاجية مثبّتة داخل راتنج صلب، ويمكن تشكيله بأي شكل تقريبًا. خطوط أنيقة، رحلة هادئة، ولا يصدأ. لكنه أثقل، والضربة القوية قد تسبب تشققًا، ومع السنين قد يتسرب الماء إليه ويسبب فقاعات (الأوزموزيس).\nب · الألمنيوم: ألواح معدنية ملحومة. أخف وزنًا فيحتاج قوة محرك أقل، وقوي التحمل: الصخرة غالبًا تترك انبعاجًا لا تشققًا. لكنه أعلى صوتًا في الموج، ويسخن تحت شمسنا، وفي الماء المالح يحتاج إلى أنودات وتمديدات كهربائية صحيحة لمنع التآكل.\nكلاهما يدوم عقودًا مع العناية الجيدة. للراحة والرحلات يختار أغلب الملاك الفايبرجلاس، ولقوارب العمل والتندر والمياه الضحلة الصخرية يتفوق الألمنيوم.\nأيهما تختار: أ أم ب؟ أخبرنا في التعليقات 👇 وتابع Creative Tracks Marine لشرح جديد عن القوارب كل يومين.",
+ "hashtags": [
+  "#yachtlife",
+  "#boatlife",
+  "#marineengineering",
+  "#redsea",
+  "#jeddah",
+  "#creativetracksmarine",
+  "#fiberglass",
+  "#aluminumboat",
+  "#boathull",
+  "#يخوت",
+  "#جدة",
+  "#البحر_الأحمر",
+  "#قوارب"
+ ],
+ "deliverable": "media/018/ep018_final.mp4 (1080x1920, 58.6 s, H.264 + AAC)",
+ "hosted": {
+  "github_raw": "https://raw.githubusercontent.com/F-Elmo/Marsa/ctm-reels/media/018/ep018_final.mp4",
+  "vidiq_upload_id": "f3b8744a-7812-41f2-a141-1aa362150754"
+ }
+}

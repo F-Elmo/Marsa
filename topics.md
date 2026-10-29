@@ -23,9 +23,11 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [x] 015 — Forward-looking sonar: seeing reefs before you hit them (safety / Red Sea reefs, explainer) — 2026-10-20
 - [x] 016 — Generator vs lithium house bank for quiet nights at anchor (electrical, A-vs-B) — 2026-10-22
 - [x] 017 — Why props cavitate — and what that rumble is doing to your propeller (propulsion, explainer) — 2026-10-25
+- [x] 018 — Fibreglass vs aluminium hulls (hull & design, A-vs-B) — 2026-10-29
 
 ## Next up (take the first unchecked one unless the owner asked for something else)
 <!-- note (004): the impeller-signs topic below was skipped for now because ep 002 already covered the impeller; give it a few episodes of distance. -->
+<!-- note (018): impeller-signs and 100-hour service skipped again (same reasons). Took fibreglass vs aluminium hulls (A-vs-B after 017's explainer; hull & design last used in 005). vidIQ had 1 credit (renews 2026-11-07) -> v1 fallback like 015-017: Kokoro am_michael 57.0 s + 7 new Pexels clips via fetch-media (HD file-url from Firecrawl scrape formats=['links'] of each Pexels page) + NEW 'materials lab' animations (engine/v2/hull_anim.py) + local compose (engine/v2/build_018.py). Unused but downloaded: 7318810 turquoise deck shot (good for a Red Sea topic), 33895302 hull sanding. Next run: an explainer or signs format would alternate well. -->
 <!-- note (017): impeller-signs and 100-hour service skipped again (same reasons). Took prop cavitation (explainer after 016's A-vs-B; propulsion last used in 011). vidIQ had 1 credit (renews 2026-11-07) -> v1 fallback like 015/016: Kokoro am_michael 58.2 s + 8 new Pexels clips via fetch-media (HD file-url found with Firecrawl scrape formats=['links'] of the Pexels page -> canva 'file-url' param; WebFetch of pexels.com is blocked now) + NEW 'underwater blueprint' animations (engine/v2/cav_anim.py) + local compose (engine/v2/build_017.py). Pexels 8822799 'propeller spinning' is actually a hose/wheel - don't use. Next run: a signs/checklist or A-vs-B format would alternate well. -->
 <!-- note (016): impeller-signs and 100-hour service skipped again (same reasons). Took generator vs lithium (A-vs-B after 015's explainer; electrical last used in 007). vidIQ had 1 credit (renews 2026-11-07) -> v1 fallback like 015: Kokoro am_michael voice 58.5 s + 8 new Pexels clips via fetch-media Action (HD links from WebFetch of the Pexels page's 'Edit in Canva' file-url) + new night-sky 'power schematic' animations (engine/v2/power_anim.py) + local ffmpeg compose (engine/v2/build_016.py). Final in media/016, imported with vidiq_video_upload (0 credits). Next run: an explainer or signs format would alternate well. -->
 <!-- note (015): impeller-signs and 100-hour service skipped again (same reasons); generator-vs-lithium skipped (A-vs-B right after 014's A-vs-B). Took forward-looking sonar (explainer). vidIQ had 1 credit (renews 2026-11-07), so: Kokoro am_michael voice (v1) + 8 new Pexels clips fetched via the fetch-media Action (HD links from the Pexels page 'Edit in Canva' URL via WebFetch; '-hd_1920_1080_25fps' guess for 5417077 gave 403) + new underwater side-view sonar animations (engine/v2/sonar_anim.py) + local ffmpeg compose (engine/v2/build_015.py, fully offline once fetch/raw has the clips and ctm-music.wav). Final hosted in media/015 and imported with vidiq_video_upload (0 credits). Next run: an A-vs-B or signs format would alternate well. -->
@@ -37,7 +39,6 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 <!-- note (008): skipped the impeller-signs topic again (ep 002 showed worn impellers) and the 100-hour-service checklist (would re-cover impeller/anodes); took the AC topic to keep subjects fresh. Impeller signs is fine from ~ep 010 on. -->
 - [ ] 5 signs your raw-water impeller is about to fail (maintenance, signs)
 - [ ] What a 100-hour engine service actually includes (maintenance, checklist)
-- [ ] Fibreglass vs aluminium hulls (hull & design, A-vs-B)
 - [ ] Flybridge vs hardtop / sport cruiser (design, A-vs-B)
 - [ ] Why boat engines are measured in hours, not kilometres (ownership, explainer)
 - [ ] Bow thruster vs stern thruster — do you need both? (handling, A-vs-B)
@@ -81,3 +82,5 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] Generator service basics: why a marine genset needs load, oil and impeller care too (maintenance, checklist)
 - [ ] Propeller ventilation vs cavitation: the over-rev in tight turns explained (propulsion, A-vs-B)
 - [ ] 5 signs your propeller needs a repair shop (maintenance, signs)
+- [ ] Osmosis blisters on fibreglass hulls: what they are and when to worry (hull care, explainer)
+- [ ] Steel vs aluminium vs fibreglass for long-range explorer yachts (hull & design, A-vs-B)
