@@ -24,8 +24,10 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [x] 016 — Generator vs lithium house bank for quiet nights at anchor (electrical, A-vs-B) — 2026-10-22
 - [x] 017 — Why props cavitate — and what that rumble is doing to your propeller (propulsion, explainer) — 2026-10-25
 - [x] 018 — Fibreglass vs aluminium hulls (hull & design, A-vs-B) — 2026-10-29
+- [x] 019 — Why boat engines are measured in hours, not kilometres (ownership, explainer) — 2026-10-30
 
 ## Next up (take the first unchecked one unless the owner asked for something else)
+<!-- note (019): impeller-signs and 100-hour service skipped again (same reasons); flybridge vs hardtop skipped (A-vs-B right after 018's A-vs-B). Took engine hours vs km (ownership explainer, first ownership episode). vidIQ had 1 credit (renews 2026-11-07) -> v1 fallback like 015-018: Kokoro am_michael 56.9 s + 9 new Pexels clips via fetch-media (HD file-url via Firecrawl scrape formats=['query'] asking for the canva file-url = cheap, short output) + NEW 'carbon helm console' animations (engine/v2/hours_anim.py) + local compose (engine/v2/build_019.py). Downloaded but unused: 8824615 helmsman close-up, 35114285 bow wake, 8986894 garage. Next run: an A-vs-B or signs format would alternate well (e.g. bow vs stern thruster, or 5 things that drain batteries). -->
 <!-- note (004): the impeller-signs topic below was skipped for now because ep 002 already covered the impeller; give it a few episodes of distance. -->
 <!-- note (018): impeller-signs and 100-hour service skipped again (same reasons). Took fibreglass vs aluminium hulls (A-vs-B after 017's explainer; hull & design last used in 005). vidIQ had 1 credit (renews 2026-11-07) -> v1 fallback like 015-017: Kokoro am_michael 57.0 s + 7 new Pexels clips via fetch-media (HD file-url from Firecrawl scrape formats=['links'] of each Pexels page) + NEW 'materials lab' animations (engine/v2/hull_anim.py) + local compose (engine/v2/build_018.py). Unused but downloaded: 7318810 turquoise deck shot (good for a Red Sea topic), 33895302 hull sanding. Next run: an explainer or signs format would alternate well. -->
 <!-- note (017): impeller-signs and 100-hour service skipped again (same reasons). Took prop cavitation (explainer after 016's A-vs-B; propulsion last used in 011). vidIQ had 1 credit (renews 2026-11-07) -> v1 fallback like 015/016: Kokoro am_michael 58.2 s + 8 new Pexels clips via fetch-media (HD file-url found with Firecrawl scrape formats=['links'] of the Pexels page -> canva 'file-url' param; WebFetch of pexels.com is blocked now) + NEW 'underwater blueprint' animations (engine/v2/cav_anim.py) + local compose (engine/v2/build_017.py). Pexels 8822799 'propeller spinning' is actually a hose/wheel - don't use. Next run: a signs/checklist or A-vs-B format would alternate well. -->
@@ -40,7 +42,6 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] 5 signs your raw-water impeller is about to fail (maintenance, signs)
 - [ ] What a 100-hour engine service actually includes (maintenance, checklist)
 - [ ] Flybridge vs hardtop / sport cruiser (design, A-vs-B)
-- [ ] Why boat engines are measured in hours, not kilometres (ownership, explainer)
 - [ ] Bow thruster vs stern thruster — do you need both? (handling, A-vs-B)
 - [ ] 5 things that drain your boat batteries overnight (electrical, signs)
 - [ ] Anchoring on Red Sea reefs responsibly: sand patches, scope, and mooring buoys (seamanship, explainer)
@@ -84,3 +85,5 @@ Mark a topic done with the episode number and date. Add new ideas at the bottom 
 - [ ] 5 signs your propeller needs a repair shop (maintenance, signs)
 - [ ] Osmosis blisters on fibreglass hulls: what they are and when to worry (hull care, explainer)
 - [ ] Steel vs aluminium vs fibreglass for long-range explorer yachts (hull & design, A-vs-B)
+- [ ] Hour meter vs engine computer (ECU) log: how surveyors check the real hours on a used boat (ownership, explainer)
+- [ ] Idling vs cruising: why long idling is hard on marine diesels (maintenance, explainer)

@@ -1,0 +1,273 @@
+{
+ "topic": "Why boat engines are measured in hours, not kilometres",
+ "episode": "019",
+ "category": "ownership",
+ "format": "explainer",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "scenes": [
+  {
+   "type": "hook",
+   "phrases": [
+    "Your car counts kilometres. So why does a boat count hours?"
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "1 · NO ROAD, NO WHEELS",
+   "phrases": [
+    "Because a boat has no wheels touching the road.",
+    "Pushing into a strong current, the engine works hard, but the boat barely moves.",
+    "Idling at the dock, it runs and goes nowhere. Distance would lie.",
+    "So an hour meter simply counts every minute the engine is running."
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "2 · WHAT HOURS TELL YOU",
+   "phrases": [
+    "That's why services are planned in hours.",
+    "Many outboards, for example, need an oil change about every hundred hours.",
+    "And when you buy a used boat, hours show how hard the engine has worked."
+   ]
+  },
+  {
+   "type": "section",
+   "tag": "3 · THE CATCH",
+   "phrases": [
+    "But low hours are not always good news.",
+    "An engine that sits for years can suffer old fuel, dry seals and corrosion.",
+    "A busy engine with full service records is often the safer buy.",
+    "So always ask why the hours are low, and ask to see the service history."
+   ]
+  },
+  {
+   "type": "cta",
+   "phrases": [
+    "How many hours are on your engine? Tell us in the comments.",
+    "And follow Creative Tracks Marine."
+   ]
+  }
+ ],
+ "date": "2026-10-30",
+ "title": "Why Do Boats Count Engine Hours, Not Kilometres?",
+ "pipeline": "v1 fallback (vidIQ credits 1 < 40, renews 2026-11-07): Kokoro am_michael voice + local ffmpeg compose of new Pexels clips + new PIL 'carbon helm console' hour-meter animations",
+ "voice_duration_s": 56.9,
+ "video_duration_s": 58.0,
+ "research": [
+  "https://www.recnationstorage.com/blog/what-are-engine-hours-on-a-boat/ (hour meter counts total running time incl. idling; hours are the marine equivalent of mileage; Yamaha 100-hour oil-change interval widely referenced; low hours can mean the boat sat unused -> fuel degradation, drying seals, corrosion; a well-maintained high-hour engine with records can beat a neglected low-hour one)",
+  "General marine-engineering knowledge (CTM): boats have no wheels on a road, so distance does not reflect engine work (current, wind, idling); service intervals are set in engine hours."
+ ],
+ "footage": [
+  {
+   "file": "ep019-car-tacho.mp4",
+   "pexels": "https://www.pexels.com/video/tachometer-gauge-of-a-car-5777431/",
+   "by": "Konstantin Mishchenko"
+  },
+  {
+   "file": "ep019-boat-dash-wheel.mp4",
+   "pexels": "https://www.pexels.com/video/dashboard-and-steering-wheel-on-motorboat-12271216/",
+   "by": "utopia 36"
+  },
+  {
+   "file": "ep019-waves-crash.mp4",
+   "pexels": "https://www.pexels.com/video/ocean-waves-crashing-against-boat-37815339/",
+   "by": "Melike"
+  },
+  {
+   "file": "ep019-yacht-cockpit-docked.mp4",
+   "pexels": "https://www.pexels.com/video/speed-boat-docked-on-a-harbor-4415824/",
+   "by": "mark lane"
+  },
+  {
+   "file": "ep019-mechanic-engine.mp4",
+   "pexels": "https://www.pexels.com/video/male-mechanic-working-on-an-engine-8986881/",
+   "by": "Artem Podrez"
+  },
+  {
+   "file": "ep019-marina-yacht.mp4",
+   "pexels": "https://www.pexels.com/video/yachts-on-a-marina-7007131/",
+   "by": "mark lane"
+  },
+  {
+   "file": "ep019-rusty-boats.mp4",
+   "pexels": "https://www.pexels.com/video/rustic-abandoned-boats-on-brittany-shoreline-34155780/",
+   "by": "Christophe Génot"
+  },
+  {
+   "file": "ep019-harbor-docked.mp4",
+   "pexels": "https://www.pexels.com/video/serene-harbor-with-docked-boats-on-a-sunny-day-36753273/",
+   "by": "Grigorii Shcheglov"
+  },
+  {
+   "file": "ep019-outboard-rowboat.mp4",
+   "pexels": "https://www.pexels.com/video/a-man-in-a-rowboat-with-an-outboard-motor-in-calm-sea-waters-15547516/",
+   "by": "K"
+  }
+ ],
+ "footage_unused": [
+  "ep019-car-speedo (35585177, actually a car tachometer)",
+  "ep019-bow-waves (35114285, bow wake from deck)",
+  "ep019-mechanic-smoke (8986894, car garage)",
+  "ep019-man-motorboat (8824615, close-up helmsman in wheelhouse)"
+ ],
+ "animations": {
+  "script": "engine/v2/hours_anim.py",
+  "clips": [
+   "media/019/hrs_wheels.mp4",
+   "media/019/hrs_current.mp4",
+   "media/019/hrs_dock.mp4",
+   "media/019/hrs_meter.mp4",
+   "media/019/hrs_service.mp4",
+   "media/019/hrs_worked.mp4",
+   "media/019/hrs_sitting.mp4",
+   "media/019/hrs_compare.mp4",
+   "media/019/hrs_check.mp4",
+   "media/019/hrs_cta.mp4"
+  ],
+  "look": "NEW 'carbon helm console': dark carbon-fibre twill panel with amber backlight and panel screws, chrome-bezel instruments, mechanical rolling-digit odometer/hour meter (amber tenths wheel), tachometer needle, dusk sea 'screen'. Shows car wheel = distance vs boat with no wheels, prop working hard against a current while distance barely moves, idling at the dock (0 km vs hours still counting, DISTANCE LIES), hour meter that runs only while ENGINE ON, oil change drops every 100 h on a timeline, light-to-heavy wear bar, calendar years + engine rusting with old fuel/dry seals/corrosion, low-hours-no-records vs high-hours-full-records SAFER BUY, buyer checklist, COMMENT YOUR HOURS CTA."
+ },
+ "compose_plan": {
+  "builder": "engine/v2/build_019.py",
+  "scenes": [
+   {
+    "src": "fetch/raw/ep019-car-tacho.mp4",
+    "start": 0.2,
+    "dur": 2.1,
+    "crop_cx": 0.6
+   },
+   {
+    "src": "fetch/raw/ep019-boat-dash-wheel.mp4",
+    "start": 0.3,
+    "dur": 2.2,
+    "crop_cx": 0.36
+   },
+   {
+    "src": "media/019/hrs_wheels.mp4",
+    "start": 0,
+    "dur": 2.8,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep019-waves-crash.mp4",
+    "start": 1.0,
+    "dur": 1.5,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/019/hrs_current.mp4",
+    "start": 0,
+    "dur": 3.7,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep019-yacht-cockpit-docked.mp4",
+    "start": 1.0,
+    "dur": 1.5,
+    "crop_cx": 0.48
+   },
+   {
+    "src": "media/019/hrs_dock.mp4",
+    "start": 0,
+    "dur": 2.8,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/019/hrs_meter.mp4",
+    "start": 0,
+    "dur": 4.1,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep019-mechanic-engine.mp4",
+    "start": 1.0,
+    "dur": 2.6,
+    "crop_cx": 0.64
+   },
+   {
+    "src": "media/019/hrs_service.mp4",
+    "start": 0,
+    "dur": 5.1,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep019-marina-yacht.mp4",
+    "start": 2.0,
+    "dur": 1.9,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/019/hrs_worked.mp4",
+    "start": 0,
+    "dur": 2.9,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep019-rusty-boats.mp4",
+    "start": 3.0,
+    "dur": 2.7,
+    "crop_cx": 0.3
+   },
+   {
+    "src": "media/019/hrs_sitting.mp4",
+    "start": 0,
+    "dur": 5.4,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/019/hrs_compare.mp4",
+    "start": 0,
+    "dur": 4.3,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep019-harbor-docked.mp4",
+    "start": 0.5,
+    "dur": 1.3,
+    "crop_cx": 0.3
+   },
+   {
+    "src": "media/019/hrs_check.mp4",
+    "start": 0,
+    "dur": 3.7,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "media/019/hrs_cta.mp4",
+    "start": 0,
+    "dur": 3.9,
+    "crop_cx": 0.5
+   },
+   {
+    "src": "fetch/raw/ep019-outboard-rowboat.mp4",
+    "start": 2.0,
+    "dur": 3.5,
+    "crop_cx": 0.5
+   }
+  ]
+ },
+ "captions_onscreen": "word groups <=5 words at y~1500 (40 groups), hook 'WHY BOATS COUNT / HOURS, NOT KM' 0.2-4.2 s, end 'FOLLOW FOR A NEW BOAT EXPLAINER EVERY 2 DAYS' 56.5-58.0 s, logo badge media/013/logo_badge.png whole video, music fetch/raw/ctm-music.wav ducked",
+ "cover_text": "BOATS DON'T COUNT KM — WHY HOURS?",
+ "caption_en": "Your car counts kilometres. So why does a boat count hours? ⏱️🚤\n1 · A boat has no wheels on a road. Pushing into a strong current, the engine works hard but the boat barely moves. Idling at the dock, it runs and goes nowhere. Distance would lie, so an hour meter counts every minute the engine is running.\n2 · That's why services are planned in hours: many outboards need an oil change about every 100 hours. And when you buy a used boat, hours show how hard the engine has worked.\n3 · The catch: low hours aren't always good news. An engine that sits for years can suffer old fuel, dry seals and corrosion. A busy engine with full service records is often the safer buy, so always ask why the hours are low and ask to see the service history.\nHow many hours are on your engine? Tell us in the comments 👇 Follow Creative Tracks Marine for a new boat explainer every 2 days.",
+ "caption_ar": "سيارتك تحسب الكيلومترات… فلماذا يحسب القارب الساعات؟ ⏱️🚤\n١ · القارب لا يملك عجلات على طريق. عند الإبحار عكس تيار قوي يعمل المحرك بجهد كبير والقارب بالكاد يتحرك، وعند تشغيله وهو مربوط على الرصيف يعمل دون أن يقطع أي مسافة. المسافة هنا مضلِّلة، لذلك يحسب عدّاد الساعات كل دقيقة يعمل فيها المحرك.\n٢ · لهذا تُجدوَل الصيانة بالساعات: كثير من المحركات الخارجية تحتاج تغيير الزيت كل ١٠٠ ساعة تقريبًا. وعند شراء قارب مستعمل، تُظهر الساعات مقدار الجهد الذي بذله المحرك.\n٣ · لكن انتبه: قلة الساعات ليست دائمًا خبرًا جيدًا. المحرك الذي يبقى متوقفًا لسنوات قد يعاني من وقود قديم وجوانات جافة وتآكل. المحرك المستخدم كثيرًا مع سجل صيانة كامل غالبًا هو الخيار الأكثر أمانًا، فاسأل دائمًا لماذا الساعات قليلة واطلب الاطلاع على سجل الصيانة.\nكم ساعة على محرك قاربك؟ أخبرنا في التعليقات 👇 وتابع Creative Tracks Marine لشرح جديد عن القوارب كل يومين.",
+ "hashtags": [
+  "#yachtlife",
+  "#boatlife",
+  "#marineengineering",
+  "#redsea",
+  "#jeddah",
+  "#creativetracksmarine",
+  "#enginehours",
+  "#usedboat",
+  "#boatmaintenance",
+  "#يخوت",
+  "#جدة",
+  "#البحر_الأحمر",
+  "#صيانة_القوارب"
+ ],
+ "deliverable": "media/019/ep019_final.mp4 (1080x1920, 58.0 s, H.264 + AAC)",
+ "hosted": {
+  "github_raw": "https://raw.githubusercontent.com/F-Elmo/Marsa/ctm-reels/media/019/ep019_final.mp4",
+  "vidiq_upload_id": "47cbdd4a-0f70-4d7e-bd40-d1fab407f9fd"
+ }
+}
